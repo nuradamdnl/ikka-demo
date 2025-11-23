@@ -59,9 +59,6 @@ function Footer() {
           <p>
             Hakcipta Terpelihara © {currentYear} Kementerian Dalam Negeri Malaysia
           </p>
-          <p className="mt-1">
-            Paparan terbaik menggunakan Google Chrome, Mozilla Firefox, Safari dengan resolusi 1920x1080
-          </p>
         </div>
       </div>
     </footer>
