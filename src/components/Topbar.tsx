@@ -1,4 +1,11 @@
+import { ArrowLeftEndOnRectangleIcon } from "@heroicons/react/24/outline";
+
 function Topbar() {
+  const handleLogout = () => {
+    // TODO: Implement logout logic
+    console.log("Logout clicked");
+  };
+
   return (
     <div className="bg-white border-b border-gray-200 py-4 px-6">
       <div className="container mx-auto flex items-center justify-between">

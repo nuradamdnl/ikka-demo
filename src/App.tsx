@@ -17,6 +17,8 @@ import PenetapanIndikator from "./pages/portal/Parameter/PenetapanIndikator";
 import PenetapanKomponen from "./pages/portal/Parameter/PenetapanKomponen";
 import PenetapanTeras from "./pages/portal/Parameter/PenetapanTeras";
 import PenjanaanIndeks from "./pages/portal/PenjanaanIndeks";
+import PilihanPemilikData from "./pages/portal/KemasukanData/PilihanPemilikData";
+import BorangData from "./pages/portal/KemasukanData/BorangData";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <Route path="/pengurusan-parameter/penetapan-komponen" element={<PenetapanKomponen />} />
         <Route path="/pengurusan-parameter/penetapan-teras" element={<PenetapanTeras />} />
         <Route path="/struktur-indeks" element={<StrukturIndeks />} />
+        <Route path="/kemasukan-data/pilihan-pemilik-data" element={<PilihanPemilikData />} />
+        <Route path="/kemasukan-data/borang-data" element={<BorangData />} />
         <Route path="/penjanaan-indeks" element={<PenjanaanIndeks />} />
       </Routes>
     </BrowserRouter>

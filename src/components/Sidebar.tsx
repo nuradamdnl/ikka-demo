@@ -6,6 +6,7 @@ import {
   CircleStackIcon,
   ChartPieIcon,
   CalculatorIcon,
+  NewspaperIcon
 } from "@heroicons/react/24/outline";
 
 function Sidebar() {
@@ -17,6 +18,7 @@ function Sidebar() {
     { name: "Papan Utama", path: "/papan-utama", icon: Square3Stack3DIcon },
     { name: "Struktur Indeks", path: "/struktur-indeks", icon: ChartPieIcon },
     { name: "Pengurusan Parameter", path: "/pengurusan-parameter", icon: CircleStackIcon },
+    { name: "Kemasukan Data", path: "/kemasukan-data/pilihan-pemilik-data", icon: NewspaperIcon },
     { name: "Penjanaan Indeks", path: "/penjanaan-indeks", icon: CalculatorIcon },
   ];
 
