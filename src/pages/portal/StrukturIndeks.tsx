@@ -2,6 +2,9 @@ import Header from "../../components/Header";
 import Topbar from "../../components/Topbar";
 import Sidebar from "../../components/Sidebar";
 import Footer from "../../components/Footer";
+import PageTitle from "../../components/PageTitle";
+import SectionCard from "../../components/SectionCard";
+import PieChart from "../../components/PieChart";
 
 function StrukturIndeks() {
   return (
@@ -12,9 +15,10 @@ function StrukturIndeks() {
         <Sidebar />
         <main className="flex-grow p-6">
           <div className="container mx-auto">
-            <h2 className="text-2xl font-bold text-gray-800">
-              Struktur Indeks
-            </h2>
+            <PageTitle>Struktur Indeks</PageTitle>
+            <SectionCard title="Struktur Indeks">
+              <PieChart />
+            </SectionCard>
           </div>
         </main>
       </div>
