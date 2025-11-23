@@ -4,7 +4,6 @@ import Sidebar from "../../components/Sidebar";
 import Footer from "../../components/Footer";
 import PageTitle from "../../components/PageTitle";
 import SectionCard from "../../components/SectionCard";
-import PieChart from "../../components/PieChart";
 
 function StrukturIndeks() {
   return (
@@ -17,7 +16,7 @@ function StrukturIndeks() {
           <div className="container mx-auto">
             <PageTitle>Struktur Indeks</PageTitle>
             <SectionCard title="Struktur Indeks">
-              <PieChart />
+              <h1>hello</h1>
             </SectionCard>
           </div>
         </main>

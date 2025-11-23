@@ -17,15 +17,13 @@ function NavigationCard({ icon, title, subtitle, route }: NavigationCardProps) {
   return (
     <div
       onClick={handleClick}
-      className="bg-white rounded-lg shadow-md p-6 cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-gray-100"
+      className="bg-white rounded-lg shadow-md p-6 cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-gray-100 w-full h-full"
     >
-      <div className="flex items-start gap-4">
-        <div className="flex-shrink-0">
-          <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-900 to-blue-700 flex items-center justify-center text-white shadow-md">
-            {icon}
-          </div>
+      <div className="flex flex-col items-center text-center gap-4">
+        <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-900 to-blue-700 flex items-center justify-center text-white shadow-md">
+          {icon}
         </div>
-        <div className="flex-grow">
+        <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-1">{title}</h3>
           <p className="text-sm text-gray-600">{subtitle}</p>
         </div>
