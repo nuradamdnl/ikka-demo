@@ -16,6 +16,7 @@ import PenetapanTahunAsas from "./pages/portal/Parameter/PenetapanTahunAsas";
 import PenetapanIndikator from "./pages/portal/Parameter/PenetapanIndikator";
 import PenetapanKomponen from "./pages/portal/Parameter/PenetapanKomponen";
 import PenetapanTeras from "./pages/portal/Parameter/PenetapanTeras";
+import PenjanaanIndeks from "./pages/portal/PenjanaanIndeks";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/pengurusan-parameter/penetapan-komponen" element={<PenetapanKomponen />} />
         <Route path="/pengurusan-parameter/penetapan-teras" element={<PenetapanTeras />} />
         <Route path="/struktur-indeks" element={<StrukturIndeks />} />
+        <Route path="/penjanaan-indeks" element={<PenjanaanIndeks />} />
       </Routes>
     </BrowserRouter>
   );
