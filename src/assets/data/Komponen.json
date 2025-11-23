@@ -1,0 +1,194 @@
+[
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K01",
+  "Nama Komponen": "Komponen Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K02",
+  "Nama Komponen": "Komponen Ancaman Penyalahgunaan Identiti"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K03",
+  "Nama Komponen": "Komponen Ajaran Sesat"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K04",
+  "Nama Komponen": "Komponen 3R"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K05",
+  "Nama Komponen": "Komponen Badan Kehakiman / Perundangan"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K06",
+  "Nama Komponen": "Komponen Badan Eksekutif / Legislatif"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K01",
+  "Nama Komponen": "Komponen Rasuah (Seksyen 16, 17a, 17b, Akta SPRM 2009)"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K02",
+  "Nama Komponen": "Komponen Penyalahgunaan Kuasa (Seksyen 23, Akta SPRM 2009)"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K03",
+  "Nama Komponen": "Komponen Pemalsuan Dokumen (Seksyen 18, Akta SPRM 2009)"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K04",
+  "Nama Komponen": "Komponen Pecah Amanah (Seksyen 420 - 42a (Pecah Amanah), Akta SPRM 2009)"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K05",
+  "Nama Komponen": "Komponen Integriti Agensi Penguatkuasa"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K01",
+  "Nama Komponen": "Komponen Penyeludupan Migran"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K02",
+  "Nama Komponen": "Komponen Pemerdagangan Orang"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K03",
+  "Nama Komponen": "Komponen Penyeludupan Barang"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K04",
+  "Nama Komponen": "Komponen Pendatang Asing Tanpa Izin (PATI)"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K05",
+  "Nama Komponen": "Komponen Pencerobohan Sempadan"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K06",
+  "Nama Komponen": "Komponen Penguatkuasaan Sempadan"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K01",
+  "Nama Komponen": "Komponen Jenayah Kekerasan"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K02",
+  "Nama Komponen": "Komponen Jenayah Dadah"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K03",
+  "Nama Komponen": "Komponen Jenayah Harta Benda"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K04",
+  "Nama Komponen": "Komponen Kemalangan Trafik"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K05",
+  "Nama Komponen": "Komponen Kemasukan Banduan"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K06",
+  "Nama Komponen": "Komponen Program Pencegahan Jenayah"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K07",
+  "Nama Komponen": "Komponen Jenayah Siber"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K08",
+  "Nama Komponen": "Komponen Jenayah Komersial"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K09",
+  "Nama Komponen": "Komponen Jenayah Rasuah"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K10",
+  "Nama Komponen": "Komponen Jenayah Penggubahan Wang Haram"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K01",
+  "Nama Komponen": "Komponen Sumber Manusia (Perjawatan)"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K02",
+  "Nama Komponen": "Komponen Teknologi Maklumat"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K03",
+  "Nama Komponen": "Komponen Infrastruktur"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K04",
+  "Nama Komponen": "Komponen Peruntukan Pertahanan Dan Keselamatan"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K05",
+  "Nama Komponen": "Komponen Sokongan Keselamatan"
+ }
+]

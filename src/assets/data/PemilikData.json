@@ -1,0 +1,230 @@
+[
+ {
+  "Kod Agensi": "AADK",
+  "Nama Agensi": "Agensi Antidadah Kebangsaan",
+  "Kod Jabatan": "AADK",
+  "Nama Jabatan": "Agensi Antidadah Kebangsaan"
+ },
+ {
+  "Kod Agensi": "AKPS",
+  "Nama Agensi": "Agensi Kawalan dan Perlindungan Sempadan Malaysia",
+  "Kod Jabatan": "AKPS",
+  "Nama Jabatan": "Agensi Kawalan Dan Perlindungan Sempadan Malaysia (Akps)"
+ },
+ {
+  "Kod Agensi": "APMM",
+  "Nama Agensi": "Agensi Penguatkuasaan Maritim Malaysia",
+  "Kod Jabatan": "APMM",
+  "Nama Jabatan": "Agensi Penguatkuasaan Maritim Malaysia"
+ },
+ {
+  "Kod Agensi": "CGSO",
+  "Nama Agensi": "Pejabat Ketua Pegawai Keselamatan Kerajaan Malaysia",
+  "Kod Jabatan": "CGSO",
+  "Nama Jabatan": "Pejabat Ketua Pegawai Keselamatan Kerajaan Malaysia"
+ },
+ {
+  "Kod Agensi": "CYSC",
+  "Nama Agensi": "Cyber Security Malaysia",
+  "Kod Jabatan": "CYSC",
+  "Nama Jabatan": "Cyber Security Malaysia"
+ },
+ {
+  "Kod Agensi": "JAKIM",
+  "Nama Agensi": "Jabatan Kemajuan Islam Malaysia",
+  "Kod Jabatan": "JKIM",
+  "Nama Jabatan": "Jabatan Kemajuan Islam Malaysia"
+ },
+ {
+  "Kod Agensi": "JIM",
+  "Nama Agensi": "Jabatan Imigresen Malaysia",
+  "Kod Jabatan": "JIMM",
+  "Nama Jabatan": "Jabatan Imigresen Malaysia"
+ },
+ {
+  "Kod Agensi": "JPN",
+  "Nama Agensi": "Jabatan Pendaftaran Negara",
+  "Kod Jabatan": "JPNM",
+  "Nama Jabatan": "Jabatan Pendaftaran Negara Malaysia"
+ },
+ {
+  "Kod Agensi": "KASTAM",
+  "Nama Agensi": "Jabatan Kastam Diraja Malaysia",
+  "Kod Jabatan": "KSTM",
+  "Nama Jabatan": "Pusat Data, Kastam"
+ },
+ {
+  "Kod Agensi": "KASTAM",
+  "Nama Agensi": "Jabatan Kastam Diraja Malaysia",
+  "Kod Jabatan": "UIKS",
+  "Nama Jabatan": "Unit Integriti, Kastam"
+ },
+ {
+  "Kod Agensi": "KDN",
+  "Nama Agensi": "Kementerian Dalam Negeri",
+  "Kod Jabatan": "BKDN",
+  "Nama Jabatan": "Bhgn. Keselamatan Dan Ketenteraman Awam (K)"
+ },
+ {
+  "Kod Agensi": "KDN",
+  "Nama Agensi": "Kementerian Dalam Negeri",
+  "Kod Jabatan": "BPSM",
+  "Nama Jabatan": "Bhgn. Pembangunan (Pb)"
+ },
+ {
+  "Kod Agensi": "KDN",
+  "Nama Agensi": "Kementerian Dalam Negeri",
+  "Kod Jabatan": "KKDN",
+  "Nama Jabatan": "Bhgn. Kewangan (Kw)"
+ },
+ {
+  "Kod Agensi": "KDN",
+  "Nama Agensi": "Kementerian Dalam Negeri",
+  "Kod Jabatan": "UIKD",
+  "Nama Jabatan": "Unit Integriti (Ui)"
+ },
+ {
+  "Kod Agensi": "KEHAKIMAN",
+  "Nama Agensi": "Pejabat Ketua Pendaftar Mahkamah Persekutuan Malaysia",
+  "Kod Jabatan": "PKPP",
+  "Nama Jabatan": "Pejabat Ketua Pendaftar Mahkamah Persekutuan Malaysia"
+ },
+ {
+  "Kod Agensi": "MAPO",
+  "Nama Agensi": "Majlis Antipemerdagangan Orang dan Antipenyeludupan Migran",
+  "Kod Jabatan": "MAPO",
+  "Nama Jabatan": "Pejabat Strategik Nasional (Nso) Majlis Antipemerdagangan Orang Dan Antipenyeludupan Migran (Mapo)"
+ },
+ {
+  "Kod Agensi": "MNDF",
+  "Nama Agensi": "Kementerian Pertahanan Malaysia",
+  "Kod Jabatan": "MNDF",
+  "Nama Jabatan": "Bhgn. Dasar Dan Perancangan Strategik (Bdps)"
+ },
+ {
+  "Kod Agensi": "NACSA",
+  "Nama Agensi": "Agensi Keselamatan Siber Negara",
+  "Kod Jabatan": "NACA",
+  "Nama Jabatan": "Agensi Keselamatan Siber Negara, Majlis Keselamatan Negara"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "AMLA",
+  "Nama Jabatan": "Pasukan Siasatan Jenayah Pengubahan Wang Haram Pdrm (Amla)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "CWKH",
+  "Nama Jabatan": "Cawangan Khas Keselamatan Dalam Negeri Pdrm (Ck)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "FRUM",
+  "Nama Jabatan": "Pasukan Simpanan Persekutuan Pdrm (Kdnka-Fru)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "JIPS",
+  "Nama Jabatan": "Jabatan Integriti Dan Pematuhan Standard Pdrm (Jips)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "JPJK",
+  "Nama Jabatan": "Jabatan Pencegahan Jenayah Dan Keselamatan Komuniti Pdrm (Jpjkk)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "JSJK",
+  "Nama Jabatan": "Jabatan Siasatan Jenayah Komersil Pdrm (Jsjk)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "JSJN",
+  "Nama Jabatan": "Jabatan Siasatan Jenayah Narkotik Pdrm (Jsjn)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "JSPT",
+  "Nama Jabatan": "Jabatan Siasatan Dan Penguatkuasaan Trafik Pdrm (Jspt)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "KNKA",
+  "Nama Jabatan": "Jabatan Keselamatan Dalam Negeri Dan Ketenteraman Awam Pdrm (Kdnka)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "PD11",
+  "Nama Jabatan": "Bahagian Siasatan Seksual, Wanita Dan Kanak-Kanak Pdrm (Jsj-D11)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "PDD4",
+  "Nama Jabatan": "Bahagian Siasatan Jenayah Forensik Pdrm (Jsj-D4)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "PDD7",
+  "Nama Jabatan": "Bahagian Maksiat, Judi Dan Kongsi Gelap Pdrm (Jsj-D7)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "PDD9",
+  "Nama Jabatan": "Bahagian Siasatan Jenayah Berat Pdrm (Jsj-D9)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "PJSJ",
+  "Nama Jabatan": "Jabatan Siasatan Jenayah Pdrm (Jsj)"
+ },
+ {
+  "Kod Agensi": "PDRM",
+  "Nama Agensi": "Polis Diraja Malaysia",
+  "Kod Jabatan": "PMGT",
+  "Nama Jabatan": "Jabatan Pengurusan Pdrm (Pengurusan)"
+ },
+ {
+  "Kod Agensi": "PENJARA",
+  "Nama Agensi": "Jabatan Penjara Malaysia",
+  "Kod Jabatan": "PJRA",
+  "Nama Jabatan": "Jabatan Penjara Malaysia"
+ },
+ {
+  "Kod Agensi": "SIAP",
+  "Nama Agensi": "Statistical Institute for Asia and the Pacific",
+  "Kod Jabatan": "SIAP",
+  "Nama Jabatan": "Statistical Institute For Asia And The Pacific"
+ },
+ {
+  "Kod Agensi": "SKMM",
+  "Nama Agensi": "Suruhanjaya Komunikasi dan Multimedia Malaysia",
+  "Kod Jabatan": "SKMM",
+  "Nama Jabatan": "Suruhanjaya Komunikasi Dan Multimedia Malaysia"
+ },
+ {
+  "Kod Agensi": "SPRM",
+  "Nama Agensi": "Suruhanjaya Pencegahan Rasuah Malaysia",
+  "Kod Jabatan": "SPRM",
+  "Nama Jabatan": "Pusat Data, Sprm"
+ },
+ {
+  "Kod Agensi": "SPRM",
+  "Nama Agensi": "Suruhanjaya Pencegahan Rasuah Malaysia",
+  "Kod Jabatan": "UISP",
+  "Nama Jabatan": "Unit Integriti, Sprm"
+ }
+]

@@ -1,0 +1,1538 @@
+[
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K01",
+  "Nama Komponen": "Komponen Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang",
+  "Tahun": 2020,
+  "Indeks": "100.1238"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K02",
+  "Nama Komponen": "Komponen Ancaman Penyalahgunaan Identiti",
+  "Tahun": 2020,
+  "Indeks": "88.0736"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K03",
+  "Nama Komponen": "Komponen Ajaran Sesat",
+  "Tahun": 2020,
+  "Indeks": "119.4866"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K04",
+  "Nama Komponen": "Komponen 3R",
+  "Tahun": 2020,
+  "Indeks": "114.4211"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K05",
+  "Nama Komponen": "Komponen Badan Kehakiman / Perundangan",
+  "Tahun": 2020,
+  "Indeks": "120.5186"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K06",
+  "Nama Komponen": "Komponen Badan Eksekutif / Legislatif",
+  "Tahun": 2020,
+  "Indeks": "116.2043"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K01",
+  "Nama Komponen": "Komponen Rasuah (Seksyen 16, 17a, 17b, Akta SPRM 2009)",
+  "Tahun": 2020,
+  "Indeks": "89.1615"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K02",
+  "Nama Komponen": "Komponen Penyalahgunaan Kuasa (Seksyen 23, Akta SPRM 2009)",
+  "Tahun": 2020,
+  "Indeks": "102.9037"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K03",
+  "Nama Komponen": "Komponen Pemalsuan Dokumen (Seksyen 18, Akta SPRM 2009)",
+  "Tahun": 2020,
+  "Indeks": "92.7744"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K04",
+  "Nama Komponen": "Komponen Pecah Amanah (Seksyen 420 - 42a (Pecah Amanah), Akta SPRM 2009)",
+  "Tahun": 2020,
+  "Indeks": "92.2394"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K05",
+  "Nama Komponen": "Komponen Integriti Agensi Penguatkuasa",
+  "Tahun": 2020,
+  "Indeks": "96.5348"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K01",
+  "Nama Komponen": "Komponen Penyeludupan Migran",
+  "Tahun": 2020,
+  "Indeks": "94.6233"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K02",
+  "Nama Komponen": "Komponen Pemerdagangan Orang",
+  "Tahun": 2020,
+  "Indeks": "88.3736"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K03",
+  "Nama Komponen": "Komponen Penyeludupan Barang",
+  "Tahun": 2020,
+  "Indeks": "93.3277"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K04",
+  "Nama Komponen": "Komponen Pendatang Asing Tanpa Izin (PATI)",
+  "Tahun": 2020,
+  "Indeks": "91.2930"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K05",
+  "Nama Komponen": "Komponen Pencerobohan Sempadan",
+  "Tahun": 2020,
+  "Indeks": "99.2976"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K06",
+  "Nama Komponen": "Komponen Penguatkuasaan Sempadan",
+  "Tahun": 2020,
+  "Indeks": "107.9411"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K01",
+  "Nama Komponen": "Komponen Jenayah Kekerasan",
+  "Tahun": 2020,
+  "Indeks": "101.1482"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K02",
+  "Nama Komponen": "Komponen Jenayah Dadah",
+  "Tahun": 2020,
+  "Indeks": "89.0662"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K03",
+  "Nama Komponen": "Komponen Jenayah Harta Benda",
+  "Tahun": 2020,
+  "Indeks": "90.0862"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K04",
+  "Nama Komponen": "Komponen Kemalangan Trafik",
+  "Tahun": 2020,
+  "Indeks": "88.0812"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K05",
+  "Nama Komponen": "Komponen Kemasukan Banduan",
+  "Tahun": 2020,
+  "Indeks": "91.5953"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K06",
+  "Nama Komponen": "Komponen Program Pencegahan Jenayah",
+  "Tahun": 2020,
+  "Indeks": "115.6898"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K07",
+  "Nama Komponen": "Komponen Jenayah Siber",
+  "Tahun": 2020,
+  "Indeks": "88.1129"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K08",
+  "Nama Komponen": "Komponen Jenayah Komersial",
+  "Tahun": 2020,
+  "Indeks": "89.7620"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K09",
+  "Nama Komponen": "Komponen Jenayah Rasuah",
+  "Tahun": 2020,
+  "Indeks": "87.3057"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K10",
+  "Nama Komponen": "Komponen Jenayah Penggubahan Wang Haram",
+  "Tahun": 2020,
+  "Indeks": "98.6009"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K01",
+  "Nama Komponen": "Komponen Sumber Manusia (Perjawatan)",
+  "Tahun": 2020,
+  "Indeks": "114.0538"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K02",
+  "Nama Komponen": "Komponen Teknologi Maklumat",
+  "Tahun": 2020,
+  "Indeks": "111.2603"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K03",
+  "Nama Komponen": "Komponen Infrastruktur",
+  "Tahun": 2020,
+  "Indeks": "108.3715"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K04",
+  "Nama Komponen": "Komponen Peruntukan Pertahanan Dan Keselamatan",
+  "Tahun": 2020,
+  "Indeks": "98.6868"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K05",
+  "Nama Komponen": "Komponen Sokongan Keselamatan",
+  "Tahun": 2020,
+  "Indeks": "117.3176"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K01",
+  "Nama Komponen": "Komponen Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K02",
+  "Nama Komponen": "Komponen Ancaman Penyalahgunaan Identiti",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K03",
+  "Nama Komponen": "Komponen Ajaran Sesat",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K04",
+  "Nama Komponen": "Komponen 3R",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K05",
+  "Nama Komponen": "Komponen Badan Kehakiman / Perundangan",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K06",
+  "Nama Komponen": "Komponen Badan Eksekutif / Legislatif",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K01",
+  "Nama Komponen": "Komponen Rasuah (Seksyen 16, 17a, 17b, Akta SPRM 2009)",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K02",
+  "Nama Komponen": "Komponen Penyalahgunaan Kuasa (Seksyen 23, Akta SPRM 2009)",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K03",
+  "Nama Komponen": "Komponen Pemalsuan Dokumen (Seksyen 18, Akta SPRM 2009)",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K04",
+  "Nama Komponen": "Komponen Pecah Amanah (Seksyen 420 - 42a (Pecah Amanah), Akta SPRM 2009)",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K05",
+  "Nama Komponen": "Komponen Integriti Agensi Penguatkuasa",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K01",
+  "Nama Komponen": "Komponen Penyeludupan Migran",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K02",
+  "Nama Komponen": "Komponen Pemerdagangan Orang",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K03",
+  "Nama Komponen": "Komponen Penyeludupan Barang",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K04",
+  "Nama Komponen": "Komponen Pendatang Asing Tanpa Izin (PATI)",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K05",
+  "Nama Komponen": "Komponen Pencerobohan Sempadan",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K06",
+  "Nama Komponen": "Komponen Penguatkuasaan Sempadan",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K01",
+  "Nama Komponen": "Komponen Jenayah Kekerasan",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K02",
+  "Nama Komponen": "Komponen Jenayah Dadah",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K03",
+  "Nama Komponen": "Komponen Jenayah Harta Benda",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K04",
+  "Nama Komponen": "Komponen Kemalangan Trafik",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K05",
+  "Nama Komponen": "Komponen Kemasukan Banduan",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K06",
+  "Nama Komponen": "Komponen Program Pencegahan Jenayah",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K07",
+  "Nama Komponen": "Komponen Jenayah Siber",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K08",
+  "Nama Komponen": "Komponen Jenayah Komersial",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K09",
+  "Nama Komponen": "Komponen Jenayah Rasuah",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K10",
+  "Nama Komponen": "Komponen Jenayah Penggubahan Wang Haram",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K01",
+  "Nama Komponen": "Komponen Sumber Manusia (Perjawatan)",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K02",
+  "Nama Komponen": "Komponen Teknologi Maklumat",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K03",
+  "Nama Komponen": "Komponen Infrastruktur",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K04",
+  "Nama Komponen": "Komponen Peruntukan Pertahanan Dan Keselamatan",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K05",
+  "Nama Komponen": "Komponen Sokongan Keselamatan",
+  "Tahun": 2021,
+  "Indeks": "100.0000"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K01",
+  "Nama Komponen": "Komponen Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang",
+  "Tahun": 2022,
+  "Indeks": "102.9743"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K02",
+  "Nama Komponen": "Komponen Ancaman Penyalahgunaan Identiti",
+  "Tahun": 2022,
+  "Indeks": "86.6498"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K03",
+  "Nama Komponen": "Komponen Ajaran Sesat",
+  "Tahun": 2022,
+  "Indeks": "134.5192"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K04",
+  "Nama Komponen": "Komponen 3R",
+  "Tahun": 2022,
+  "Indeks": "127.3588"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K05",
+  "Nama Komponen": "Komponen Badan Kehakiman / Perundangan",
+  "Tahun": 2022,
+  "Indeks": "133.8909"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K06",
+  "Nama Komponen": "Komponen Badan Eksekutif / Legislatif",
+  "Tahun": 2022,
+  "Indeks": "133.5383"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K01",
+  "Nama Komponen": "Komponen Rasuah (Seksyen 16, 17a, 17b, Akta SPRM 2009)",
+  "Tahun": 2022,
+  "Indeks": "76.0161"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K02",
+  "Nama Komponen": "Komponen Penyalahgunaan Kuasa (Seksyen 23, Akta SPRM 2009)",
+  "Tahun": 2022,
+  "Indeks": "117.8399"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K03",
+  "Nama Komponen": "Komponen Pemalsuan Dokumen (Seksyen 18, Akta SPRM 2009)",
+  "Tahun": 2022,
+  "Indeks": "84.8835"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K04",
+  "Nama Komponen": "Komponen Pecah Amanah (Seksyen 420 - 42a (Pecah Amanah), Akta SPRM 2009)",
+  "Tahun": 2022,
+  "Indeks": "81.8673"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K05",
+  "Nama Komponen": "Komponen Integriti Agensi Penguatkuasa",
+  "Tahun": 2022,
+  "Indeks": "100.1785"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K01",
+  "Nama Komponen": "Komponen Penyeludupan Migran",
+  "Tahun": 2022,
+  "Indeks": "87.1648"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K02",
+  "Nama Komponen": "Komponen Pemerdagangan Orang",
+  "Tahun": 2022,
+  "Indeks": "79.4698"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K03",
+  "Nama Komponen": "Komponen Penyeludupan Barang",
+  "Tahun": 2022,
+  "Indeks": "103.7225"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K04",
+  "Nama Komponen": "Komponen Pendatang Asing Tanpa Izin (PATI)",
+  "Tahun": 2022,
+  "Indeks": "82.7024"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K05",
+  "Nama Komponen": "Komponen Pencerobohan Sempadan",
+  "Tahun": 2022,
+  "Indeks": "94.0900"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K06",
+  "Nama Komponen": "Komponen Penguatkuasaan Sempadan",
+  "Tahun": 2022,
+  "Indeks": "123.6083"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K01",
+  "Nama Komponen": "Komponen Jenayah Kekerasan",
+  "Tahun": 2022,
+  "Indeks": "106.6049"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K02",
+  "Nama Komponen": "Komponen Jenayah Dadah",
+  "Tahun": 2022,
+  "Indeks": "79.1853"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K03",
+  "Nama Komponen": "Komponen Jenayah Harta Benda",
+  "Tahun": 2022,
+  "Indeks": "80.2927"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K04",
+  "Nama Komponen": "Komponen Kemalangan Trafik",
+  "Tahun": 2022,
+  "Indeks": "75.3869"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K05",
+  "Nama Komponen": "Komponen Kemasukan Banduan",
+  "Tahun": 2022,
+  "Indeks": "78.0648"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K06",
+  "Nama Komponen": "Komponen Program Pencegahan Jenayah",
+  "Tahun": 2022,
+  "Indeks": "129.5230"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K07",
+  "Nama Komponen": "Komponen Jenayah Siber",
+  "Tahun": 2022,
+  "Indeks": "78.3217"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K08",
+  "Nama Komponen": "Komponen Jenayah Komersial",
+  "Tahun": 2022,
+  "Indeks": "79.4949"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K09",
+  "Nama Komponen": "Komponen Jenayah Rasuah",
+  "Tahun": 2022,
+  "Indeks": "78.9919"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K10",
+  "Nama Komponen": "Komponen Jenayah Penggubahan Wang Haram",
+  "Tahun": 2022,
+  "Indeks": "100.4591"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K01",
+  "Nama Komponen": "Komponen Sumber Manusia (Perjawatan)",
+  "Tahun": 2022,
+  "Indeks": "128.7356"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K02",
+  "Nama Komponen": "Komponen Teknologi Maklumat",
+  "Tahun": 2022,
+  "Indeks": "122.4552"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K03",
+  "Nama Komponen": "Komponen Infrastruktur",
+  "Tahun": 2022,
+  "Indeks": "121.8054"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K04",
+  "Nama Komponen": "Komponen Peruntukan Pertahanan Dan Keselamatan",
+  "Tahun": 2022,
+  "Indeks": "99.5853"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K05",
+  "Nama Komponen": "Komponen Sokongan Keselamatan",
+  "Tahun": 2022,
+  "Indeks": "132.4169"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K01",
+  "Nama Komponen": "Komponen Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang",
+  "Tahun": 2023,
+  "Indeks": "106.5142"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K02",
+  "Nama Komponen": "Komponen Ancaman Penyalahgunaan Identiti",
+  "Tahun": 2023,
+  "Indeks": "82.6584"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K03",
+  "Nama Komponen": "Komponen Ajaran Sesat",
+  "Tahun": 2023,
+  "Indeks": "133.4057"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K04",
+  "Nama Komponen": "Komponen 3R",
+  "Tahun": 2023,
+  "Indeks": "127.2830"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K05",
+  "Nama Komponen": "Komponen Badan Kehakiman / Perundangan",
+  "Tahun": 2023,
+  "Indeks": "133.9758"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K06",
+  "Nama Komponen": "Komponen Badan Eksekutif / Legislatif",
+  "Tahun": 2023,
+  "Indeks": "128.7269"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K01",
+  "Nama Komponen": "Komponen Rasuah (Seksyen 16, 17a, 17b, Akta SPRM 2009)",
+  "Tahun": 2023,
+  "Indeks": "78.0447"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K02",
+  "Nama Komponen": "Komponen Penyalahgunaan Kuasa (Seksyen 23, Akta SPRM 2009)",
+  "Tahun": 2023,
+  "Indeks": "105.5977"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K03",
+  "Nama Komponen": "Komponen Pemalsuan Dokumen (Seksyen 18, Akta SPRM 2009)",
+  "Tahun": 2023,
+  "Indeks": "76.8106"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K04",
+  "Nama Komponen": "Komponen Pecah Amanah (Seksyen 420 - 42a (Pecah Amanah), Akta SPRM 2009)",
+  "Tahun": 2023,
+  "Indeks": "85.8573"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K05",
+  "Nama Komponen": "Komponen Integriti Agensi Penguatkuasa",
+  "Tahun": 2023,
+  "Indeks": "85.8626"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K01",
+  "Nama Komponen": "Komponen Penyeludupan Migran",
+  "Tahun": 2023,
+  "Indeks": "88.3059"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K02",
+  "Nama Komponen": "Komponen Pemerdagangan Orang",
+  "Tahun": 2023,
+  "Indeks": "83.0321"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K03",
+  "Nama Komponen": "Komponen Penyeludupan Barang",
+  "Tahun": 2023,
+  "Indeks": "97.1885"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K04",
+  "Nama Komponen": "Komponen Pendatang Asing Tanpa Izin (PATI)",
+  "Tahun": 2023,
+  "Indeks": "79.4371"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K05",
+  "Nama Komponen": "Komponen Pencerobohan Sempadan",
+  "Tahun": 2023,
+  "Indeks": "88.0954"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K06",
+  "Nama Komponen": "Komponen Penguatkuasaan Sempadan",
+  "Tahun": 2023,
+  "Indeks": "122.0017"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K01",
+  "Nama Komponen": "Komponen Jenayah Kekerasan",
+  "Tahun": 2023,
+  "Indeks": "104.9774"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K02",
+  "Nama Komponen": "Komponen Jenayah Dadah",
+  "Tahun": 2023,
+  "Indeks": "79.1078"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K03",
+  "Nama Komponen": "Komponen Jenayah Harta Benda",
+  "Tahun": 2023,
+  "Indeks": "77.1227"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K04",
+  "Nama Komponen": "Komponen Kemalangan Trafik",
+  "Tahun": 2023,
+  "Indeks": "77.1687"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K05",
+  "Nama Komponen": "Komponen Kemasukan Banduan",
+  "Tahun": 2023,
+  "Indeks": "81.6242"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K06",
+  "Nama Komponen": "Komponen Program Pencegahan Jenayah",
+  "Tahun": 2023,
+  "Indeks": "130.2244"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K07",
+  "Nama Komponen": "Komponen Jenayah Siber",
+  "Tahun": 2023,
+  "Indeks": "77.9679"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K08",
+  "Nama Komponen": "Komponen Jenayah Komersial",
+  "Tahun": 2023,
+  "Indeks": "77.3070"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K09",
+  "Nama Komponen": "Komponen Jenayah Rasuah",
+  "Tahun": 2023,
+  "Indeks": "77.6835"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K10",
+  "Nama Komponen": "Komponen Jenayah Penggubahan Wang Haram",
+  "Tahun": 2023,
+  "Indeks": "94.3948"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K01",
+  "Nama Komponen": "Komponen Sumber Manusia (Perjawatan)",
+  "Tahun": 2023,
+  "Indeks": "129.5251"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K02",
+  "Nama Komponen": "Komponen Teknologi Maklumat",
+  "Tahun": 2023,
+  "Indeks": "127.9979"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K03",
+  "Nama Komponen": "Komponen Infrastruktur",
+  "Tahun": 2023,
+  "Indeks": "121.5307"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K04",
+  "Nama Komponen": "Komponen Peruntukan Pertahanan Dan Keselamatan",
+  "Tahun": 2023,
+  "Indeks": "99.8136"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K05",
+  "Nama Komponen": "Komponen Sokongan Keselamatan",
+  "Tahun": 2023,
+  "Indeks": "133.0605"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K01",
+  "Nama Komponen": "Komponen Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang",
+  "Tahun": 2024,
+  "Indeks": "105.9165"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K02",
+  "Nama Komponen": "Komponen Ancaman Penyalahgunaan Identiti",
+  "Tahun": 2024,
+  "Indeks": "74.9025"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K03",
+  "Nama Komponen": "Komponen Ajaran Sesat",
+  "Tahun": 2024,
+  "Indeks": "133.4057"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K04",
+  "Nama Komponen": "Komponen 3R",
+  "Tahun": 2024,
+  "Indeks": "127.8474"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K05",
+  "Nama Komponen": "Komponen Badan Kehakiman / Perundangan",
+  "Tahun": 2024,
+  "Indeks": "133.4408"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K06",
+  "Nama Komponen": "Komponen Badan Eksekutif / Legislatif",
+  "Tahun": 2024,
+  "Indeks": "132.6522"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K01",
+  "Nama Komponen": "Komponen Rasuah (Seksyen 16, 17a, 17b, Akta SPRM 2009)",
+  "Tahun": 2024,
+  "Indeks": "80.9609"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K02",
+  "Nama Komponen": "Komponen Penyalahgunaan Kuasa (Seksyen 23, Akta SPRM 2009)",
+  "Tahun": 2024,
+  "Indeks": "97.7558"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K03",
+  "Nama Komponen": "Komponen Pemalsuan Dokumen (Seksyen 18, Akta SPRM 2009)",
+  "Tahun": 2024,
+  "Indeks": "83.6752"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K04",
+  "Nama Komponen": "Komponen Pecah Amanah (Seksyen 420 - 42a (Pecah Amanah), Akta SPRM 2009)",
+  "Tahun": 2024,
+  "Indeks": "81.3894"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K05",
+  "Nama Komponen": "Komponen Integriti Agensi Penguatkuasa",
+  "Tahun": 2024,
+  "Indeks": "80.7443"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K01",
+  "Nama Komponen": "Komponen Penyeludupan Migran",
+  "Tahun": 2024,
+  "Indeks": "84.2101"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K02",
+  "Nama Komponen": "Komponen Pemerdagangan Orang",
+  "Tahun": 2024,
+  "Indeks": "78.7105"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K03",
+  "Nama Komponen": "Komponen Penyeludupan Barang",
+  "Tahun": 2024,
+  "Indeks": "93.7360"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K04",
+  "Nama Komponen": "Komponen Pendatang Asing Tanpa Izin (PATI)",
+  "Tahun": 2024,
+  "Indeks": "81.2624"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K05",
+  "Nama Komponen": "Komponen Pencerobohan Sempadan",
+  "Tahun": 2024,
+  "Indeks": "95.0370"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K06",
+  "Nama Komponen": "Komponen Penguatkuasaan Sempadan",
+  "Tahun": 2024,
+  "Indeks": "122.5607"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K01",
+  "Nama Komponen": "Komponen Jenayah Kekerasan",
+  "Tahun": 2024,
+  "Indeks": "106.5204"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K02",
+  "Nama Komponen": "Komponen Jenayah Dadah",
+  "Tahun": 2024,
+  "Indeks": "79.1451"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K03",
+  "Nama Komponen": "Komponen Jenayah Harta Benda",
+  "Tahun": 2024,
+  "Indeks": "76.9318"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K04",
+  "Nama Komponen": "Komponen Kemalangan Trafik",
+  "Tahun": 2024,
+  "Indeks": "82.7430"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K05",
+  "Nama Komponen": "Komponen Kemasukan Banduan",
+  "Tahun": 2024,
+  "Indeks": "78.2696"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K06",
+  "Nama Komponen": "Komponen Program Pencegahan Jenayah",
+  "Tahun": 2024,
+  "Indeks": "129.4908"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K07",
+  "Nama Komponen": "Komponen Jenayah Siber",
+  "Tahun": 2024,
+  "Indeks": "80.1033"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K08",
+  "Nama Komponen": "Komponen Jenayah Komersial",
+  "Tahun": 2024,
+  "Indeks": "79.9905"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K09",
+  "Nama Komponen": "Komponen Jenayah Rasuah",
+  "Tahun": 2024,
+  "Indeks": "82.2812"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K10",
+  "Nama Komponen": "Komponen Jenayah Penggubahan Wang Haram",
+  "Tahun": 2024,
+  "Indeks": "92.6406"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K01",
+  "Nama Komponen": "Komponen Sumber Manusia (Perjawatan)",
+  "Tahun": 2024,
+  "Indeks": "127.8786"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K02",
+  "Nama Komponen": "Komponen Teknologi Maklumat",
+  "Tahun": 2024,
+  "Indeks": "129.7920"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K03",
+  "Nama Komponen": "Komponen Infrastruktur",
+  "Tahun": 2024,
+  "Indeks": "121.9601"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K04",
+  "Nama Komponen": "Komponen Peruntukan Pertahanan Dan Keselamatan",
+  "Tahun": 2024,
+  "Indeks": "98.5588"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K05",
+  "Nama Komponen": "Komponen Sokongan Keselamatan",
+  "Tahun": 2024,
+  "Indeks": "131.2509"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K01",
+  "Nama Komponen": "Komponen Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang",
+  "Tahun": 2025,
+  "Indeks": "105.0743"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K02",
+  "Nama Komponen": "Komponen Ancaman Penyalahgunaan Identiti",
+  "Tahun": 2025,
+  "Indeks": "81.9982"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K03",
+  "Nama Komponen": "Komponen Ajaran Sesat",
+  "Tahun": 2025,
+  "Indeks": "132.8489"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K04",
+  "Nama Komponen": "Komponen 3R",
+  "Tahun": 2025,
+  "Indeks": "127.2620"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K05",
+  "Nama Komponen": "Komponen Badan Kehakiman / Perundangan",
+  "Tahun": 2025,
+  "Indeks": "133.9960"
+ },
+ {
+  "Kod Teras": "T01",
+  "Nama Teras": "Perlembagaan & Undang-Undang",
+  "Kod Komponen": "T01-K06",
+  "Nama Komponen": "Komponen Badan Eksekutif / Legislatif",
+  "Tahun": 2025,
+  "Indeks": "132.2402"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K01",
+  "Nama Komponen": "Komponen Rasuah (Seksyen 16, 17a, 17b, Akta SPRM 2009)",
+  "Tahun": 2025,
+  "Indeks": "80.4595"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K02",
+  "Nama Komponen": "Komponen Penyalahgunaan Kuasa (Seksyen 23, Akta SPRM 2009)",
+  "Tahun": 2025,
+  "Indeks": "110.0911"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K03",
+  "Nama Komponen": "Komponen Pemalsuan Dokumen (Seksyen 18, Akta SPRM 2009)",
+  "Tahun": 2025,
+  "Indeks": "84.1821"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K04",
+  "Nama Komponen": "Komponen Pecah Amanah (Seksyen 420 - 42a (Pecah Amanah), Akta SPRM 2009)",
+  "Tahun": 2025,
+  "Indeks": "79.2784"
+ },
+ {
+  "Kod Teras": "T02",
+  "Nama Teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+  "Kod Komponen": "T02-K05",
+  "Nama Komponen": "Komponen Integriti Agensi Penguatkuasa",
+  "Tahun": 2025,
+  "Indeks": "90.2706"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K01",
+  "Nama Komponen": "Komponen Penyeludupan Migran",
+  "Tahun": 2025,
+  "Indeks": "86.1695"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K02",
+  "Nama Komponen": "Komponen Pemerdagangan Orang",
+  "Tahun": 2025,
+  "Indeks": "80.8885"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K03",
+  "Nama Komponen": "Komponen Penyeludupan Barang",
+  "Tahun": 2025,
+  "Indeks": "100.0212"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K04",
+  "Nama Komponen": "Komponen Pendatang Asing Tanpa Izin (PATI)",
+  "Tahun": 2025,
+  "Indeks": "81.5065"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K05",
+  "Nama Komponen": "Komponen Pencerobohan Sempadan",
+  "Tahun": 2025,
+  "Indeks": "93.6913"
+ },
+ {
+  "Kod Teras": "T03",
+  "Nama Teras": "Pengukuhan Keselamatan Sempadan",
+  "Kod Komponen": "T03-K06",
+  "Nama Komponen": "Komponen Penguatkuasaan Sempadan",
+  "Tahun": 2025,
+  "Indeks": "120.5086"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K01",
+  "Nama Komponen": "Komponen Jenayah Kekerasan",
+  "Tahun": 2025,
+  "Indeks": "106.9349"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K02",
+  "Nama Komponen": "Komponen Jenayah Dadah",
+  "Tahun": 2025,
+  "Indeks": "77.2149"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K03",
+  "Nama Komponen": "Komponen Jenayah Harta Benda",
+  "Tahun": 2025,
+  "Indeks": "82.4319"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K04",
+  "Nama Komponen": "Komponen Kemalangan Trafik",
+  "Tahun": 2025,
+  "Indeks": "81.2901"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K05",
+  "Nama Komponen": "Komponen Kemasukan Banduan",
+  "Tahun": 2025,
+  "Indeks": "80.2659"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K06",
+  "Nama Komponen": "Komponen Program Pencegahan Jenayah",
+  "Tahun": 2025,
+  "Indeks": "126.7427"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K07",
+  "Nama Komponen": "Komponen Jenayah Siber",
+  "Tahun": 2025,
+  "Indeks": "78.1015"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K08",
+  "Nama Komponen": "Komponen Jenayah Komersial",
+  "Tahun": 2025,
+  "Indeks": "77.1503"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K09",
+  "Nama Komponen": "Komponen Jenayah Rasuah",
+  "Tahun": 2025,
+  "Indeks": "81.4534"
+ },
+ {
+  "Kod Teras": "T04",
+  "Nama Teras": "Keselamatan Sosial, Ekonomi & Politik",
+  "Kod Komponen": "T04-K10",
+  "Nama Komponen": "Komponen Jenayah Penggubahan Wang Haram",
+  "Tahun": 2025,
+  "Indeks": "97.0729"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K01",
+  "Nama Komponen": "Komponen Sumber Manusia (Perjawatan)",
+  "Tahun": 2025,
+  "Indeks": "128.5583"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K02",
+  "Nama Komponen": "Komponen Teknologi Maklumat",
+  "Tahun": 2025,
+  "Indeks": "129.0032"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K03",
+  "Nama Komponen": "Komponen Infrastruktur",
+  "Tahun": 2025,
+  "Indeks": "121.4833"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K04",
+  "Nama Komponen": "Komponen Peruntukan Pertahanan Dan Keselamatan",
+  "Tahun": 2025,
+  "Indeks": "100.5906"
+ },
+ {
+  "Kod Teras": "T05",
+  "Nama Teras": "Perlindungan Aset Keselamatan Negara",
+  "Kod Komponen": "T05-K05",
+  "Nama Komponen": "Komponen Sokongan Keselamatan",
+  "Tahun": 2025,
+  "Indeks": "133.9816"
+ }
+]
