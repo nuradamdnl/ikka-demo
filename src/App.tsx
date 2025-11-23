@@ -10,6 +10,12 @@ import Teras from "./pages/portal/Parameter/Teras";
 import Komponen from "./pages/portal/Parameter/Komponen";
 import Indikator from "./pages/portal/Parameter/Indikator";
 import PemilikData from "./pages/portal/Parameter/PemilikData";
+import KodGunaPakai from "./pages/portal/Parameter/KodGunaPakai";
+import Rubrik from "./pages/portal/Parameter/Rubrik";
+import PenetapanTahunAsas from "./pages/portal/Parameter/PenetapanTahunAsas";
+import PenetapanIndikator from "./pages/portal/Parameter/PenetapanIndikator";
+import PenetapanKomponen from "./pages/portal/Parameter/PenetapanKomponen";
+import PenetapanTeras from "./pages/portal/Parameter/PenetapanTeras";
 
 function App() {
   return (
@@ -25,6 +31,12 @@ function App() {
         <Route path="/pengurusan-parameter/komponen" element={<Komponen />} />
         <Route path="/pengurusan-parameter/indikator" element={<Indikator />} />
         <Route path="/pengurusan-parameter/pemilik-data" element={<PemilikData />} />
+        <Route path="/pengurusan-parameter/kod-guna-pakai" element={<KodGunaPakai />} />
+        <Route path="/pengurusan-parameter/rubrik" element={<Rubrik />} />
+        <Route path="/pengurusan-parameter/penetapan-tahun-asas" element={<PenetapanTahunAsas />} />
+        <Route path="/pengurusan-parameter/penetapan-indikator" element={<PenetapanIndikator />} />
+        <Route path="/pengurusan-parameter/penetapan-komponen" element={<PenetapanKomponen />} />
+        <Route path="/pengurusan-parameter/penetapan-teras" element={<PenetapanTeras />} />
         <Route path="/struktur-indeks" element={<StrukturIndeks />} />
       </Routes>
     </BrowserRouter>
