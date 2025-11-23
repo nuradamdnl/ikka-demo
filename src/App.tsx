@@ -1,15 +1,23 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LamanUtama from "./pages/LamanUtama";
+import TentangKajian from "./pages/TentangKajian";
+import AktivitiKajian from "./pages/AktivitiKajian";
+import LogMasuk from "./pages/LogMasuk";
+import PapanUtama from "./pages/PapanUtama";
+import StrukturIndeks from "./pages/StrukturIndeks";
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-blue-600 mb-4">
-          IKKA Demo
-        </h1>
-        <p className="text-gray-600">
-          React + TypeScript + Vite + Tailwind CSS
-        </p>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LamanUtama />} />
+        <Route path="/tentang-kajian" element={<TentangKajian />} />
+        <Route path="/aktiviti-kajian" element={<AktivitiKajian />} />
+        <Route path="/log-masuk" element={<LogMasuk />} />
+        <Route path="/papan-utama" element={<PapanUtama />} />
+        <Route path="/struktur-indeks" element={<StrukturIndeks />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
