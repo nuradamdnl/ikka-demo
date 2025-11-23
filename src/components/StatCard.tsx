@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 
-type CardProps = {
+type StatCardProps = {
   icon?: React.ReactNode;
   title: string;
   value: string | number;
-  subtitle?: string;
+  subtitle?: React.ReactNode;
   animateDuration?: number;
 };
 
-function Card({ icon, title, value, subtitle, animateDuration = 1000 }: CardProps) {
+function StatCard({ icon, title, value, subtitle, animateDuration = 1000 }: StatCardProps) {
   const [displayValue, setDisplayValue] = useState<string | number>(0);
   const isNumber = typeof value === "number";
 
@@ -48,7 +48,7 @@ function Card({ icon, title, value, subtitle, animateDuration = 1000 }: CardProp
         </div>
         {icon && (
           <div className="flex-shrink-0 ml-4">
-            <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-900">
+            <div className="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center text-white">
               {icon}
             </div>
           </div>
@@ -58,4 +58,4 @@ function Card({ icon, title, value, subtitle, animateDuration = 1000 }: CardProp
   );
 }
 
-export default Card;
+export default StatCard;
