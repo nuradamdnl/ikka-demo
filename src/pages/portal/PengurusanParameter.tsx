@@ -80,7 +80,7 @@ function PengurusanParameter() {
                 {/* Right Column - Expanded Data Meter Card */}
                 <div className="flex w-full h-full">
                   <div
-                    onClick={() => window.location.href = '/pengurusan-parameter/penetapan-teras'}
+                    onClick={() => window.location.href = '/pengurusan-parameter/data-meter'}
                     className="bg-white rounded-lg shadow-md p-8 cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-gray-100 w-full h-full flex items-center justify-center"
                   >
                     <div className="flex flex-col items-center text-center gap-6">
