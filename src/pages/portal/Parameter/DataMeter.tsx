@@ -8,8 +8,14 @@ import StatCard from "../../../components/StatCard";
 import { Square3Stack3DIcon, CircleStackIcon, ChartPieIcon } from "@heroicons/react/24/outline";
 import TabbedSectionCard from "../../../components/TabbedSectionCard";
 import DataMeterChart from "../../../components/DataMeterChart";
+import DataMeterPICTable from "../../../components/tables/DataMeterPICTable";
 
 function DataMeter() {
+  const handleAlert = (pic: any) => {
+    alert(
+      `Peringatan akan dihantar kepada:\n\nNama: ${pic["Nama PIC"]}\nJabatan: ${pic["Jabatan PIC"]}\nNo Telefon: ${pic["No Telefon"]}\nIndikator: ${pic["Senarai Indikator"]}\n\nStatus: ${pic["Status Data Meter"]}`
+    );
+  };
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
       <Header />
@@ -135,6 +141,10 @@ function DataMeter() {
               }}
               defaultTab="susun-asal"
             />
+
+            <SectionCard title="Senarai Indikator & Person-in-Charge">
+              <DataMeterPICTable onAlert={handleAlert} />
+            </SectionCard>
           </div>
         </main>
       </div>
