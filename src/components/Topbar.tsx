@@ -1,9 +1,11 @@
 import { ArrowLeftEndOnRectangleIcon } from "@heroicons/react/24/outline";
+import { useNavigate } from "react-router-dom";
 
 function Topbar() {
+  const navigate = useNavigate();
+
   const handleLogout = () => {
-    // TODO: Implement logout logic
-    console.log("Logout clicked");
+    navigate("/log-masuk");
   };
 
   return (
@@ -34,6 +36,14 @@ function Topbar() {
               SU
             </div>
           </div>
+          <button
+            onClick={handleLogout}
+            className="ml-2 flex items-center gap-2 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition-colors text-sm font-medium"
+            title="Log Keluar"
+          >
+            <ArrowLeftEndOnRectangleIcon className="w-5 h-5" />
+            <span>Log Keluar</span>
+          </button>
         </div>
       </div>
     </div>
