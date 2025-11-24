@@ -4,7 +4,6 @@ import Sidebar from "../../../components/Sidebar";
 import Footer from "../../../components/Footer";
 import PageTitle from "../../../components/PageTitle";
 import SectionCard from "../../../components/SectionCard";
-import InfoCard from "../../../components/InfoCard";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
@@ -74,14 +73,25 @@ function PilihanPemilikData() {
                             {/* Info Cards Grid */}
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                                 {filteredJabatan.map((jabatan) => (
-                                    <InfoCard
-                                        key={jabatan.kodJabatan}
-                                        image={`/src/assets/images/pemilik-data/${jabatan.kodJabatan.toLowerCase()}.png`}
-                                        title={jabatan.kodJabatan}
-                                        subtitle={jabatan.namaJabatan}
-                                        onButtonClick={handleCardClick}
-                                        buttonText="Lihat"
-                                    />
+                                    <div key={jabatan.kodJabatan} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                                        <div className="relative h-56 bg-white flex items-center justify-center p-8">
+                                            <img 
+                                                src={`/src/assets/images/pemilik-data/${jabatan.kodJabatan.toLowerCase()}.png`} 
+                                                alt={jabatan.kodJabatan} 
+                                                className="max-w-full max-h-full object-contain" 
+                                            />
+                                        </div>
+                                        <div className="p-5">
+                                            <h3 className="text-lg font-semibold text-gray-900 mb-2">{jabatan.kodJabatan}</h3>
+                                            <p className="text-sm text-gray-600 mb-4">{jabatan.namaJabatan}</p>
+                                            <button
+                                                onClick={handleCardClick}
+                                                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition-colors"
+                                            >
+                                                Lihat
+                                            </button>
+                                        </div>
+                                    </div>
                                 ))}
                             </div>
                         </SectionCard>

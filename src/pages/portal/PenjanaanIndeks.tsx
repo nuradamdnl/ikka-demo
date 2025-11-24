@@ -147,7 +147,7 @@ function PenjanaanIndeks() {
             <PageTitle>Penjanaan Indeks</PageTitle>
 
             {/* Input Section */}
-            <SectionCard title="Input">
+            <SectionCard title="Semak Indikator">
               <div className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div>
@@ -165,7 +165,7 @@ function PenjanaanIndeks() {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Pilih Kod Indikator
+                      Kod Indikator
                     </label>
                     <select
                       value={indicatorCode}
@@ -183,7 +183,7 @@ function PenjanaanIndeks() {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Pilih Tahun Asas (Asas 100)
+                      Tahun Asas (Asas 100)
                     </label>
                     <select
                       value={baselineYear}
@@ -210,7 +210,7 @@ function PenjanaanIndeks() {
 
             {/* Metadata Section */}
             {selectedIndicator && stats && (
-              <SectionCard title="Maklumat Indikator">
+              <SectionCard title="Hasil Carian Indikator">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-3">
                     <div>
@@ -290,7 +290,7 @@ function PenjanaanIndeks() {
 
             {/* Aggregation Section */}
             {stats && (
-              <SectionCard title="Langkah 1–3: Jumlah, Min & Sisihan Piawai">
+              <SectionCard title="Pengiraan Indeks Indikator: Jumlah Data Agregat, Min & Sisihan Piawai">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
                   <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
                     <p className="text-xs text-gray-600">
@@ -378,7 +378,7 @@ function PenjanaanIndeks() {
 
             {/* Index Calculation Section */}
             {stats && (
-              <SectionCard title="Langkah 4–6: Skor-z, Indeks & Asas 100">
+              <SectionCard title="Pengiraan Indeks Indikator: Skor-z, Indeks & Asas 100">
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm border-collapse">
                     <thead>

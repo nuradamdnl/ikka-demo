@@ -17,7 +17,7 @@ function StrukturIndeks() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Struktur Indeks</PageTitle>
-            <SectionCard title="Struktur Indeks">
+            <SectionCard title="Struktur Instrumen IKKA">
               <StrukturIndeksSunburst tahun={2025} />
             </SectionCard>
             <SectionCard title="Struktur Teras">

@@ -32,7 +32,7 @@ function PapanUtama() {
             <PageTitle>Papan Utama</PageTitle>
 
             {/* Statistics Section */}
-            <SectionCard title="Statistik Keseluruhan">
+            <SectionCard title="Instrumen dan Indeks Terkini">
               <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
                 <StatCard
                   icon={<Square3Stack3DIcon className="w-6 h-6" />}
@@ -66,7 +66,7 @@ function PapanUtama() {
                 />
               </div>
             </SectionCard>
-            <SectionCard title="Maklumat Terkini">
+            <SectionCard title="Status Kemasukan Data">
               <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
                 <GaugeCard title="Teras 1" value={75} />
                 <GaugeCard title="Teras 2" value={85} />
@@ -113,10 +113,10 @@ function PapanUtama() {
             </SectionCard>
             <SectionCard title="Analitik">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-              <InfoCard image="src/assets/images/chart-blue.png" title="Deskriptif" subtitle="Melihat corak yang tersembunyi" />
-              <InfoCard image="src/assets/images/chart-purple.png" title="Diagnostik" subtitle="Membongkar punca di sebalik data" />
-              <InfoCard image="src/assets/images/chart-turqoise.png" title="Prediktif" subtitle="Meramal langkah seterusnya" />
-              <InfoCard image="src/assets/images/chart-yellow.png" title="Preskriptif" subtitle="Menyarankan tindakan berdasarkan data" />
+              <InfoCard image="src/assets/images/chart-blue.png" title="Deskriptif" subtitle="Melihat paten indeks indikator dan komponen" />
+              <InfoCard image="src/assets/images/chart-purple.png" title="Diagnostik" subtitle="Mendiagnostik paten indeks" />
+              <InfoCard image="src/assets/images/chart-turqoise.png" title="Prediktif" subtitle="Meramal paten indeks" />
+              <InfoCard image="src/assets/images/chart-yellow.png" title="Preskriptif" subtitle="Menyarankan tindakan berdasarkan indeks" />
               </div>
             </SectionCard>
           </div>

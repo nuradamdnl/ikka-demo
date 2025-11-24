@@ -123,10 +123,10 @@ function LamanUtama() {
           <div className="relative z-10 flex items-center justify-center h-full">
             <div className="text-center text-white px-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 drop-shadow-lg">
-                Indeks Kualiti Kehidupan Malaysia
+                INDEKS KESELAMATAN DAN KETENTERAMAN AWAM
               </h1>
               <p className="text-xl md:text-2xl lg:text-3xl font-light drop-shadow-md">
-                Mengukur Kesejahteraan Rakyat Malaysia
+                Mengukur Keselamatan dan Ketenteraman Awam Malaysia
               </p>
             </div>
           </div>

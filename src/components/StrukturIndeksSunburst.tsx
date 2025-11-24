@@ -98,14 +98,14 @@ function StrukturIndeksSunburst({ tahun = 2025 }: StrukturIndeksSunburstProps) {
       height: 600,
     },
     title: {
-      text: `Struktur Hierarki IKKA ${tahun}`,
+      text: `Instrumen`,
       style: {
         fontSize: "18px",
         fontWeight: "bold",
       },
     },
     subtitle: {
-      text: "Teras (Dalam) > Komponen (Tengah) > Indikator (Luar)",
+      text: "Teras (Lapisan Dalam) > Komponen (Lapisan Tengah) > Indikator (Lapisan Luar)",
     },
     legend: {
       enabled: false,
@@ -153,7 +153,7 @@ function StrukturIndeksSunburst({ tahun = 2025 }: StrukturIndeksSunburstProps) {
           />
         </div>
         <div className="w-64 flex-shrink-0">
-          <h3 className="text-sm font-semibold mb-3 text-gray-700">Legenda</h3>
+          <h3 className="text-sm font-semibold mb-3 text-gray-700">Petunjuk Teras</h3>
           <div className="space-y-2">
             {terasData.map((teras, index) => (
               <div key={teras["Kod Teras"]} className="flex items-start gap-2">

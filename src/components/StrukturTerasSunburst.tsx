@@ -122,7 +122,7 @@ function StrukturTerasSunburst({ kodTeras, tahun = 2025 }: StrukturTerasSunburst
       },
     },
     subtitle: {
-      text: "Komponen (Dalam) > Indikator (Luar)",
+      text: "Komponen (Lapisan Dalam) > Indikator (Lapisan Luar)",
     },
     legend: {
       enabled: false,
@@ -166,7 +166,7 @@ function StrukturTerasSunburst({ kodTeras, tahun = 2025 }: StrukturTerasSunburst
           />
         </div>
         <div className="w-80 flex-shrink-0">
-          <h3 className="text-sm font-semibold mb-3 text-gray-700">Legenda Komponen</h3>
+          <h3 className="text-sm font-semibold mb-3 text-gray-700">Petunjuk Komponen</h3>
           <div className="space-y-2 max-h-[550px] overflow-y-auto pr-2">
             {terasKomponen.map((komponen, index) => {
               const komponenColor = generateKomponenColor(baseTerasColor, index, terasKomponen.length);
