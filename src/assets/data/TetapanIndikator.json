@@ -1,0 +1,1072 @@
+[
+ {
+  "Rujukan Indikator": "AADK-T04-K02-I100",
+  "Kod Jabatan": "AADK",
+  "Nama Indikator": "Bilangan Kes penagih dan penyalahguna dadah dan bahan yang berulang"
+ },
+ {
+  "Rujukan Indikator": "AADK-T04-K02-I101",
+  "Kod Jabatan": "AADK",
+  "Nama Indikator": "Bilangan Kes penagih dan penyalahguna dadah dan bahan yang baharu"
+ },
+ {
+  "Rujukan Indikator": "AKPS-T03-K06-I75",
+  "Kod Jabatan": "AKPS",
+  "Nama Indikator": "Bilangan pemeriksaan warga asing (yang dicurigai) di pintu masuk"
+ },
+ {
+  "Rujukan Indikator": "AKPS-T03-K06-I76",
+  "Kod Jabatan": "AKPS",
+  "Nama Indikator": "Bilangan pemeriksaan warga asing (yang dicurigai) di pintu keluar"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I140",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Bilangan Kes Siasatan Dibuka (Siasatan Bawah AMLA Setelah Disabitkan Kesalahan Jenayah Cth.: Penipuan, Rompakan, Pecah Amanah dan Lain-lain)"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I141",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Jumlah Pembekuan Atas Harta (Siasatan Bawah AMLA Setelah Disabitkan Kesalahan Jenayah Cth.: Penipuan, Rompakan, Pecah Amanah dan Lain-lain)"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I142",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Jumlah Penyitaan Atas Harta (Siasatan Bawah AMLA Setelah Disabitkan Kesalahan Jenayah Cth.: Penipuan, Rompakan, Pecah Amanah dan Lain-lain)"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I143",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Bilangan Pertuduhan Di Mahkamah (Siasatan Bawah AMLA Setelah Disabitkan Kesalahan Jenayah Cth.: Penipuan, Rompakan, Pecah Amanah dan Lain-lain)"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I144",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Bilangan Kes Lucut Harta Tanpa Pendakwaan (Siasatan Bawah AMLA Setelah Disabitkan Kesalahan Jenayah Cth.: Penipuan, Rompakan, Pecah Amanah dan Lain-lain)"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I145",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Nilai Lucut Harta Tanpa Pendakwaan (Siasatan Bawah AMLA Setelah Disabitkan Kesalahan Jenayah Cth.: Penipuan, Rompakan, Pecah Amanah dan Lain-lain)"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I146",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Bilangan Kes Lucut Harta Dengan Pendakwaan (Siasatan Bawah AMLA Setelah Disabitkan Kesalahan Jenayah Cth.: Penipuan, Rompakan, Pecah Amanah dan Lain-lain)"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I147",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Nilai Lucut Harta Dengan Pendakwaan (Siasatan Bawah AMLA Setelah Disabitkan Kesalahan Jenayah Cth.: Penipuan, Rompakan, Pecah Amanah dan Lain-lain)"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I148",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Bilangan Kes Harta Yang Disita Dilepaskan Kepada Pihak Ketiga Atau Mangsa Di Bawah Seksyen 60(1) AMLATFPUAA 2001"
+ },
+ {
+  "Rujukan Indikator": "AMLA-T04-K10-I149",
+  "Kod Jabatan": "AMLA",
+  "Nama Indikator": "Nilai Harta Yang Disita Dilepaskan Kepada Pihak Ketiga Atau Mangsa Di Bawah Seksyen 60(1) AMLATFPUAA 2001"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K04-I59",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan tangkapan majikan (individu)"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K04-I60",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan kes tangkapan PATI"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K04-I61",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan tangkapan PATI (individu)"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K04-I62",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan tangkapan PATI (individu semasa operasi)"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K04-I63",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan tangkapan PATI (pintu masuk & serahan agensi-agensi lain)"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K04-I64",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan pendakwaan PATI"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K05-I70",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan pengusiran vesel"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K05-I71",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan tangkapan dan rampasan vesel"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K06-I73",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan operasi PATI"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K06-I74",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan anggota yang terlibat dalam operasi penguatkuasaan PATI"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K06-I77",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan pemeriksaan vesel"
+ },
+ {
+  "Rujukan Indikator": "APMM-T03-K06-I78",
+  "Kod Jabatan": "APMM",
+  "Nama Indikator": "Bilangan penggeledahan vesel"
+ },
+ {
+  "Rujukan Indikator": "BKDN-T05-K05-I179",
+  "Kod Jabatan": "BKDN",
+  "Nama Indikator": "Bilangan Syarikat Berkaitan Keselamatan yang Berlesen dengan KDN"
+ },
+ {
+  "Rujukan Indikator": "BKDN-T05-K05-I180",
+  "Kod Jabatan": "BKDN",
+  "Nama Indikator": "Bilangan Pengawal Keselamatan"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I150",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan PDRM"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I151",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan PENJARA"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I152",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan JIM"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I153",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan AADK"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I154",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan APMM"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I155",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan JPN"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I156",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan RELA"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I157",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan Jabatan Pendaftaran Pertubuhan Malaysia (JPPM)"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I158",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan ESSCOM"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I159",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan IPCC"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I160",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan AKPS"
+ },
+ {
+  "Rujukan Indikator": "BPSM-T05-K01-I161",
+  "Kod Jabatan": "BPSM",
+  "Nama Indikator": "Bilangan Perjawatan PGA"
+ },
+ {
+  "Rujukan Indikator": "CGSO-T05-K05-I181",
+  "Kod Jabatan": "CGSO",
+  "Nama Indikator": "Bilangan Polis Bantuan"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I01",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan perintah tahanan atas kesalahan di bawah kesalahan terhadap negara (Bab 6 KK)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I02",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan perintah tahanan berkaitan kes keganasan (6A KK)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I03",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan perintah tahanan atas kesalahan di bawah kesalahan jenayah terancang (6B KK)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I04",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan perintah pengawasan polis di bawah kesalahan terhadap negara (Bab 6 KK)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I05",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan perintah pengawasan polis berkaitan kes keganasan (6A KK)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I06",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan perintah pengawasan polis di bawah jenayah terancang (6B KK)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I07",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan permohonan kes ditolak di bawah kesalahan terhadap negara (Bab 6 KK)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I08",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan permohonan kes ditolak berkaitan kes keganasan (6A KK)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I09",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan permohonan kes ditolak di bawah jenayah terancang (6B KK)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T01-K01-I10",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan kes pengusiran warga asing yang terlibat kes keganasan"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T03-K01-I41",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan kes penyeludupan migran"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T03-K01-I42",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan tangkapan berkaitan kes penyeludupan migran (tekong)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T03-K01-I43",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan tangkapan berkaitan kes penyeludupan migran (migran)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T03-K01-I44",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan tuduhan kes penyeludupan migran (tekong)"
+ },
+ {
+  "Rujukan Indikator": "CWKH-T04-K06-I121",
+  "Kod Jabatan": "CWKH",
+  "Nama Indikator": "Bilangan kempen advokasi berkaitan kes keganasan"
+ },
+ {
+  "Rujukan Indikator": "CYSC-T04-K07-I122",
+  "Kod Jabatan": "CYSC",
+  "Nama Indikator": "Bilangan Insiden Pencerobohan Siber"
+ },
+ {
+  "Rujukan Indikator": "CYSC-T04-K07-I123",
+  "Kod Jabatan": "CYSC",
+  "Nama Indikator": "Bilangan Insiden Percubaan Pencerobohan Siber"
+ },
+ {
+  "Rujukan Indikator": "CYSC-T04-K07-I126",
+  "Kod Jabatan": "CYSC",
+  "Nama Indikator": "Bilangan insiden penipuan dalam talian"
+ },
+ {
+  "Rujukan Indikator": "FRUM-T04-K06-I117",
+  "Kod Jabatan": "FRUM",
+  "Nama Indikator": "Bilangan Operasi FRU"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K04-I59",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan tangkapan majikan (individu)"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K04-I60",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan kes tangkapan PATI"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K04-I61",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan tangkapan PATI (individu)"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K04-I62",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan tangkapan PATI (individu semasa operasi)"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K04-I63",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan tangkapan PATI (pintu masuk & serahan agensi-agensi lain)"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K04-I64",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan pendakwaan PATI"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K04-I65",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Jumlah kutipan denda (RM) yang dikenakan terhadap majikan"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K04-I66",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Jumlah kutipan denda (RM) yang dikenakan terhadap PATI"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K05-I68",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan pengusiran warga asing ke negara asal"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K05-I69",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan tangkapan dan rampasan orang"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K06-I73",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan operasi PATI"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K06-I74",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan anggota yang terlibat dalam operasi penguatkuasaan PATI"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K06-I75",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan pemeriksaan warga asing (yang dicurigai) di pintu masuk"
+ },
+ {
+  "Rujukan Indikator": "JIMM-T03-K06-I76",
+  "Kod Jabatan": "JIMM",
+  "Nama Indikator": "Bilangan pemeriksaan warga asing (yang dicurigai) di pintu keluar"
+ },
+ {
+  "Rujukan Indikator": "JIPS-T02-K05-I40",
+  "Kod Jabatan": "JIPS",
+  "Nama Indikator": "Bilangan pegawai polis yang dikenakan hukuman tatatertib (integriti, governans, rasuah, jenayah, syariah, dadah)"
+ },
+ {
+  "Rujukan Indikator": "JKIM-T01-K03-I13",
+  "Kod Jabatan": "JKIM",
+  "Nama Indikator": "Bilangan tangkapan kes Terima dan Beri rasuah oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "JPJK-T04-K06-I115",
+  "Kod Jabatan": "JPJK",
+  "Nama Indikator": "Bilangan program/kempen pencegahan jenayah"
+ },
+ {
+  "Rujukan Indikator": "JPJK-T04-K06-I118",
+  "Kod Jabatan": "JPJK",
+  "Nama Indikator": "Bilangan rondaan"
+ },
+ {
+  "Rujukan Indikator": "JPJK-T04-K06-I119",
+  "Kod Jabatan": "JPJK",
+  "Nama Indikator": "Bilangan penasihat komuniti"
+ },
+ {
+  "Rujukan Indikator": "JPNM-T01-K02-I11",
+  "Kod Jabatan": "JPNM",
+  "Nama Indikator": "Bilangan tangkapan dan pendakwaan di bawah Peraturan-Peraturan Pendaftaran Negara 1990"
+ },
+ {
+  "Rujukan Indikator": "JPNM-T01-K02-I12",
+  "Kod Jabatan": "JPNM",
+  "Nama Indikator": "Bilangan tangkapan dan pendakwaan di bawah Akta Kelahiran dan Kematian (Akta 299)"
+ },
+ {
+  "Rujukan Indikator": "JSJK-T04-K07-I124",
+  "Kod Jabatan": "JSJK",
+  "Nama Indikator": "Bilangan Kes Jenayah Siber"
+ },
+ {
+  "Rujukan Indikator": "JSJK-T04-K07-I125",
+  "Kod Jabatan": "JSJK",
+  "Nama Indikator": "Nilai (RM) Kes Jenayah Siber"
+ },
+ {
+  "Rujukan Indikator": "JSJK-T04-K07-I127",
+  "Kod Jabatan": "JSJK",
+  "Nama Indikator": "Bilangan Tangkapan Jenayah Siber"
+ },
+ {
+  "Rujukan Indikator": "JSJK-T04-K07-I128",
+  "Kod Jabatan": "JSJK",
+  "Nama Indikator": "Bilangan Pertuduhan Jenayah Siber"
+ },
+ {
+  "Rujukan Indikator": "JSJK-T04-K08-I132",
+  "Kod Jabatan": "JSJK",
+  "Nama Indikator": "Bilangan kes jenayah komersil"
+ },
+ {
+  "Rujukan Indikator": "JSJK-T04-K08-I133",
+  "Kod Jabatan": "JSJK",
+  "Nama Indikator": "Nilai (RM) kes jenayah komersil"
+ },
+ {
+  "Rujukan Indikator": "JSJN-T03-K03-I52",
+  "Kod Jabatan": "JSJN",
+  "Nama Indikator": "Nilai rampasan penyeludupan dadah"
+ },
+ {
+  "Rujukan Indikator": "JSJN-T04-K02-I96",
+  "Kod Jabatan": "JSJN",
+  "Nama Indikator": "Bilangan Kes Membekal Dadah"
+ },
+ {
+  "Rujukan Indikator": "JSJN-T04-K02-I97",
+  "Kod Jabatan": "JSJN",
+  "Nama Indikator": "Bilangan Tangkapan Membekal Dadah"
+ },
+ {
+  "Rujukan Indikator": "JSJN-T04-K02-I98",
+  "Kod Jabatan": "JSJN",
+  "Nama Indikator": "Bilangan Kes Memiliki Dadah"
+ },
+ {
+  "Rujukan Indikator": "JSJN-T04-K02-I99",
+  "Kod Jabatan": "JSJN",
+  "Nama Indikator": "Bilangan Tangkapan Memiliki Dadah"
+ },
+ {
+  "Rujukan Indikator": "JSPT-T04-K04-I107",
+  "Kod Jabatan": "JSPT",
+  "Nama Indikator": "Bilangan Kes Kemalangan Maut"
+ },
+ {
+  "Rujukan Indikator": "JSPT-T04-K04-I108",
+  "Kod Jabatan": "JSPT",
+  "Nama Indikator": "Bilangan Kes Semasa di bawah pengaruh Dadah & Alkohol (Seksyen 44 & 45)"
+ },
+ {
+  "Rujukan Indikator": "JSPT-T04-K04-I109",
+  "Kod Jabatan": "JSPT",
+  "Nama Indikator": "Bilangan Kes Cedera Parah"
+ },
+ {
+  "Rujukan Indikator": "JSPT-T04-K04-I110",
+  "Kod Jabatan": "JSPT",
+  "Nama Indikator": "Bilangan Kes Cedera Ringan"
+ },
+ {
+  "Rujukan Indikator": "JSPT-T04-K04-I111",
+  "Kod Jabatan": "JSPT",
+  "Nama Indikator": "Bilangan Kes Kerosakan Sahaja"
+ },
+ {
+  "Rujukan Indikator": "JSPT-T04-K06-I116",
+  "Kod Jabatan": "JSPT",
+  "Nama Indikator": "Bilangan kempen advokasi keselamatan jalanraya"
+ },
+ {
+  "Rujukan Indikator": "JSPT-T04-K06-I119",
+  "Kod Jabatan": "JSPT",
+  "Nama Indikator": "Bilangan penasihat komuniti"
+ },
+ {
+  "Rujukan Indikator": "KKDN-T05-K02-I165",
+  "Kod Jabatan": "KKDN",
+  "Nama Indikator": "Jumlah Peruntukan Projek ICT berkaitan keselamatan"
+ },
+ {
+  "Rujukan Indikator": "KKDN-T05-K04-I177",
+  "Kod Jabatan": "KKDN",
+  "Nama Indikator": "Jumlah Peruntukan Bajet KDN (RM Billion)"
+ },
+ {
+  "Rujukan Indikator": "KKDN-T05-K04-I178",
+  "Kod Jabatan": "KKDN",
+  "Nama Indikator": "Jumlah Peruntukan Bajet MINDEF (RM Billion)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K04-I59",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan tangkapan majikan (individu)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K04-I60",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan kes tangkapan PATI"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K04-I61",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan tangkapan PATI (individu)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K04-I62",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan tangkapan PATI (individu semasa operasi)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K04-I63",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan tangkapan PATI (pintu masuk & serahan agensi-agensi lain)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K04-I64",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan pendakwaan PATI"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K05-I69",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan tangkapan dan rampasan orang"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I73",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan operasi PATI"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I74",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan anggota yang terlibat dalam operasi penguatkuasaan PATI"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I79",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan pemeriksaan vesel di sempadan perairan (PPM/PGU)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I80",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan hari rondaan di sempadan perairan (PPM/PGU)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I81",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan pos kawalan sempadan (PGA)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I82",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan operasi sempadan (PGA)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I83",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan anggota di setiap pos kawalan (PGA/PPM)"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I84",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan Sumber manusia dan logistik sempadan"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I85",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan Infrastruktur dan teknologi"
+ },
+ {
+  "Rujukan Indikator": "KNKA-T03-K06-I86",
+  "Kod Jabatan": "KNKA",
+  "Nama Indikator": "Bilangan kerjasama antarabangsa"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T03-K03-I51",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Nilai rampasan penyeludupan senjata api (hidup)"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T03-K03-I52",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Nilai rampasan penyeludupan dadah"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T03-K03-I53",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Nilai rampasan penyeludupan ketum"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T03-K03-I54",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Nilai rampasan penyeludupan rokok"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T03-K03-I55",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Nilai rampasan penyeludupan petrol"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T03-K03-I56",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Nilai rampasan penyeludupan diesel"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T03-K03-I57",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Nilai rampasan barangan kawalan"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T03-K03-I58",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Nilai rampasan lain-lain penyeludupan"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T03-K05-I72",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Bilangan tangkapan dan rampasan kenderaan terkait dengan pelanggaran sempadan"
+ },
+ {
+  "Rujukan Indikator": "KSTM-T05-K01-I163",
+  "Kod Jabatan": "KSTM",
+  "Nama Indikator": "Bilangan Perjawatan KASTAM"
+ },
+ {
+  "Rujukan Indikator": "MAPO-T03-K01-I41",
+  "Kod Jabatan": "MAPO",
+  "Nama Indikator": "Bilangan kes penyeludupan migran"
+ },
+ {
+  "Rujukan Indikator": "MAPO-T03-K01-I42",
+  "Kod Jabatan": "MAPO",
+  "Nama Indikator": "Bilangan tangkapan berkaitan kes penyeludupan migran (tekong)"
+ },
+ {
+  "Rujukan Indikator": "MAPO-T03-K01-I43",
+  "Kod Jabatan": "MAPO",
+  "Nama Indikator": "Bilangan tangkapan berkaitan kes penyeludupan migran (migran)"
+ },
+ {
+  "Rujukan Indikator": "MAPO-T03-K01-I44",
+  "Kod Jabatan": "MAPO",
+  "Nama Indikator": "Bilangan tuduhan kes penyeludupan migran (tekong)"
+ },
+ {
+  "Rujukan Indikator": "MAPO-T03-K02-I46",
+  "Kod Jabatan": "MAPO",
+  "Nama Indikator": "Bilangan kes pemerdagangan orang"
+ },
+ {
+  "Rujukan Indikator": "MAPO-T03-K02-I47",
+  "Kod Jabatan": "MAPO",
+  "Nama Indikator": "Bilangan tangkapan berkaitan pemerdagangan orang"
+ },
+ {
+  "Rujukan Indikator": "MAPO-T03-K02-I48",
+  "Kod Jabatan": "MAPO",
+  "Nama Indikator": "Bilangan orang yang disyaki diperdagangkan"
+ },
+ {
+  "Rujukan Indikator": "MAPO-T03-K02-I49",
+  "Kod Jabatan": "MAPO",
+  "Nama Indikator": "Bilangan tuduhan kes pemerdagangan orang"
+ },
+ {
+  "Rujukan Indikator": "MNDF-T05-K01-I164",
+  "Kod Jabatan": "MNDF",
+  "Nama Indikator": "Bilangan Perjawatan ATM"
+ },
+ {
+  "Rujukan Indikator": "MNDF-T05-K02-I166",
+  "Kod Jabatan": "MNDF",
+  "Nama Indikator": "Jumlah peruntukan domain cyber electromagnetic (tentera)"
+ },
+ {
+  "Rujukan Indikator": "MNDF-T05-K02-I167",
+  "Kod Jabatan": "MNDF",
+  "Nama Indikator": "Jumlah peruntukan domain teknologi maklumat awam (MINDEF)"
+ },
+ {
+  "Rujukan Indikator": "MNDF-T05-K03-I173",
+  "Kod Jabatan": "MNDF",
+  "Nama Indikator": "Bilangan Kem Tentera"
+ },
+ {
+  "Rujukan Indikator": "MNDF-T05-K04-I174",
+  "Kod Jabatan": "MNDF",
+  "Nama Indikator": "Kadar Perbelanjaan Pertahanan atas KDNK (GDP)"
+ },
+ {
+  "Rujukan Indikator": "MNDF-T05-K04-I175",
+  "Kod Jabatan": "MNDF",
+  "Nama Indikator": "Jumlah Import Senjata Api (RM)"
+ },
+ {
+  "Rujukan Indikator": "MNDF-T05-K04-I176",
+  "Kod Jabatan": "MNDF",
+  "Nama Indikator": "Jumlah Perbelanjaan Ketenteraan (RM Billion)"
+ },
+ {
+  "Rujukan Indikator": "NACA-T04-K07-I131",
+  "Kod Jabatan": "NACA",
+  "Nama Indikator": "Bilangan Insiden Keselamatan Strategik Siber"
+ },
+ {
+  "Rujukan Indikator": "PD11-T04-K01-I94",
+  "Kod Jabatan": "PD11",
+  "Nama Indikator": "Bilangan Kes Rogol"
+ },
+ {
+  "Rujukan Indikator": "PD11-T04-K01-I95",
+  "Kod Jabatan": "PD11",
+  "Nama Indikator": "Bilangan Kes Amang Seksual Fizikal (Kanak-kanak)"
+ },
+ {
+  "Rujukan Indikator": "PDD4-T04-K03-I102",
+  "Kod Jabatan": "PDD4",
+  "Nama Indikator": "Bilangan Pecah Rumah dan Curi"
+ },
+ {
+  "Rujukan Indikator": "PDD4-T04-K03-I103",
+  "Kod Jabatan": "PDD4",
+  "Nama Indikator": "Bilangan Curi Motokar"
+ },
+ {
+  "Rujukan Indikator": "PDD4-T04-K03-I104",
+  "Kod Jabatan": "PDD4",
+  "Nama Indikator": "Bilangan Curi Motosikal"
+ },
+ {
+  "Rujukan Indikator": "PDD4-T04-K03-I105",
+  "Kod Jabatan": "PDD4",
+  "Nama Indikator": "Bilangan Curi Van/Lori/J'Berat"
+ },
+ {
+  "Rujukan Indikator": "PDD4-T04-K03-I106",
+  "Kod Jabatan": "PDD4",
+  "Nama Indikator": "Bilangan Curi (Lain-lain)"
+ },
+ {
+  "Rujukan Indikator": "PDD7-T04-K01-I92",
+  "Kod Jabatan": "PDD7",
+  "Nama Indikator": "Bilangan Kes Mencederakan (Gangsterism)"
+ },
+ {
+  "Rujukan Indikator": "PDD9-T04-K01-I87",
+  "Kod Jabatan": "PDD9",
+  "Nama Indikator": "Bilangan Kes Bunuh"
+ },
+ {
+  "Rujukan Indikator": "PDD9-T04-K01-I88",
+  "Kod Jabatan": "PDD9",
+  "Nama Indikator": "Bilangan Kes Samun Berkawan Bersenjata Api"
+ },
+ {
+  "Rujukan Indikator": "PDD9-T04-K01-I89",
+  "Kod Jabatan": "PDD9",
+  "Nama Indikator": "Bilangan Kes Samun Berkawan Tanpa Bersenjata Api"
+ },
+ {
+  "Rujukan Indikator": "PDD9-T04-K01-I90",
+  "Kod Jabatan": "PDD9",
+  "Nama Indikator": "Bilangan Kes Samun Bersenjata Api"
+ },
+ {
+  "Rujukan Indikator": "PDD9-T04-K01-I91",
+  "Kod Jabatan": "PDD9",
+  "Nama Indikator": "Bilangan Kes Samun Tanpa Bersenjata Api"
+ },
+ {
+  "Rujukan Indikator": "PDD9-T04-K01-I93",
+  "Kod Jabatan": "PDD9",
+  "Nama Indikator": "Bilangan Kes Culik"
+ },
+ {
+  "Rujukan Indikator": "PJRA-T04-K05-I112",
+  "Kod Jabatan": "PJRA",
+  "Nama Indikator": "Bilangan Banduan (Kes Jenayah)"
+ },
+ {
+  "Rujukan Indikator": "PJRA-T04-K05-I113",
+  "Kod Jabatan": "PJRA",
+  "Nama Indikator": "Bilangan Banduan (Jenayah Dadah)"
+ },
+ {
+  "Rujukan Indikator": "PJRA-T04-K05-I114",
+  "Kod Jabatan": "PJRA",
+  "Nama Indikator": "Bilangan Banduan (Jenayah dan Dadah)"
+ },
+ {
+  "Rujukan Indikator": "PJRA-T05-K03-I172",
+  "Kod Jabatan": "PJRA",
+  "Nama Indikator": "Bilangan Institusi Penjara"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K01-I01",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan perintah tahanan atas kesalahan di bawah kesalahan terhadap negara (Bab 6 KK)"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K01-I03",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan perintah tahanan atas kesalahan di bawah kesalahan jenayah terancang (6B KK)"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K01-I04",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan perintah pengawasan polis di bawah kesalahan terhadap negara (Bab 6 KK)"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K01-I06",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan perintah pengawasan polis di bawah jenayah terancang (6B KK)"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K01-I07",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan permohonan kes ditolak di bawah kesalahan terhadap negara (Bab 6 KK)"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K01-I09",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan permohonan kes ditolak di bawah jenayah terancang (6B KK)"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K04-I14",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan ajaran agama Islam menyeleweng (aktif) yang diputuskan Jawatankuasa Muzakarah MKI"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K04-I15",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan kes rusuhan yang disiasat berkaitan isu 3R"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K04-I17",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan kes rusuhan yang disabitkan berkaitan isu 3R"
+ },
+ {
+  "Rujukan Indikator": "PJSJ-T01-K04-I18",
+  "Kod Jabatan": "PJSJ",
+  "Nama Indikator": "Bilangan kes yang disiasat berkaitan isu 3R"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T01-K04-I16",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan kes rusuhan yang didakwa berkaitan isu 3R"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T01-K04-I19",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan kes yang didakwa berkaitan isu 3R"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T01-K05-I22",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan tuduhan berkaitan badan kehakiman/perundangan di bawah Akta SPRM"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T01-K06-I25",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan Tuduhan Melibatkan Anggota / Kakitangan Eksekutif dan Legislatif"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T02-K01-I28",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan sabitan kes rasuah oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T02-K02-I31",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan sabitan kes penyalahgunaan kuasa oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T02-K03-I34",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan sabitan kes tuntutan palsu oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T02-K04-I37",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan sabitan kes pecah amanah (kanun keseksaan) oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T03-K01-I45",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan sabitan kes penyeludupan migran"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T03-K02-I50",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan sabitan kes pemerdagangan orang"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T03-K04-I67",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Jumlah kutipan denda (RM) mahkamah yang dikenakan terhadap PATI"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T04-K07-I129",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan Sabitan Jenayah Siber"
+ },
+ {
+  "Rujukan Indikator": "PKPP-T04-K09-I137",
+  "Kod Jabatan": "PKPP",
+  "Nama Indikator": "Bilangan Pesalah Rasuah Yang Dijatuhi Hukuman"
+ },
+ {
+  "Rujukan Indikator": "PMGT-T05-K03-I168",
+  "Kod Jabatan": "PMGT",
+  "Nama Indikator": "Bilangan IPD, IPK,  Balai Polis, dan Pondok Polis"
+ },
+ {
+  "Rujukan Indikator": "PMGT-T05-K03-I169",
+  "Kod Jabatan": "PMGT",
+  "Nama Indikator": "Bilangan Kenderaan Polis Aktif"
+ },
+ {
+  "Rujukan Indikator": "PMGT-T05-K03-I170",
+  "Kod Jabatan": "PMGT",
+  "Nama Indikator": "Bilangan Institusi Latihan"
+ },
+ {
+  "Rujukan Indikator": "PMGT-T05-K03-I171",
+  "Kod Jabatan": "PMGT",
+  "Nama Indikator": "Bilangan Kapasiti Lokap (Warta dan Aktif)"
+ },
+ {
+  "Rujukan Indikator": "SIAP-T02-K05-I39",
+  "Kod Jabatan": "SIAP",
+  "Nama Indikator": "Bilangan kes aduan integriti yang disyorkan untuk tindakan tatatertib"
+ },
+ {
+  "Rujukan Indikator": "SKMM-T04-K07-I130",
+  "Kod Jabatan": "SKMM",
+  "Nama Indikator": "Bilangan Insiden Keselamatan Rangkaian"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T01-K05-I20",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan kes yang disabitkan berkaitan isu 3R"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T01-K05-I21",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan tangkapan berkaitan badan kehakiman/perundangan di bawah Akta SPRM"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T01-K06-I23",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan sabitan berkaitan badan kehakiman/perundangan di bawah Akta SPRM"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T01-K06-I24",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan Tangkapan Melibatkan Anggota / Kakitangan Eksekutif dan Legislatif"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T02-K01-I26",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan Sabitan Melibatkan Anggota / Kakitangan Eksekutif dan Legislatif"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T02-K01-I27",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan tuduhan kes Terima dan Beri rasuah oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T02-K02-I29",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan tangkapan kes penyalahgunaan kuasa oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T02-K02-I30",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan tuduhan kes penyalahgunaan kuasa oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T02-K03-I32",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan tangkapan kes tuntutan palsu oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T02-K03-I33",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan tuduhan kes tuntutan palsu oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T02-K04-I35",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan tangkapan kes pecah amanah (kanun keseksaan) oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T02-K04-I36",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan tuduhan kes pecah amanah (kanun keseksaan) oleh kakitangan agensi penguatkuasa"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T04-K06-I120",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan Program Pencegahan Rasuah Yang Dianjurkan Oleh SPRM"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T04-K09-I134",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Jumlah (RM) Nilai yang Dilucut Hak"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T04-K09-I135",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Jumlah (RM) Denda Dan Penalti Yang Dikenakan Terhadap Pesalah Rasuah"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T04-K09-I136",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan Pesalah Rasuah Yang Didakwa (Bilangan Individu yang Didakwa atas Kes Rasuah)"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T04-K10-I138",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan Kes Pertuduhan Di bawah AMLA"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T04-K10-I139",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan Kes Sabitan di bawah AMLA"
+ },
+ {
+  "Rujukan Indikator": "SPRM-T05-K01-I162",
+  "Kod Jabatan": "SPRM",
+  "Nama Indikator": "Bilangan Perjawatan SPRM"
+ },
+ {
+  "Rujukan Indikator": "UIKD-T02-K05-I38",
+  "Kod Jabatan": "UIKD",
+  "Nama Indikator": "Bilangan kes integriti dalam pendakwaan"
+ },
+ {
+  "Rujukan Indikator": "UIKS-T02-K05-I38",
+  "Kod Jabatan": "UIKS",
+  "Nama Indikator": "Bilangan kes integriti dalam pendakwaan"
+ },
+ {
+  "Rujukan Indikator": "UISP-T02-K05-I38",
+  "Kod Jabatan": "UISP",
+  "Nama Indikator": "Bilangan kes integriti dalam pendakwaan"
+ }
+]
