@@ -10,6 +10,9 @@ import TabbedSectionCard from "../../components/TabbedSectionCard";
 import InputCard from "../../components/InputCard";
 import Table from "../../components/Table";
 import IndeksTerasLineChart from "../../components/IndeksTerasLineChart";
+import terasData from "../../assets/data/Teras.json";
+import komponenData from "../../assets/data/Komponen.json";
+import indeksKomponenData from "../../assets/data/IndeksKomponen.json";
 
 function AnalisisIndeks() {
     return (
@@ -85,8 +88,41 @@ function AnalisisIndeks() {
                                     </div>
                                 ),
                                 prestasi: (
-                                    <div className="text-gray-600">
-                                        <p>Analisis Komponen content will be displayed here.</p>
+                                    <div className="flex flex-col gap-6">
+                                        {terasData.map((teras) => {
+                                            // Get komponens for this teras
+                                            const komponens = komponenData.filter(k => k["Kod Teras"] === teras["Kod Teras"]);
+                                            
+                                            // Get latest indeks values for each komponen (2025 data)
+                                            const tableData = komponens.map((komponen, index) => {
+                                                const indeksRecord = indeksKomponenData.find(
+                                                    i => i["Kod Komponen"] === komponen["Kod Komponen"] && i.Tahun === 2025
+                                                );
+                                                
+                                                return {
+                                                    bil: index + 1,
+                                                    komponen: komponen["Nama Komponen"],
+                                                    indeks: indeksRecord ? parseFloat(indeksRecord.Indeks).toFixed(2) : "N/A"
+                                                };
+                                            });
+
+                                            return (
+                                                <div key={teras["Kod Teras"]}>
+                                                    <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                                                        {teras["Kod Teras"]}: {teras["Nama Teras"]}
+                                                    </h3>
+                                                    <Table
+                                                        columns={[
+                                                            { header: "Bil", accessor: "bil", width: "60px" },
+                                                            { header: "Komponen", accessor: "komponen" },
+                                                            { header: "Indeks", accessor: "indeks", width: "120px" },
+                                                        ]}
+                                                        data={tableData}
+                                                        searchable={false}
+                                                    />
+                                                </div>
+                                            );
+                                        })}
                                     </div>
                                 )
                             }}

@@ -14,7 +14,7 @@ function SelenggaraPengguna() {
     const [users, setUsers] = useState([
         {
             id: 1,
-            nama: "Dr. Ahmad bin Abdullah",
+            nama: "Inspektor Nur Aisyah binti Hassan",
             jenis: "Super",
             jabatan: "JSPT",
         },
@@ -26,37 +26,37 @@ function SelenggaraPengguna() {
         },
         {
             id: 3,
-            nama: "Encik Mohd Razak",
+            nama: "Koperal Stephanie Jane",
             jenis: "Pemilik Data",
             jabatan: "JSJN",
         },
         {
             id: 4,
-            nama: "Puan Mimi Aminah",
+            nama: "Konstabel Yana Abdul",
             jenis: "Pemilik Data",
             jabatan: "JSPT",
         },
         {
             id: 5,
-            nama: "Dr. Tan Wei Ling",
+            nama: "Pegawai Penyiasat Farahin Yazid",
             jenis: "Strategik",
             jabatan: "SPRM",
         },
         {
             id: 6,
-            nama: "Encik Rajesh Kumar",
+            nama: "Ketua Warden Jailani Osman",
             jenis: "Pemilik Data",
             jabatan: "JIMM",
         },
         {
             id: 7,
-            nama: "Puan Fatimah Zahra",
+            nama: "Dr. Fatimah Zahra",
             jenis: "Super",
             jabatan: "UIKD",
         },
         {
             id: 8,
-            nama: "Encik Lee Chong Wei",
+            nama: "Komander Maritim Nabil Ahmad",
             jenis: "Pemilik Data",
             jabatan: "APMM",
         },
@@ -216,6 +216,9 @@ function SelenggaraPengguna() {
                                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-16">
                                         Bil.
                                     </th>
+                                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-24">
+                                        Gambar
+                                    </th>
                                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                                         Nama Pengguna
                                     </th>
@@ -235,6 +238,13 @@ function SelenggaraPengguna() {
                                     <tr key={user.id} className="hover:bg-gray-50">
                                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                                             {index + 1}
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap">
+                                            <img 
+                                                src={`/src/assets/images/${user.jabatan.toLowerCase()}.jpg`}
+                                                alt={user.nama}
+                                                className="h-10 w-10 rounded-full object-cover"
+                                            />
                                         </td>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                                             {user.nama}

@@ -22,6 +22,12 @@ function PenjanaanIndeksIndikator() {
   const [baselineYear, setBaselineYear] = useState<number>(2021);
   const [searchTerm, setSearchTerm] = useState("");
   const [showCalculations, setShowCalculations] = useState(false);
+  const [checklist, setChecklist] = useState({
+    dataVerified: false,
+    highWeightComplete: false,
+    allAgenciesComplete: false,
+    dataComplete90: false,
+  });
 
   const indicatorMap = useMemo(() => buildIndicatorMap(), []);
 
@@ -63,6 +69,22 @@ function PenjanaanIndeksIndikator() {
       setShowCalculations(false); // Reset when indicator changes
     }
   }, [selectedIndicator]);
+
+  const allChecked = useMemo(
+    () =>
+      checklist.dataVerified &&
+      checklist.highWeightComplete &&
+      checklist.allAgenciesComplete &&
+      checklist.dataComplete90,
+    [checklist]
+  );
+
+  const handleChecklistChange = (key: keyof typeof checklist) => {
+    setChecklist((prev) => ({
+      ...prev,
+      [key]: !prev[key],
+    }));
+  };
 
   const handleJanaIndeks = () => {
     setShowCalculations(true);
@@ -293,17 +315,89 @@ function PenjanaanIndeksIndikator() {
                     </div>
                   </div>
                 </div>
+              </SectionCard>
+            )}
 
-                <div className="mt-6">
-                  <Button
-                    variant="primary"
-                    size="lg"
-                    onClick={handleJanaIndeks}
-                    className="w-full"
-                  >
-                    <BoltIcon className="h-5 w-5 mr-2" />
-                    Jana Indeks
-                  </Button>
+            {/* Checklist Section */}
+            {selectedIndicator && stats && (
+              <SectionCard title="Senarai Semak">
+                <div className="space-y-4">
+                  <p className="text-sm text-gray-700 mb-4">
+                    Sila semak dan tandakan kesemua kriteria di bawah sebelum menjana indeks:
+                  </p>
+
+                  <div className="space-y-3">
+                    <label className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 hover:bg-gray-50 cursor-pointer transition-colors">
+                      <input
+                        type="checkbox"
+                        checked={checklist.dataVerified}
+                        onChange={() => handleChecklistChange("dataVerified")}
+                        className="mt-1 h-5 w-5 text-blue-600 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+                      />
+                      <span className="text-sm text-gray-700">
+                        Data bagi setiap indikator telah disemak dan tiada kesilapan
+                      </span>
+                    </label>
+
+                    <label className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 hover:bg-gray-50 cursor-pointer transition-colors">
+                      <input
+                        type="checkbox"
+                        checked={checklist.highWeightComplete}
+                        onChange={() => handleChecklistChange("highWeightComplete")}
+                        className="mt-1 h-5 w-5 text-blue-600 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+                      />
+                      <span className="text-sm text-gray-700">
+                        Kesemua data bagi indikator yang mempunyai pemberat 4 dan 5 telah lengkap diisi
+                      </span>
+                    </label>
+
+                    <label className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 hover:bg-gray-50 cursor-pointer transition-colors">
+                      <input
+                        type="checkbox"
+                        checked={checklist.allAgenciesComplete}
+                        onChange={() => handleChecklistChange("allAgenciesComplete")}
+                        className="mt-1 h-5 w-5 text-blue-600 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+                      />
+                      <span className="text-sm text-gray-700">
+                        Semua agensi telah melengkapkan kemasukan data
+                      </span>
+                    </label>
+
+                    <label className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 hover:bg-gray-50 cursor-pointer transition-colors">
+                      <input
+                        type="checkbox"
+                        checked={checklist.dataComplete90}
+                        onChange={() => handleChecklistChange("dataComplete90")}
+                        className="mt-1 h-5 w-5 text-blue-600 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+                      />
+                      <span className="text-sm text-gray-700">
+                        Data telah lengkap diisi sekurang-kurangnya 90%
+                      </span>
+                    </label>
+                  </div>
+
+                  <div className="mt-6">
+                    <Button
+                      variant="primary"
+                      size="lg"
+                      onClick={handleJanaIndeks}
+                      disabled={!allChecked}
+                      className={`w-full transition-all ${
+                        !allChecked
+                          ? "opacity-50 cursor-not-allowed bg-gray-400 hover:bg-gray-400"
+                          : ""
+                      }`}
+                    >
+                      <BoltIcon className="h-5 w-5 mr-2" />
+                      {allChecked ? "Jana Indeks" : "Lengkapkan Senarai Semak Untuk Jana Indeks"}
+                    </Button>
+                  </div>
+
+                  {!allChecked && (
+                    <p className="text-xs text-red-600 text-center">
+                      * Sila tandakan kesemua kotak semak sebelum menjana indeks
+                    </p>
+                  )}
                 </div>
               </SectionCard>
             )}
