@@ -8,10 +8,14 @@ import {
   CalculatorIcon,
   NewspaperIcon,
   ChartBarIcon,
+  ChartBarSquareIcon,
   AdjustmentsHorizontalIcon,
   ChevronDownIcon,
   ChevronUpIcon,
 } from "@heroicons/react/24/outline";
+import terasData from "../assets/data/Teras.json";
+import komponenData from "../assets/data/Komponen.json";
+import indikatorData from "../assets/data/Indikator.json";
 
 type SubMenuItem = {
   name: string;
@@ -32,6 +36,134 @@ function Sidebar() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  // Generate Analitik Deskriptif sub-items
+  const generateDeskriptifSubItems = () => {
+    return terasData.map((teras, terasIndex) => {
+      const komponenForTeras = komponenData.filter(
+        k => k["Kod Teras"] === teras["Kod Teras"]
+      );
+
+      return {
+        name: `Teras ${terasIndex + 1}`,
+        path: `/analitik-deskriptif/teras/${teras["Kod Teras"].toLowerCase()}`,
+        subItems: [
+          {
+            name: `Komponen Keseluruhan ${teras["Kod Teras"]}`,
+            path: `/analitik-deskriptif/teras/${teras["Kod Teras"].toLowerCase()}/komponen-keseluruhan`,
+          },
+          ...komponenForTeras.map((komponen, komponenIndex) => ({
+            name: `Komponen ${komponenIndex + 1}`,
+            path: `/analitik-deskriptif/teras/${teras["Kod Teras"].toLowerCase()}/komponen/${komponen["Kod Komponen"].toLowerCase()}`,
+          })),
+        ],
+      };
+    });
+  };
+
+  // Generate Analitik Diagnostik sub-items
+  const generateDiagnostikSubItems = () => {
+    const terasItems = terasData.map((teras, terasIndex) => {
+      const komponenForTeras = komponenData.filter(
+        k => k["Kod Teras"] === teras["Kod Teras"]
+      );
+
+      return {
+        name: `Teras ${terasIndex + 1}`,
+        path: `/analitik-diagnostik/teras/${teras["Kod Teras"].toLowerCase()}`,
+        subItems: [
+          {
+            name: "Teras by Komponen",
+            path: `/analitik-diagnostik/teras/${teras["Kod Teras"].toLowerCase()}/teras-by-komponen`,
+          },
+          {
+            name: "Komponen by Indikator",
+            path: `/analitik-diagnostik/teras/${teras["Kod Teras"].toLowerCase()}/komponen-by-indikator`,
+            subItems: komponenForTeras.map((komponen, komponenIndex) => ({
+              name: `Komponen ${komponenIndex + 1}`,
+              path: `/analitik-diagnostik/teras/${teras["Kod Teras"].toLowerCase()}/komponen-by-indikator/${komponen["Kod Komponen"].toLowerCase()}`,
+            })),
+          },
+        ],
+      };
+    });
+
+    return [
+      ...terasItems,
+      {
+        name: "Indikator by Indikator",
+        path: "/analitik-diagnostik/indikator-by-indikator",
+      },
+    ];
+  };
+
+  // Generate Analitik Prediktif sub-items
+  const generatePrediktifSubItems = () => {
+    return terasData.map((teras, terasIndex) => {
+      const komponenForTeras = komponenData.filter(
+        k => k["Kod Teras"] === teras["Kod Teras"]
+      );
+
+      return {
+        name: `Teras ${terasIndex + 1}`,
+        path: `/analitik-prediktif/teras/${teras["Kod Teras"].toLowerCase()}`,
+        subItems: komponenForTeras.map((komponen, komponenIndex) => ({
+          name: `Komponen ${komponenIndex + 1}`,
+          path: `/analitik-prediktif/teras/${teras["Kod Teras"].toLowerCase()}/komponen/${komponen["Kod Komponen"].toLowerCase()}`,
+        })),
+      };
+    });
+  };
+
+  // Generate Analitik Preskriptif sub-items
+  const generatePreskriptifSubItems = () => {
+    return terasData.map((teras, terasIndex) => {
+      const komponenForTeras = komponenData.filter(
+        k => k["Kod Teras"] === teras["Kod Teras"]
+      );
+
+      const komponenItems = komponenForTeras.map((komponen, komponenIndex) => {
+        const indikatorForKomponen = indikatorData.filter(
+          i => i["Kod Komponen"] === komponen["Kod Komponen"]
+        );
+
+        return {
+          name: `Komponen ${komponen["Kod Komponen"]}`,
+          path: `/analitik-preskriptif/teras/${teras["Kod Teras"].toLowerCase()}/komponen/${komponen["Kod Komponen"].toLowerCase()}`,
+          subItems: [
+            {
+              name: `Preskriptif Komponen ${komponen["Kod Komponen"]}`,
+              path: `/analitik-preskriptif/teras/${teras["Kod Teras"].toLowerCase()}/komponen/${komponen["Kod Komponen"].toLowerCase()}/preskriptif`,
+            },
+            {
+              name: `Indikator ${komponen["Kod Komponen"]}`,
+              path: `/analitik-preskriptif/teras/${teras["Kod Teras"].toLowerCase()}/komponen/${komponen["Kod Komponen"].toLowerCase()}/indikator`,
+              subItems: indikatorForKomponen.map((indikator, indikatorIndex) => ({
+                name: `Preskriptif Indikator ${indikator["Kod Indikator"]}`,
+                path: `/analitik-preskriptif/teras/${teras["Kod Teras"].toLowerCase()}/komponen/${komponen["Kod Komponen"].toLowerCase()}/indikator/${indikator["Kod Indikator"].toLowerCase()}`,
+              })),
+            },
+          ],
+        };
+      });
+
+      return {
+        name: `Teras ${terasIndex + 1}`,
+        path: `/analitik-preskriptif/teras/${teras["Kod Teras"].toLowerCase()}`,
+        subItems: [
+          {
+            name: `Preskriptif Teras ${terasIndex + 1}`,
+            path: `/analitik-preskriptif/teras/${teras["Kod Teras"].toLowerCase()}/preskriptif`,
+          },
+          {
+            name: "Komponen",
+            path: `/analitik-preskriptif/teras/${teras["Kod Teras"].toLowerCase()}/komponen`,
+            subItems: komponenItems,
+          },
+        ],
+      };
+    });
+  };
+
   const menuItems: MenuItem[] = [
     { name: "Papan Utama", path: "/papan-utama", icon: Square3Stack3DIcon },
     { name: "Struktur Indeks", path: "/struktur-indeks", icon: ChartPieIcon },
@@ -47,6 +179,26 @@ function Sidebar() {
       ]
     },
     { name: "Analisis Indeks", path: "/analisis-indeks", icon: ChartBarIcon },
+    {
+      name: "Analitik Deskriptif",
+      icon: ChartBarSquareIcon,
+      subItems: generateDeskriptifSubItems()
+    },
+    {
+      name: "Analitik Diagnostik",
+      icon: ChartBarSquareIcon,
+      subItems: generateDiagnostikSubItems()
+    },
+    {
+      name: "Analitik Prediktif",
+      icon: ChartBarSquareIcon,
+      subItems: generatePrediktifSubItems()
+    },
+    {
+      name: "Analitik Preskriptif",
+      icon: ChartBarSquareIcon,
+      subItems: generatePreskriptifSubItems()
+    },
     { name: "Laporan Strategik", path: "/laporan-strategik", icon: NewspaperIcon },
     { name: "Selenggara Pengguna", path: "/selenggara-pengguna", icon: AdjustmentsHorizontalIcon },
   ];
