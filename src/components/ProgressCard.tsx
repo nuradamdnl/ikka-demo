@@ -2,12 +2,13 @@ import { useState, useEffect } from "react";
 
 type ProgressCardProps = {
   title: string;
+  subtitle?: string;
   value: number;
   maxValue?: number;
   animateDuration?: number;
 };
 
-function ProgressCard({ title, value, maxValue = 100, animateDuration = 1000 }: ProgressCardProps) {
+function ProgressCard({ title, subtitle, value, maxValue = 100, animateDuration = 1000 }: ProgressCardProps) {
   const [displayValue, setDisplayValue] = useState(0);
   const [displayProgress, setDisplayProgress] = useState(0);
 
@@ -45,9 +46,14 @@ function ProgressCard({ title, value, maxValue = 100, animateDuration = 1000 }: 
 
   return (
     <div className="bg-white rounded-lg shadow p-6">
-      <h3 className="text-sm font-medium text-gray-600 mb-3">
+      <h3 className="text-sm font-medium text-gray-600 mb-1">
         {title}
       </h3>
+      {subtitle && (
+        <p className="text-xs text-gray-500 mb-3">
+          {subtitle}
+        </p>
+      )}
       <p className={`text-3xl font-bold ${colors.text} mb-4`}>
         {displayValue.toFixed(2)}
       </p>
