@@ -7,6 +7,7 @@ import SectionCard from "../../../components/SectionCard";
 import StatCard from "../../../components/StatCard";
 import { Square3Stack3DIcon, CircleStackIcon, ChartPieIcon } from "@heroicons/react/24/outline";
 import TabbedSectionCard from "../../../components/TabbedSectionCard";
+import DataMeterChart from "../../../components/DataMeterChart";
 
 function DataMeter() {
   return (
@@ -69,22 +70,66 @@ function DataMeter() {
               sections={{
                 "susun-asal": (
                   <div className="p-4">
-                    <p className="text-gray-600">Susun Asal - Kandungan akan dipaparkan di sini</p>
+                    <DataMeterChart 
+                      data={[
+                        { kodJabatan: "JSPT", percentage: 30 },
+                        { kodJabatan: "JSJN", percentage: 75 },
+                        { kodJabatan: "PJSJ", percentage: 100 },
+                        { kodJabatan: "JPJK", percentage: 50 },
+                        { kodJabatan: "JIPS", percentage: 15 },
+                        { kodJabatan: "CWKH", percentage: 90 },
+                        { kodJabatan: "AMLA", percentage: 60 },
+                        { kodJabatan: "FRUM", percentage: 45 },
+                      ]}
+                    />
                   </div>
                 ),
                 "lengkap-belum": (
                   <div className="p-4">
-                    <p className="text-gray-600">Lengkap → Belum Lengkap - Kandungan akan dipaparkan di sini</p>
+                    <DataMeterChart 
+                      data={[
+                        { kodJabatan: "PJSJ", percentage: 100 },
+                        { kodJabatan: "CWKH", percentage: 90 },
+                        { kodJabatan: "JSJN", percentage: 75 },
+                        { kodJabatan: "AMLA", percentage: 60 },
+                        { kodJabatan: "JPJK", percentage: 50 },
+                        { kodJabatan: "FRUM", percentage: 45 },
+                        { kodJabatan: "JSPT", percentage: 30 },
+                        { kodJabatan: "JIPS", percentage: 15 },
+                      ]}
+                    />
                   </div>
                 ),
                 "belum-lengkap": (
                   <div className="p-4">
-                    <p className="text-gray-600">Belum Lengkap → Lengkap - Kandungan akan dipaparkan di sini</p>
+                    <DataMeterChart 
+                      data={[
+                        { kodJabatan: "JIPS", percentage: 15 },
+                        { kodJabatan: "JSPT", percentage: 30 },
+                        { kodJabatan: "FRUM", percentage: 45 },
+                        { kodJabatan: "JPJK", percentage: 50 },
+                        { kodJabatan: "AMLA", percentage: 60 },
+                        { kodJabatan: "JSJN", percentage: 75 },
+                        { kodJabatan: "CWKH", percentage: 90 },
+                        { kodJabatan: "PJSJ", percentage: 100 },
+                      ]}
+                    />
                   </div>
                 ),
                 "hanya-100": (
                   <div className="p-4">
-                    <p className="text-gray-600">Hanya 100% - Kandungan akan dipaparkan di sini</p>
+                    <DataMeterChart 
+                      data={[
+                        { kodJabatan: "JSPT", percentage: 100 },
+                        { kodJabatan: "JSJN", percentage: 100 },
+                        { kodJabatan: "PJSJ", percentage: 100 },
+                        { kodJabatan: "JPJK", percentage: 100 },
+                        { kodJabatan: "JIPS", percentage: 100 },
+                        { kodJabatan: "CWKH", percentage: 100 },
+                        { kodJabatan: "AMLA", percentage: 100 },
+                        { kodJabatan: "FRUM", percentage: 100 },
+                      ]}
+                    />
                   </div>
                 ),
               }}
