@@ -42,7 +42,7 @@ function PilihanPemilikData() {
                                 {uniqueJabatan.map((jabatan) => (
                                     <InfoCard
                                         key={jabatan.kodJabatan}
-                                        image={`/src/assets/images/pemilik-data/${jabatan.kodJabatan.toLowerCase()}.jpeg`}
+                                        image={`/src/assets/images/pemilik-data/${jabatan.kodJabatan.toLowerCase()}.png`}
                                         title={jabatan.kodJabatan}
                                         subtitle={jabatan.namaJabatan}
                                         onButtonClick={handleCardClick}
