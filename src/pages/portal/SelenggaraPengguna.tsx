@@ -16,56 +16,48 @@ function SelenggaraPengguna() {
             id: 1,
             nama: "Dr. Ahmad bin Abdullah",
             jenis: "Super",
-            agensi: "PDRM",
             jabatan: "JSPT",
         },
         {
             id: 2,
             nama: "Puan Siti Nurhaliza",
             jenis: "Strategik",
-            agensi: "KDN",
             jabatan: "BKDN",
         },
         {
             id: 3,
             nama: "Encik Mohd Razak",
             jenis: "Pemilik Data",
-            agensi: "PDRM",
             jabatan: "JSJN",
         },
         {
             id: 4,
             nama: "Puan Mimi Aminah",
             jenis: "Pemilik Data",
-            agensi: "PDRM",
             jabatan: "JSPT",
         },
         {
             id: 5,
             nama: "Dr. Tan Wei Ling",
             jenis: "Strategik",
-            agensi: "SPRM",
             jabatan: "SPRM",
         },
         {
             id: 6,
             nama: "Encik Rajesh Kumar",
             jenis: "Pemilik Data",
-            agensi: "JIM",
             jabatan: "JIMM",
         },
         {
             id: 7,
             nama: "Puan Fatimah Zahra",
             jenis: "Super",
-            agensi: "KDN",
             jabatan: "UIKD",
         },
         {
             id: 8,
             nama: "Encik Lee Chong Wei",
             jenis: "Pemilik Data",
-            agensi: "APMM",
             jabatan: "APMM",
         },
     ]);
@@ -78,7 +70,6 @@ function SelenggaraPengguna() {
     const [formData, setFormData] = useState({
         nama: "",
         jenis: "Pemilik Data",
-        agensi: "",
         jabatan: "",
     });
 
@@ -86,7 +77,6 @@ function SelenggaraPengguna() {
     const filteredUsers = users.filter((user) => {
         const matchesSearch = 
             user.nama.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            user.agensi.toLowerCase().includes(searchQuery.toLowerCase()) ||
             user.jabatan.toLowerCase().includes(searchQuery.toLowerCase());
         
         const matchesFilter = filterJenis === "Semua" || user.jenis === filterJenis;
@@ -111,7 +101,6 @@ function SelenggaraPengguna() {
         setFormData({
             nama: "",
             jenis: "Pemilik Data",
-            agensi: "",
             jabatan: "",
         });
         setIsAddModalOpen(true);
@@ -123,7 +112,6 @@ function SelenggaraPengguna() {
             setFormData({
                 nama: user.nama,
                 jenis: user.jenis,
-                agensi: user.agensi,
                 jabatan: user.jabatan,
             });
             setSelectedUserId(id);
@@ -186,7 +174,7 @@ function SelenggaraPengguna() {
                                 </div>
                                 <input
                                     type="text"
-                                    placeholder="Cari nama pengguna, agensi, atau jabatan..."
+                                    placeholder="Cari nama pengguna atau jabatan..."
                                     value={searchQuery}
                                     onChange={(e) => setSearchQuery(e.target.value)}
                                     className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
@@ -235,9 +223,6 @@ function SelenggaraPengguna() {
                                         Jenis Pengguna
                                     </th>
                                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-32">
-                                        Agensi
-                                    </th>
-                                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-32">
                                         Jabatan
                                     </th>
                                     <th className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-40">
@@ -259,11 +244,17 @@ function SelenggaraPengguna() {
                                                 {user.jenis}
                                             </span>
                                         </td>
-                                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
-                                            {user.agensi}
-                                        </td>
-                                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
-                                            {user.jabatan}
+                                        <td className="px-6 py-4 whitespace-nowrap">
+                                            <div className="flex items-center gap-2">
+                                                <img 
+                                                    src={`/src/assets/images/pemilik-data/${user.jabatan}.png`}
+                                                    alt={user.jabatan}
+                                                    className="h-8 w-8 object-contain"
+                                                />
+                                                <span className="text-sm text-gray-900 font-medium">
+                                                    {user.jabatan}
+                                                </span>
+                                            </div>
                                         </td>
                                         <td className="px-6 py-4 whitespace-nowrap text-center">
                                             <div className="flex items-center justify-center gap-2">
@@ -342,21 +333,6 @@ function SelenggaraPengguna() {
 
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-2">
-                                Agensi
-                            </label>
-                            <input
-                                type="text"
-                                name="agensi"
-                                value={formData.agensi}
-                                onChange={handleInputChange}
-                                required
-                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                placeholder="Masukkan agensi"
-                            />
-                        </div>
-
-                        <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-2">
                                 Jabatan
                             </label>
                             <input
@@ -428,21 +404,6 @@ function SelenggaraPengguna() {
                                 <option value="Strategik">Strategik</option>
                                 <option value="Pemilik Data">Pemilik Data</option>
                             </select>
-                        </div>
-
-                        <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-2">
-                                Agensi
-                            </label>
-                            <input
-                                type="text"
-                                name="agensi"
-                                value={formData.agensi}
-                                onChange={handleInputChange}
-                                required
-                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                placeholder="Masukkan agensi"
-                            />
                         </div>
 
                         <div>
