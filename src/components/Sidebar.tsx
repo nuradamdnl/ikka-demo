@@ -7,8 +7,8 @@ import {
   ChartPieIcon,
   CalculatorIcon,
   NewspaperIcon,
-  ChartBarIcon,
   ChartBarSquareIcon,
+  ChartBarIcon,
   AdjustmentsHorizontalIcon,
   ChevronDownIcon,
   ChevronUpIcon,
@@ -41,7 +41,7 @@ function Sidebar() {
       const komponenForTeras = komponenData.filter(
         k => k["Kod Teras"] === teras["Kod Teras"]
       );
-      
+
       return {
         name: `Teras ${terasIndex + 1}`,
         path: `/${analyticsType}/teras/${teras["Kod Teras"].toLowerCase()}`,
@@ -58,25 +58,33 @@ function Sidebar() {
     { name: "Struktur Indeks", path: "/struktur-indeks", icon: ChartPieIcon },
     { name: "Pengurusan Parameter", path: "/pengurusan-parameter", icon: CircleStackIcon },
     { name: "Kemasukan Data", path: "/kemasukan-data/pilihan-pemilik-data", icon: NewspaperIcon },
-    { name: "Penjanaan Indeks", path: "/penjanaan-indeks", icon: CalculatorIcon },
+    {
+      name: "Penjanaan Indeks",
+      icon: CalculatorIcon,
+      subItems: [
+        { name: "Indeks Indikator", path: "/penjanaan-indeks/penjanaan-indeks-indikator" },
+        { name: "Indeks Komponen", path: "/penjanaan-indeks/penjanaan-indeks-komponen" },
+        { name: "Indeks Teras", path: "/penjanaan-indeks/penjanaan-indeks-teras" },
+      ]
+    },
     { name: "Analisis Indeks", path: "/analisis-indeks", icon: ChartBarIcon },
-    { 
-      name: "Analitik Deskriptif", 
+    {
+      name: "Analitik Deskriptif",
       icon: ChartBarSquareIcon,
       subItems: generateAnalyticsSubItems("analitik-deskriptif")
     },
-    { 
-      name: "Analitik Diagnostik", 
+    {
+      name: "Analitik Diagnostik",
       icon: ChartBarSquareIcon,
       subItems: generateAnalyticsSubItems("analitik-diagnostik")
     },
-    { 
-      name: "Analitik Prediktif", 
+    {
+      name: "Analitik Prediktif",
       icon: ChartBarSquareIcon,
       subItems: generateAnalyticsSubItems("analitik-prediktif")
     },
-    { 
-      name: "Analitik Preskriptif", 
+    {
+      name: "Analitik Preskriptif",
       icon: ChartBarSquareIcon,
       subItems: generateAnalyticsSubItems("analitik-preskriptif")
     },
@@ -85,7 +93,7 @@ function Sidebar() {
   ];
 
   const isActive = (path: string) => location.pathname === path;
-  
+
   const isSubItemActive = (subItems?: SubMenuItem[]): boolean => {
     if (!subItems) return false;
     return subItems.some(sub => {
@@ -120,11 +128,10 @@ function Sidebar() {
                 navigate(subItem.path);
               }
             }}
-            className={`w-full flex items-center gap-3 ${paddingLeft} pr-4 py-2 text-sm transition-colors ${
-              isActive(subItem.path)
-                ? "bg-blue-100 text-blue-900 border-l-4 border-blue-900"
-                : "text-gray-600 hover:bg-gray-100"
-            }`}
+            className={`w-full flex items-center gap-3 ${paddingLeft} pr-4 py-2 text-sm transition-colors ${isActive(subItem.path)
+              ? "bg-blue-100 text-blue-900 border-l-4 border-blue-900"
+              : "text-gray-600 hover:bg-gray-100"
+              }`}
           >
             <span className="flex-grow text-left">{subItem.name}</span>
             {hasNestedSubItems && (
@@ -135,7 +142,7 @@ function Sidebar() {
               )
             )}
           </button>
-          
+
           {hasNestedSubItems && isExpanded && (
             <div className="bg-gray-100">
               {renderSubItems(subItem.subItems!, depth + 1)}
@@ -148,9 +155,8 @@ function Sidebar() {
 
   return (
     <div
-      className={`bg-white border-r border-gray-200 transition-all duration-300 ${
-        isCollapsed ? "w-16" : "w-64"
-      }`}
+      className={`bg-white border-r border-gray-200 transition-all duration-300 ${isCollapsed ? "w-16" : "w-64"
+        }`}
     >
       {/* Toggle Button */}
       <div className="p-4 border-b border-gray-200">
@@ -181,11 +187,10 @@ function Sidebar() {
                     navigate(item.path);
                   }
                 }}
-                className={`w-full flex items-center gap-3 px-4 py-3 transition-colors ${
-                  isParentActive
-                    ? "bg-blue-50 text-blue-900 border-l-4 border-blue-900"
-                    : "text-gray-700 hover:bg-gray-50"
-                }`}
+                className={`w-full flex items-center gap-3 px-4 py-3 transition-colors ${isParentActive
+                  ? "bg-blue-50 text-blue-900 border-l-4 border-blue-900"
+                  : "text-gray-700 hover:bg-gray-50"
+                  }`}
                 title={isCollapsed ? item.name : ""}
               >
                 <IconComponent className="w-6 h-6 flex-shrink-0" />

@@ -1,24 +1,27 @@
 import { useState, useMemo, useEffect } from "react";
-import Header from "../../components/Header";
-import Topbar from "../../components/Topbar";
-import Sidebar from "../../components/Sidebar";
-import Footer from "../../components/Footer";
-import PageTitle from "../../components/PageTitle";
-import SectionCard from "../../components/SectionCard";
+import Header from "../../../components/Header";
+import Topbar from "../../../components/Topbar";
+import Sidebar from "../../../components/Sidebar";
+import Footer from "../../../components/Footer";
+import PageTitle from "../../../components/PageTitle";
+import SectionCard from "../../../components/SectionCard";
+import Button from "../../../components/Button";
+import { BoltIcon } from "@heroicons/react/24/outline";
 import {
   buildIndicatorMap,
   computeStats,
   getAvailableYears,
   getDefaultBaselineYear,
   IndicatorStats,
-} from "../../lib/indeksCalculator";
+} from "../../../lib/indeksCalculator";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 
-function PenjanaanIndeks() {
+function PenjanaanIndeksIndikator() {
   const [indicatorCode, setIndicatorCode] = useState("");
   const [baselineYear, setBaselineYear] = useState<number>(2021);
   const [searchTerm, setSearchTerm] = useState("");
+  const [showCalculations, setShowCalculations] = useState(false);
 
   const indicatorMap = useMemo(() => buildIndicatorMap(), []);
 
@@ -57,8 +60,13 @@ function PenjanaanIndeks() {
     if (selectedIndicator) {
       const defaultYear = getDefaultBaselineYear(selectedIndicator);
       setBaselineYear(defaultYear);
+      setShowCalculations(false); // Reset when indicator changes
     }
   }, [selectedIndicator]);
+
+  const handleJanaIndeks = () => {
+    setShowCalculations(true);
+  };
 
   const chartOptions: Highcharts.Options | null = useMemo(() => {
     if (!stats) return null;
@@ -285,11 +293,23 @@ function PenjanaanIndeks() {
                     </div>
                   </div>
                 </div>
+
+                <div className="mt-6">
+                  <Button
+                    variant="primary"
+                    size="lg"
+                    onClick={handleJanaIndeks}
+                    className="w-full"
+                  >
+                    <BoltIcon className="h-5 w-5 mr-2" />
+                    Jana Indeks
+                  </Button>
+                </div>
               </SectionCard>
             )}
 
             {/* Aggregation Section */}
-            {stats && (
+            {stats && showCalculations && (
               <SectionCard title="Pengiraan Indeks Indikator: Jumlah Data Agregat, Min & Sisihan Piawai">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
                   <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
@@ -377,7 +397,7 @@ function PenjanaanIndeks() {
             )}
 
             {/* Index Calculation Section */}
-            {stats && (
+            {stats && showCalculations && (
               <SectionCard title="Pengiraan Indeks Indikator: Skor-z, Indeks & Asas 100">
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm border-collapse">
@@ -433,7 +453,7 @@ function PenjanaanIndeks() {
             )}
 
             {/* Chart Section */}
-            {stats && chartOptions && (
+            {stats && chartOptions && showCalculations && (
               <SectionCard title="Visualisasi Data">
                 <HighchartsReact highcharts={Highcharts} options={chartOptions} />
                 <p className="text-xs text-gray-600 mt-4">
@@ -444,7 +464,8 @@ function PenjanaanIndeks() {
             )}
 
             {/* Info Section */}
-            <SectionCard title="Nota">
+            {showCalculations && (
+              <SectionCard title="Nota">
               <ul className="list-disc list-inside text-sm text-gray-700 space-y-2">
                 <li>
                   Jika semua nilai setahun adalah 0, sisihan piawai = 0 dan
@@ -461,6 +482,7 @@ function PenjanaanIndeks() {
                 </li>
               </ul>
             </SectionCard>
+            )}
           </div>
         </main>
       </div>
@@ -469,4 +491,4 @@ function PenjanaanIndeks() {
   );
 }
 
-export default PenjanaanIndeks;
+export default PenjanaanIndeksIndikator;

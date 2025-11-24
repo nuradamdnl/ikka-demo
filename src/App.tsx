@@ -17,7 +17,10 @@ import PenetapanTahunAsas from "./pages/portal/Parameter/PenetapanTahunAsas";
 import PenetapanIndikator from "./pages/portal/Parameter/PenetapanIndikator";
 import PenetapanKomponen from "./pages/portal/Parameter/PenetapanKomponen";
 import PenetapanTeras from "./pages/portal/Parameter/PenetapanTeras";
-import PenjanaanIndeks from "./pages/portal/PenjanaanIndeks";
+import PenjanaanIndeksIndikator from "./pages/portal/PenjanaanIndeks/PenjanaanIndeksIndikator";
+import PenjanaanIndeksKomponen from "./pages/portal/PenjanaanIndeks/PenjanaanIndeksKomponen";
+import PenjanaanIndeksTeras from "./pages/portal/PenjanaanIndeks/PenjanaanIndeksTeras";
+import AnalisisIndeks from "./pages/portal/AnalisisIndeks";
 import PilihanPemilikData from "./pages/portal/KemasukanData/PilihanPemilikData";
 import BorangData from "./pages/portal/KemasukanData/BorangData";
 import AnalitikDeskriptif from "./pages/portal/Analitik/AnalitikDeskriptif";
@@ -32,8 +35,6 @@ import AnalitikDeskriptifKomponen from "./pages/portal/Analitik/AnalitikDeskript
 import AnalitikDiagnostikKomponen from "./pages/portal/Analitik/AnalitikDiagnostikKomponen";
 import AnalitikPrediktifKomponen from "./pages/portal/Analitik/AnalitikPrediktifKomponen";
 import AnalitikPreskriptifKomponen from "./pages/portal/Analitik/AnalitikPreskriptifKomponen";
-
-import AnalisisIndeks from "./pages/portal/AnalisisIndeks";
 import LaporanStrategik from "./pages/portal/LaporanStrategik";
 import SelenggaraPengguna from "./pages/portal/SelenggaraPengguna";
 
@@ -62,8 +63,10 @@ function App() {
         <Route path="/struktur-indeks" element={<StrukturIndeks />} />
         <Route path="/kemasukan-data/pilihan-pemilik-data" element={<PilihanPemilikData />} />
         <Route path="/kemasukan-data/borang-data" element={<BorangData />} />
-        <Route path="/penjanaan-indeks" element={<PenjanaanIndeks />} />
         <Route path="/analisis-indeks" element={<AnalisisIndeks />} />
+        <Route path="/penjanaan-indeks/penjanaan-indeks-indikator" element={<PenjanaanIndeksIndikator />} />
+        <Route path="/penjanaan-indeks/penjanaan-indeks-komponen" element={<PenjanaanIndeksKomponen />} />
+        <Route path="/penjanaan-indeks/penjanaan-indeks-teras" element={<PenjanaanIndeksTeras />} />
         <Route path="/analitik-deskriptif" element={<AnalitikDeskriptif />} />
         <Route path="/analitik-deskriptif/teras/:kodTeras" element={<AnalitikDeskriptifTeras />} />
         <Route path="/analitik-deskriptif/teras/:kodTeras/komponen/:kodKomponen" element={<AnalitikDeskriptifKomponen />} />
