@@ -9,6 +9,7 @@ import ProgressCard from "../../components/ProgressCard";
 import TabbedSectionCard from "../../components/TabbedSectionCard";
 import InputCard from "../../components/InputCard";
 import Table from "../../components/Table";
+import IndeksTerasLineChart from "../../components/IndeksTerasLineChart";
 
 function AnalisisIndeks() {
     return (
@@ -29,6 +30,10 @@ function AnalisisIndeks() {
                                 <ProgressCard title="Teras 4" subtitle="Keselamatan Sosial, Ekonomi & Politik" value={23.6} maxValue={100} />
                                 <ProgressCard title="Teras 5" subtitle="Perlindungan Aset Keselamatan Negara" value={67.9} maxValue={100} />
                             </div>
+                        </SectionCard>
+
+                        <SectionCard title="Analisis Teras">
+                            <IndeksTerasLineChart />
                         </SectionCard>
 
                         <TabbedSectionCard
