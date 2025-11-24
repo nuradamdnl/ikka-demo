@@ -20,7 +20,13 @@ function AnalitikDeskriptifKomponenKeseluruhan() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Deskriptif - Komponen Keseluruhan {teras?.["Kod Teras"]}</PageTitle>
-            <PowerBIEmbed title={`Komponen Keseluruhan ${teras?.["Kod Teras"]}`} />
+            <PowerBIEmbed 
+              title={`Komponen Keseluruhan ${teras?.["Kod Teras"]}`}
+              customReportIds={{
+                barTahun: "11edfb93-46fb-4ed1-94d5-5c9daf429398",
+                lineTahun: "e486a6a5-930d-459c-9045-42fcfebf4ae8"
+              }}
+            />
           </div>
         </main>
       </div>

@@ -15,7 +15,10 @@ function AnalitikDiagnostikIndikatorByIndikator() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Diagnostik - Indikator by Indikator</PageTitle>
-            <PowerBIEmbed title="Indikator by Indikator" />
+            <PowerBIEmbed 
+              title="Indikator by Indikator"
+              reportId="1fb1723a-25fe-4058-8c83-5b3c0ec7185c"
+            />
           </div>
         </main>
       </div>

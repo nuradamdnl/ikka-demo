@@ -20,7 +20,10 @@ function AnalitikPrediktifKomponen() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Prediktif - {komponen?.["Nama Komponen"]}</PageTitle>
-            <PowerBIEmbed title={`Komponen ${komponen?.["Kod Komponen"]}`} />
+            <PowerBIEmbed 
+              title={`Komponen ${komponen?.["Kod Komponen"]}`}
+              reportId="0379a384-6ff3-4f3b-a049-6895e7903cf6"
+            />
           </div>
         </main>
       </div>

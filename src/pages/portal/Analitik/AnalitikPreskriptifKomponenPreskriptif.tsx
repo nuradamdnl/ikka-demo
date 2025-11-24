@@ -20,7 +20,10 @@ function AnalitikPreskriptifKomponenPreskriptif() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Preskriptif - Preskriptif Komponen {komponen?.["Kod Komponen"]}</PageTitle>
-            <PowerBIEmbed title={`Preskriptif Komponen ${komponen?.["Kod Komponen"]}`} />
+            <PowerBIEmbed 
+              title={`Preskriptif Komponen ${komponen?.["Kod Komponen"]}`}
+              reportId="75e73b24-9b90-4bb8-9216-9ffe0e5a9388"
+            />
           </div>
         </main>
       </div>

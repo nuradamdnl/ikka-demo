@@ -20,7 +20,10 @@ function AnalitikDiagnostikTerasByKomponen() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Diagnostik - Teras by Komponen</PageTitle>
-            <PowerBIEmbed title={`${teras?.["Nama Teras"]} - Teras by Komponen`} />
+            <PowerBIEmbed 
+              title={`${teras?.["Nama Teras"]} - Teras by Komponen`}
+              reportId="22bebd50-a5c9-453c-b9a2-9ca673c39ba6"
+            />
           </div>
         </main>
       </div>

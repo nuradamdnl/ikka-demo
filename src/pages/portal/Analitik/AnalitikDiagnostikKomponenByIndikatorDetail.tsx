@@ -20,7 +20,10 @@ function AnalitikDiagnostikKomponenByIndikatorDetail() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Diagnostik - {komponen?.["Nama Komponen"]}</PageTitle>
-            <PowerBIEmbed title={`Komponen ${komponen?.["Kod Komponen"]}`} />
+            <PowerBIEmbed 
+              title={`Komponen ${komponen?.["Kod Komponen"]}`}
+              reportId="3b867efb-2a9d-4069-a592-ff166ec68f3a"
+            />
           </div>
         </main>
       </div>

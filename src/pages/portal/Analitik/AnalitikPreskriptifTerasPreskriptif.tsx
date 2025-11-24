@@ -20,7 +20,10 @@ function AnalitikPreskriptifTerasPreskriptif() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Preskriptif - Preskriptif Teras {teras?.["Kod Teras"]}</PageTitle>
-            <PowerBIEmbed title={`Preskriptif Teras ${teras?.["Kod Teras"]}`} />
+            <PowerBIEmbed 
+              title={`Preskriptif Teras ${teras?.["Kod Teras"]}`}
+              reportId="3db6c4cc-1d18-4f1e-b1f6-8cbcad6dcf72"
+            />
           </div>
         </main>
       </div>

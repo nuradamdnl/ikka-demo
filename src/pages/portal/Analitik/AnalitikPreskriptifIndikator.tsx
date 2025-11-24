@@ -20,7 +20,10 @@ function AnalitikPreskriptifIndikator() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Preskriptif - Preskriptif Indikator {indikator?.["Kod Indikator"]}</PageTitle>
-            <PowerBIEmbed title={`Preskriptif Indikator ${indikator?.["Kod Indikator"]}`} />
+            <PowerBIEmbed 
+              title={`Preskriptif Indikator ${indikator?.["Kod Indikator"]}`}
+              reportId="f6c996cc-b462-4378-bb10-ef47b2c75b09"
+            />
           </div>
         </main>
       </div>

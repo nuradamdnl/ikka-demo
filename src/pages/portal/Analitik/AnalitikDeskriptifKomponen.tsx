@@ -20,7 +20,13 @@ function AnalitikDeskriptifKomponen() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Deskriptif - {komponen?.["Nama Komponen"]}</PageTitle>
-            <PowerBIEmbed title={`Komponen ${komponen?.["Kod Komponen"]}`} />
+            <PowerBIEmbed 
+              title={`Komponen ${komponen?.["Kod Komponen"]}`}
+              customReportIds={{
+                barTahun: "60084b0b-47fe-49e2-b197-0ac16de219a3",
+                lineTahun: "cec3cda1-c883-4883-b3b2-2523a5a7cc72"
+              }}
+            />
           </div>
         </main>
       </div>
