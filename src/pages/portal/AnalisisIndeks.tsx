@@ -8,6 +8,7 @@ import IndeksCard from "../../components/IndeksCard";
 import ProgressCard from "../../components/ProgressCard";
 import TabbedSectionCard from "../../components/TabbedSectionCard";
 import InputCard from "../../components/InputCard";
+import Table from "../../components/Table";
 
 function AnalisisIndeks() {
     return (
@@ -59,6 +60,23 @@ function AnalisisIndeks() {
                                             />
                                         </div>
                                         <IndeksCard title="Indeks IKKA Terkini" value={82.7} />
+                                        <Table
+                                            columns={[
+                                                { header: "Bil", accessor: "bil", width: "60px" },
+                                                { header: "Teras", accessor: "teras" },
+                                                { header: "Jun", accessor: "jun" },
+                                                { header: "Dis", accessor: "dis" },
+                                            ]}
+                                            data={[
+                                                { bil: 1, teras: "Perlembagaan & Undang-Undang", jun: "78.5", dis: "82.3" },
+                                                { bil: 2, teras: "Tatakelola & Integriti Agensi Penguatkuasaan", jun: "45.2", dis: "52.8" },
+                                                { bil: 3, teras: "Pengukuhan Keselamatan Sempadan", jun: "92.8", dis: "88.7" },
+                                                { bil: 4, teras: "Keselamatan Sosial, Ekonomi & Politik", jun: "23.6", dis: "18.4" },
+                                                { bil: 5, teras: "Perlindungan Aset Keselamatan Negara", jun: "67.9", dis: "71.2" },
+                                            ]}
+                                            searchable={true}
+                                            searchPlaceholder="Cari teras..."
+                                        />
                                     </div>
                                 ),
                                 prestasi: (
