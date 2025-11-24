@@ -21,9 +21,9 @@ function TabbedSectionCard({ tabs, sections, defaultTab, onTabChange }: TabbedSe
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md mb-6">
+    <div className="bg-white rounded-lg shadow-md mb-6 flex flex-col h-full">
       {/* Tab Headers */}
-      <div className="flex border-b border-gray-200">
+      <div className="flex border-b border-gray-200 flex-shrink-0">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -40,7 +40,7 @@ function TabbedSectionCard({ tabs, sections, defaultTab, onTabChange }: TabbedSe
       </div>
 
       {/* Tab Content */}
-      <div className="p-6">
+      <div className="p-6 flex-grow overflow-hidden">
         {sections[activeTab]}
       </div>
     </div>

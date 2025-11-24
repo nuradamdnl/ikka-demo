@@ -7,14 +7,11 @@ import {
   ChartPieIcon,
   CalculatorIcon,
   NewspaperIcon,
-  ChartBarSquareIcon,
   ChartBarIcon,
   AdjustmentsHorizontalIcon,
   ChevronDownIcon,
   ChevronUpIcon,
 } from "@heroicons/react/24/outline";
-import terasData from "../assets/data/Teras.json";
-import komponenData from "../assets/data/Komponen.json";
 
 type SubMenuItem = {
   name: string;
@@ -35,24 +32,6 @@ function Sidebar() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Generate Teras sub-items with nested Komponen
-  const generateAnalyticsSubItems = (analyticsType: string) => {
-    return terasData.map((teras, terasIndex) => {
-      const komponenForTeras = komponenData.filter(
-        k => k["Kod Teras"] === teras["Kod Teras"]
-      );
-
-      return {
-        name: `Teras ${terasIndex + 1}`,
-        path: `/${analyticsType}/teras/${teras["Kod Teras"].toLowerCase()}`,
-        subItems: komponenForTeras.map((komponen, komponenIndex) => ({
-          name: `Komponen ${komponenIndex + 1}`,
-          path: `/${analyticsType}/teras/${teras["Kod Teras"].toLowerCase()}/komponen/${komponen["Kod Komponen"].toLowerCase()}`,
-        })),
-      };
-    });
-  };
-
   const menuItems: MenuItem[] = [
     { name: "Papan Utama", path: "/papan-utama", icon: Square3Stack3DIcon },
     { name: "Struktur Indeks", path: "/struktur-indeks", icon: ChartPieIcon },
@@ -68,26 +47,6 @@ function Sidebar() {
       ]
     },
     { name: "Analisis Indeks", path: "/analisis-indeks", icon: ChartBarIcon },
-    {
-      name: "Analitik Deskriptif",
-      icon: ChartBarSquareIcon,
-      subItems: generateAnalyticsSubItems("analitik-deskriptif")
-    },
-    {
-      name: "Analitik Diagnostik",
-      icon: ChartBarSquareIcon,
-      subItems: generateAnalyticsSubItems("analitik-diagnostik")
-    },
-    {
-      name: "Analitik Prediktif",
-      icon: ChartBarSquareIcon,
-      subItems: generateAnalyticsSubItems("analitik-prediktif")
-    },
-    {
-      name: "Analitik Preskriptif",
-      icon: ChartBarSquareIcon,
-      subItems: generateAnalyticsSubItems("analitik-preskriptif")
-    },
     { name: "Laporan Strategik", path: "/laporan-strategik", icon: NewspaperIcon },
     { name: "Selenggara Pengguna", path: "/selenggara-pengguna", icon: AdjustmentsHorizontalIcon },
   ];
