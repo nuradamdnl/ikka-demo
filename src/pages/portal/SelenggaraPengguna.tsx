@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 import PageTitle from "../../components/PageTitle";
 import SectionCard from "../../components/SectionCard";
 import Button from "../../components/Button";
+import Modal from "../../components/Modal";
 import { useState } from "react";
 import { MagnifyingGlassIcon, PlusIcon, PencilIcon, TrashIcon } from "@heroicons/react/24/outline";
 
@@ -71,6 +72,15 @@ function SelenggaraPengguna() {
 
     const [searchQuery, setSearchQuery] = useState("");
     const [filterJenis, setFilterJenis] = useState("Semua");
+    const [isAddModalOpen, setIsAddModalOpen] = useState(false);
+    const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+    const [selectedUserId, setSelectedUserId] = useState<number | null>(null);
+    const [formData, setFormData] = useState({
+        nama: "",
+        jenis: "Pemilik Data",
+        agensi: "",
+        jabatan: "",
+    });
 
     // Filter users
     const filteredUsers = users.filter((user) => {
@@ -98,17 +108,63 @@ function SelenggaraPengguna() {
     };
 
     const handleAddUser = () => {
-        alert("Tambah pengguna baharu");
+        setFormData({
+            nama: "",
+            jenis: "Pemilik Data",
+            agensi: "",
+            jabatan: "",
+        });
+        setIsAddModalOpen(true);
     };
 
     const handleEditUser = (id: number) => {
-        alert(`Sunting pengguna ID: ${id}`);
+        const user = users.find(u => u.id === id);
+        if (user) {
+            setFormData({
+                nama: user.nama,
+                jenis: user.jenis,
+                agensi: user.agensi,
+                jabatan: user.jabatan,
+            });
+            setSelectedUserId(id);
+            setIsEditModalOpen(true);
+        }
     };
 
     const handleDeleteUser = (id: number) => {
         if (confirm("Adakah anda pasti mahu memadam pengguna ini?")) {
             setUsers(users.filter(user => user.id !== id));
         }
+    };
+
+    const handleSubmitAdd = (e: React.FormEvent) => {
+        e.preventDefault();
+        const newUser = {
+            id: Math.max(...users.map(u => u.id)) + 1,
+            ...formData,
+        };
+        setUsers([...users, newUser]);
+        setIsAddModalOpen(false);
+    };
+
+    const handleSubmitEdit = (e: React.FormEvent) => {
+        e.preventDefault();
+        if (selectedUserId) {
+            setUsers(users.map(user => 
+                user.id === selectedUserId 
+                    ? { ...user, ...formData }
+                    : user
+            ));
+            setIsEditModalOpen(false);
+            setSelectedUserId(null);
+        }
+    };
+
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value,
+        });
     };
 
     return (
@@ -243,6 +299,186 @@ function SelenggaraPengguna() {
                         </div>
                     )}
                 </SectionCard>
+
+                {/* Add User Modal */}
+                <Modal
+                    isOpen={isAddModalOpen}
+                    onClose={() => setIsAddModalOpen(false)}
+                    title="Tambah Pengguna Baharu"
+                    size="md"
+                >
+                    <form onSubmit={handleSubmitAdd} className="space-y-4">
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Nama Pengguna
+                            </label>
+                            <input
+                                type="text"
+                                name="nama"
+                                value={formData.nama}
+                                onChange={handleInputChange}
+                                required
+                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                placeholder="Masukkan nama pengguna"
+                            />
+                        </div>
+
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Jenis Pengguna
+                            </label>
+                            <select
+                                name="jenis"
+                                value={formData.jenis}
+                                onChange={handleInputChange}
+                                required
+                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            >
+                                <option value="Super">Super</option>
+                                <option value="Strategik">Strategik</option>
+                                <option value="Pemilik Data">Pemilik Data</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Agensi
+                            </label>
+                            <input
+                                type="text"
+                                name="agensi"
+                                value={formData.agensi}
+                                onChange={handleInputChange}
+                                required
+                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                placeholder="Masukkan agensi"
+                            />
+                        </div>
+
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Jabatan
+                            </label>
+                            <input
+                                type="text"
+                                name="jabatan"
+                                value={formData.jabatan}
+                                onChange={handleInputChange}
+                                required
+                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                placeholder="Masukkan jabatan"
+                            />
+                        </div>
+
+                        <div className="flex justify-end gap-3 pt-4">
+                            <Button
+                                type="button"
+                                variant="secondary"
+                                size="md"
+                                onClick={() => setIsAddModalOpen(false)}
+                            >
+                                Batal
+                            </Button>
+                            <Button
+                                type="submit"
+                                variant="primary"
+                                size="md"
+                            >
+                                Tambah
+                            </Button>
+                        </div>
+                    </form>
+                </Modal>
+
+                {/* Edit User Modal */}
+                <Modal
+                    isOpen={isEditModalOpen}
+                    onClose={() => setIsEditModalOpen(false)}
+                    title="Sunting Pengguna"
+                    size="md"
+                >
+                    <form onSubmit={handleSubmitEdit} className="space-y-4">
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Nama Pengguna
+                            </label>
+                            <input
+                                type="text"
+                                name="nama"
+                                value={formData.nama}
+                                onChange={handleInputChange}
+                                required
+                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                placeholder="Masukkan nama pengguna"
+                            />
+                        </div>
+
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Jenis Pengguna
+                            </label>
+                            <select
+                                name="jenis"
+                                value={formData.jenis}
+                                onChange={handleInputChange}
+                                required
+                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            >
+                                <option value="Super">Super</option>
+                                <option value="Strategik">Strategik</option>
+                                <option value="Pemilik Data">Pemilik Data</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Agensi
+                            </label>
+                            <input
+                                type="text"
+                                name="agensi"
+                                value={formData.agensi}
+                                onChange={handleInputChange}
+                                required
+                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                placeholder="Masukkan agensi"
+                            />
+                        </div>
+
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Jabatan
+                            </label>
+                            <input
+                                type="text"
+                                name="jabatan"
+                                value={formData.jabatan}
+                                onChange={handleInputChange}
+                                required
+                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                placeholder="Masukkan jabatan"
+                            />
+                        </div>
+
+                        <div className="flex justify-end gap-3 pt-4">
+                            <Button
+                                type="button"
+                                variant="secondary"
+                                size="md"
+                                onClick={() => setIsEditModalOpen(false)}
+                            >
+                                Batal
+                            </Button>
+                            <Button
+                                type="submit"
+                                variant="primary"
+                                size="md"
+                            >
+                                Simpan
+                            </Button>
+                        </div>
+                    </form>
+                </Modal>
             </div>
             </main>
         </div>
