@@ -19,6 +19,23 @@ import PenetapanTeras from "./pages/portal/Parameter/PenetapanTeras";
 import PenjanaanIndeks from "./pages/portal/PenjanaanIndeks";
 import PilihanPemilikData from "./pages/portal/KemasukanData/PilihanPemilikData";
 import BorangData from "./pages/portal/KemasukanData/BorangData";
+import AnalitikDeskriptif from "./pages/portal/Analitik/AnalitikDeskriptif";
+import AnalitikDiagnostik from "./pages/portal/Analitik/AnalitikDiagnostik";
+import AnalitikPrediktif from "./pages/portal/Analitik/AnalitikPrediktif";
+import AnalitikPreskriptif from "./pages/portal/Analitik/AnalitikPreskriptif";
+import AnalitikDeskriptifTeras from "./pages/portal/Analitik/AnalitikDeskriptifTeras";
+import AnalitikDiagnostikTeras from "./pages/portal/Analitik/AnalitikDiagnostikTeras";
+import AnalitikPrediktifTeras from "./pages/portal/Analitik/AnalitikPrediktifTeras";
+import AnalitikPreskriptifTeras from "./pages/portal/Analitik/AnalitikPreskriptifTeras";
+import AnalitikDeskriptifKomponen from "./pages/portal/Analitik/AnalitikDeskriptifKomponen";
+import AnalitikDiagnostikKomponen from "./pages/portal/Analitik/AnalitikDiagnostikKomponen";
+import AnalitikPrediktifKomponen from "./pages/portal/Analitik/AnalitikPrediktifKomponen";
+import AnalitikPreskriptifKomponen from "./pages/portal/Analitik/AnalitikPreskriptifKomponen";
+
+import AnalisisIndeks from "./pages/portal/AnalisisIndeks";
+import LaporanStrategik from "./pages/portal/LaporanStrategik";
+import SelenggaraPengguna from "./pages/portal/SelenggaraPengguna";
+
 
 function App() {
   return (
@@ -44,6 +61,21 @@ function App() {
         <Route path="/kemasukan-data/pilihan-pemilik-data" element={<PilihanPemilikData />} />
         <Route path="/kemasukan-data/borang-data" element={<BorangData />} />
         <Route path="/penjanaan-indeks" element={<PenjanaanIndeks />} />
+        <Route path="/analisis-indeks" element={<AnalisisIndeks />} />
+        <Route path="/analitik-deskriptif" element={<AnalitikDeskriptif />} />
+        <Route path="/analitik-deskriptif/teras/:kodTeras" element={<AnalitikDeskriptifTeras />} />
+        <Route path="/analitik-deskriptif/teras/:kodTeras/komponen/:kodKomponen" element={<AnalitikDeskriptifKomponen />} />
+        <Route path="/analitik-diagnostik" element={<AnalitikDiagnostik />} />
+        <Route path="/analitik-diagnostik/teras/:kodTeras" element={<AnalitikDiagnostikTeras />} />
+        <Route path="/analitik-diagnostik/teras/:kodTeras/komponen/:kodKomponen" element={<AnalitikDiagnostikKomponen />} />
+        <Route path="/analitik-prediktif" element={<AnalitikPrediktif />} />
+        <Route path="/analitik-prediktif/teras/:kodTeras" element={<AnalitikPrediktifTeras />} />
+        <Route path="/analitik-prediktif/teras/:kodTeras/komponen/:kodKomponen" element={<AnalitikPrediktifKomponen />} />
+        <Route path="/analitik-preskriptif" element={<AnalitikPreskriptif />} />
+        <Route path="/analitik-preskriptif/teras/:kodTeras" element={<AnalitikPreskriptifTeras />} />
+        <Route path="/analitik-preskriptif/teras/:kodTeras/komponen/:kodKomponen" element={<AnalitikPreskriptifKomponen />} />
+        <Route path="/laporan-strategik" element={<LaporanStrategik />} />
+        <Route path="/selenggara-pengguna" element={<SelenggaraPengguna />} />
       </Routes>
     </BrowserRouter>
   );
