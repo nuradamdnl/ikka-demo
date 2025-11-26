@@ -2,7 +2,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-blue-900 text-white py-6 px-6 mt-auto">
+    <footer className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-6 px-6 mt-auto">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-4">
           {/* Left Section */}
