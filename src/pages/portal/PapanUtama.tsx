@@ -31,14 +31,14 @@ function PapanUtama() {
   const leaderboard = useMemo(
     () => ({
       mingguan: [
-        { rank: 1, agensi: "PDRM", jabatan: "JSPT", code: "JSPT", skor: 94, delta: "+2", activity: "42 kemas kini minggu ini" },
-        { rank: 2, agensi: "SPRM", jabatan: "Bah. Pencegahan", code: "SPRM", skor: 91, delta: "0", activity: "38 kemas kini" },
-        { rank: 3, agensi: "APMM", jabatan: "Operasi Sempadan", code: "APMM", skor: 88, delta: "-1", activity: "33 kemas kini" },
-        { rank: 4, agensi: "JIM", jabatan: "Penguatkuasaan", code: "JIMM", skor: 82, delta: "+1", activity: "29 kemas kini" },
+        { rank: 1, agensi: "PDRM", jabatan: "Cawangan Khas", code: "JSPT", skor: 94, delta: "+2", activity: "42 kemas kini minggu ini" },
+        { rank: 2, agensi: "SPRM", jabatan: "Unit Integriti", code: "SPRM", skor: 91, delta: "0", activity: "38 kemas kini" },
+        { rank: 3, agensi: "KDN", jabatan: "Bhgn. Pembangunan", code: "BPSM", skor: 88, delta: "-1", activity: "33 kemas kini" },
+        { rank: 4, agensi: "JIMM", jabatan: "Jabatan Imigresen Malaysia", code: "JIMM", skor: 82, delta: "+1", activity: "29 kemas kini" },
         { rank: 5, agensi: "AADK", jabatan: "Operasi & Rehabilitasi", code: "AADK", skor: 79, delta: "+3", activity: "25 kemas kini" },
       ],
       bulanan: [
-        { rank: 1, agensi: "SPRM", jabatan: "Bah. Pencegahan", code: "SPRM", skor: 96, delta: "+1", activity: "162 kemas kini bulan ini" },
+        { rank: 1, agensi: "SPRM", jabatan: "Unit Integriti", code: "SPRM", skor: 96, delta: "+1", activity: "162 kemas kini bulan ini" },
         { rank: 2, agensi: "PDRM", jabatan: "JSPT", code: "JSPT", skor: 94, delta: "+2", activity: "155 kemas kini" },
         { rank: 3, agensi: "APMM", jabatan: "Operasi Sempadan", code: "APMM", skor: 90, delta: "-1", activity: "143 kemas kini" },
         { rank: 4, agensi: "JIM", jabatan: "Penguatkuasaan", code: "JIMM", skor: 86, delta: "+1", activity: "131 kemas kini" },
@@ -49,7 +49,7 @@ function PapanUtama() {
   );
 
   const userPosition = useMemo(
-    () => ({ rank: 6, agensi: "PDRM", jabatan: "JSPT", gap: "Perlu +8 kemas kini untuk ke Top 5" }),
+    () => ({ rank: 6, agensi: "PDRM", jabatan: "JSPT", gap: "Lagi 8 kemas kini untuk ke Top 5" }),
     []
   );
 
