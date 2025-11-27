@@ -2,66 +2,71 @@
   {
     "kod_komponen": "T01-K01",
     "nama_komponen": "Komponen Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang",
-    "tema_id": 2,
-    "tema_label": "Tema 2: Faktor Pendorong & Punca",
-    "tema_nama": "Faktor Pendorong Ancaman Keselamatan Negara",
-    "key_points": [
-      "Radical narratives spreading through poorly moderated online channels",
-      "External geopolitical tensions being localised into domestic grievances",
-      "Insufficient early-warning indicators for high-risk individuals and groups"
-    ],
-    "naratif": "The increase in offences against the state, terrorism and organised crime is driven by radical narratives online, regional geopolitical tensions that are reframed as local grievances and gaps in early-warning mechanisms for high-risk actors."
+    "naratif_diagnostik_turun": "Penurunan indeks menunjukkan kesalahan terhadap negara, kes keganasan dan jenayah terancang semakin berkurang. Ini mencerminkan gangguan rangkaian yang berkesan, perkongsian risikan yang lebih baik dan kesan cegah yang jelas melalui penguatkuasaan disasar.",
+    "naratif_diagnostik_kekal": "Indeks yang stabil menandakan tahap ancaman keseluruhan kekal sama. Langkah sedia ada mungkin menahan peningkatan, namun punca asas dan saluran perekrutan mungkin masih aktif.",
+    "naratif_diagnostik_naik": "Peningkatan indeks menunjukkan aktiviti atau impak kesalahan terhadap negara, keganasan atau jenayah terancang semakin ketara. Faktor pendorong termasuk rangkaian yang cepat menyesuaikan diri, penggunaan platform digital, pengaruh luar atau jurang pengesanan awal."
+  },
+  {
+    "kod_komponen": "T01-K02",
+    "nama_komponen": "Komponen Ancaman Penyalahgunaan Identiti",
+    "naratif_diagnostik_turun": "Indeks lebih rendah menunjukkan kes penyalahgunaan identiti, pemalsuan atau dokumen fraud semakin berkurang. Sistem verifikasi lebih kukuh, penggunaan biometrik dan padanan data antara agensi membantu mengecilkan ruang penyalahgunaan.",
+    "naratif_diagnostik_kekal": "Indeks mendatar bermakna tahap ancaman berkaitan identiti tidak banyak berubah. Kawalan sedia ada mungkin memperlahankan pertumbuhan, tetapi jurang dalam proses pengesahan atau sistem legasi masih boleh dieksploitasi.",
+    "naratif_diagnostik_naik": "Indeks meningkat menandakan penyalahgunaan identiti, dokumen palsu atau pendaftaran fraud semakin bertambah. Ini boleh dikaitkan dengan transaksi digital yang meningkat, verifikasi yang lemah, bantuan orang dalam atau perlindungan data peribadi yang tidak mencukupi."
+  },
+  {
+    "kod_komponen": "T01-K03",
+    "nama_komponen": "Komponen Ajaran Sesat",
+    "naratif_diagnostik_turun": "Penurunan indeks menunjukkan penyebaran dan pengaruh ajaran sesat berjaya dibendung. Penglibatan awal pihak berkuasa agama, pemantauan berkesan dan intervensi berasaskan komuniti mengurangkan perekrutan serta aktiviti.",
+    "naratif_diagnostik_kekal": "Indeks stabil menunjukkan tahap ajaran sesat terkawal tetapi belum menurun dengan ketara. Punca asas seperti maklumat salah, pengasingan sosial atau ketidakpercayaan terhadap institusi rasmi mungkin masih wujud.",
+    "naratif_diagnostik_naik": "Peningkatan indeks menandakan penyebaran atau pengaruh ajaran sesat semakin meluas. Ini boleh didorong oleh penyebaran dalam talian, figura karismatik setempat, naratif tandingan yang lemah atau intervensi yang lewat di kluster baharu."
   },
   {
     "kod_komponen": "T02-K01",
     "nama_komponen": "Komponen Rasuah (Seksyen 16, 17a, 17b, Akta SPRM 2009)",
-    "tema_id": 1,
-    "tema_label": "Tema 1: Corak & Trend Isu",
-    "tema_nama": "Corak & Trend Kes Rasuah",
-    "key_points": [
-      "Persistent corruption cases in similar high-risk sectors",
-      "Repeat offenders and recurring modus operandi",
-      "Spike in cases around key procurement or licensing cycles"
-    ],
-    "naratif": "Diagnostic patterns show that corruption cases cluster in specific high-risk sectors, often repeating similar modus operandi and peaking during key procurement or licensing windows, indicating systemic vulnerabilities rather than isolated incidents."
+    "naratif_diagnostik_turun": "Indeks menurun menunjukkan kekerapan atau keterukan kes rasuah di bawah seksyen utama Akta SPRM berkurang. Kawalan yang lebih baik, proses telus dan budaya melapor yang lebih kukuh menyumbang kepada tren ini.",
+    "naratif_diagnostik_kekal": "Indeks kekal bermakna risiko rasuah komponen ini tidak berubah. Penguatkuasaan mungkin menahan peningkatan, tetapi insentif struktur dan peluang rasuah masih belum ditangani sepenuhnya.",
+    "naratif_diagnostik_naik": "Indeks meningkat menunjukkan kes rasuah lebih kerap atau lebih serius. Ini mungkin berpunca daripada pengawasan lemah, kolusi, amalan perolehan tidak telus atau ketakutan pembocor maklumat untuk melapor."
+  },
+  {
+    "kod_komponen": "T02-K02",
+    "nama_komponen": "Komponen Penyalahgunaan Kuasa (Seksyen 23, Akta SPRM 2009)",
+    "naratif_diagnostik_turun": "Penurunan indeks menandakan kes penyalahgunaan kuasa semakin berkurang. Prosedur keputusan yang lebih jelas, pemisahan tugas dan semakan penyelia aktif mengehadkan ruang salah guna budi bicara.",
+    "naratif_diagnostik_kekal": "Indeks stabil menunjukkan corak salah guna kuasa kekal pada tahap sama. Polisi mungkin sudah ada, tetapi belum dihayati atau dikuatkuasakan secara konsisten di semua titik keputusan.",
+    "naratif_diagnostik_naik": "Peningkatan indeks menandakan salah guna kuasa lebih kerap atau lebih jelas. Ini boleh didorong oleh kepekatan kuasa, semakan imbang yang lemah atau ketiadaan penguatkuasaan akibat yang tegas."
   },
   {
     "kod_komponen": "T03-K01",
     "nama_komponen": "Komponen Penyeludupan Migran",
-    "tema_id": 3,
-    "tema_label": "Tema 3: Risiko & Implikasi",
-    "tema_nama": "Risiko & Implikasi Penyeludupan Migran",
-    "key_points": [
-      "Growth of organised smuggling networks exploiting porous routes",
-      "Heightened risk of human trafficking and labour exploitation",
-      "Pressure on local communities and public service capacity"
-    ],
-    "naratif": "Migrant smuggling presents rising risks as organised networks exploit porous routes, increasing the likelihood of human trafficking, labour exploitation and long-term pressure on local communities and public services."
+    "naratif_diagnostik_turun": "Indeks menurun menunjukkan laluan penyeludupan migran terganggu dan kurang menguntungkan. Operasi bersama, pemantauan laluan yang lebih baik dan hukuman lebih tegas melemahkan rangkaian penyeludupan.",
+    "naratif_diagnostik_kekal": "Indeks mendatar menunjukkan aktiviti penyeludupan kekal pada tahap sama. Rangkaian mungkin menyesuaikan diri dengan corak penguatkuasaan, mengekalkan aktiviti walaupun operasi diteruskan.",
+    "naratif_diagnostik_naik": "Indeks meningkat mencerminkan aktiviti penyeludupan migran yang lebih kuat atau dipelbagaikan. Faktor tolak ekonomi, laluan poros, rasuah dan sindiket terancang menyumbang kepada kenaikan."
+  },
+  {
+    "kod_komponen": "T03-K02",
+    "nama_komponen": "Komponen Pemerdagangan Orang",
+    "naratif_diagnostik_turun": "Indeks menurun menunjukkan kes atau keterukan pemerdagangan orang berkurang. Ini menandakan pengenalpastian mangsa lebih berkesan, rantai perekrutan terganggu dan kerjasama rentas sempadan lebih baik.",
+    "naratif_diagnostik_kekal": "Indeks stabil bermakna risiko pemerdagangan tidak bertambah tetapi masih wujud. Kerentanan struktur seperti permintaan tenaga murah, kurang kesedaran dan saluran selamat untuk melapor yang terhad masih berterusan.",
+    "naratif_diagnostik_naik": "Indeks meningkat menunjukkan rangkaian pemerdagangan berkembang atau semakin canggih. Ini mungkin melibatkan kaedah perekrutan baharu, eksploitasi dalam talian serta penggunaan jurang peraturan atau penguatkuasaan."
   },
   {
     "kod_komponen": "T04-K01",
     "nama_komponen": "Komponen Jenayah Kekerasan",
-    "tema_id": 1,
-    "tema_label": "Tema 1: Corak & Trend Isu",
-    "tema_nama": "Corak & Trend Jenayah Kekerasan",
-    "key_points": [
-      "Shifts in violent crime hotspots over time",
-      "Increased involvement of younger offenders",
-      "Linkages between substance abuse and violent incidents"
-    ],
-    "naratif": "Trends in violent crime reveal shifting hotspots, a growing share of younger offenders and strong linkages with substance abuse, highlighting the need to address upstream social and economic drivers, not just policing responses."
+    "naratif_diagnostik_turun": "Penurunan indeks menunjukkan jenayah kekerasan berjaya dikurangkan. Penguatkuasaan disasar, penglibatan komuniti dan intervensi sosial huluan membantu meredakan konflik dan tingkah laku agresif.",
+    "naratif_diagnostik_kekal": "Indeks kekal menunjukkan tahap jenayah kekerasan tidak berubah. Strategi kepolisan dan pencegahan sedia ada mungkin menahan peningkatan, tetapi pemacu sosial utama belum ditangani sepenuhnya.",
+    "naratif_diagnostik_naik": "Peningkatan indeks menggambarkan insiden jenayah kekerasan yang bertambah. Ini boleh didorong oleh tekanan ekonomi, ketegangan sosial, penyalahgunaan bahan atau kehadiran geng dan kumpulan longgar."
+  },
+  {
+    "kod_komponen": "T04-K02",
+    "nama_komponen": "Komponen Jenayah Dadah",
+    "naratif_diagnostik_turun": "Indeks lebih rendah menunjukkan kesalahan atau mudarat berkaitan dadah berkurang. Gangguan rantaian bekalan yang lebih berkesan, program pemulihan dan pencegahan komuniti memberi kesan positif.",
+    "naratif_diagnostik_kekal": "Indeks stabil menunjukkan risiko berkaitan dadah dikawal tetapi tidak banyak menurun. Permintaan, kadar relaps dan rangkaian pengedaran setempat mungkin masih kukuh.",
+    "naratif_diagnostik_naik": "Indeks lebih tinggi menunjukkan peningkatan kesalahan, rampasan atau mudarat dadah. Ini mungkin mencerminkan ketersediaan yang meningkat, perubahan jenis dadah, permintaan yang kuat atau kemunculan laluan pengedaran baharu."
   },
   {
     "kod_komponen": "T05-K01",
     "nama_komponen": "Komponen Sumber Manusia (Perjawatan)",
-    "tema_id": 4,
-    "tema_label": "Tema 4: Jurang Kawal Selia & Proses",
-    "tema_nama": "Jurang Dalam Tadbir Urus Sumber Manusia",
-    "key_points": [
-      "Unclear succession planning for critical security roles",
-      "Inconsistent competency frameworks across agencies",
-      "Limited integration between training needs and posting decisions"
-    ],
-    "naratif": "Human resource governance gaps, including weak succession planning, inconsistent competency frameworks and loose alignment between training and deployment, reduce the overall resilience of security institutions."
+    "naratif_diagnostik_turun": "Penurunan indeks bermakna risiko berkaitan perjawatan terhadap fungsi keselamatan semakin berkurang. Pengambilan, penempatan dan pengekalan lebih selari dengan keperluan operasi, dan kekosongan kritikal sedang ditutup.",
+    "naratif_diagnostik_kekal": "Indeks mendatar menunjukkan kekangan sumber manusia kekal pada tahap sama. Walaupun tidak bertambah buruk, perancangan penggantian, jurang kecekapan dan tekanan beban kerja masih boleh menjejaskan daya tahan.",
+    "naratif_diagnostik_naik": "Indeks meningkat menonjolkan risiko sumber manusia yang semakin serius seperti kekosongan berterusan, kekurangan kemahiran atau kadar keluar masuk tinggi pada jawatan kritikal. Ini melemahkan memori institusi dan memperlahankan tindak balas terhadap ancaman baharu."
   }
 ]

@@ -2,66 +2,36 @@
   {
     "kod_teras": "T01",
     "nama_teras": "Perlembagaan & Undang-Undang",
-    "tema_id": 1,
-    "tema_label": "Tema 1: Corak & Trend Isu",
-    "tema_nama": "Analisis Corak & Trend Isu",
-    "key_points": [
-      "Increasing disputes related to constitutional and legal interpretation",
-      "Recurring challenges on similar legal provisions across multiple years",
-      "Hotspot states showing repeated institutional trust issues"
-    ],
-    "naratif": "Rising and recurring disputes involving constitutional and legal provisions indicate emerging structural gaps in implementation, uneven awareness of legal rights and possible erosion of institutional trust in certain regions."
+    "naratif_diagnostik_turun": "Penurunan indeks menunjukkan pertikaian, cabaran dan insiden berkaitan kestabilan perlembagaan serta undang-undang semakin jarang atau kurang serius. Ini menandakan kesedaran perundangan bertambah, pematuhan lebih baik dan mekanisme penyelesaian pertikaian lebih berkesan.",
+    "naratif_diagnostik_kekal": "Indeks yang kekal stabil bermaksud tahap isu berkaitan perlembagaan dan rangka undang-undang tidak banyak berubah. Kawalan sedia ada masih berfungsi, namun kelemahan struktur tersembunyi perlu terus dipantau dan disemak dari semasa ke semasa.",
+    "naratif_diagnostik_naik": "Peningkatan indeks menandakan bilangan atau keterukan isu kestabilan perlembagaan dan undang-undang semakin meningkat. Ini boleh didorong oleh tafsiran undang-undang yang tidak sekata, jurang penguatkuasaan atau pertikaian awam terhadap keputusan institusi."
   },
   {
     "kod_teras": "T02",
     "nama_teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
-    "tema_id": 2,
-    "tema_label": "Tema 2: Faktor Pendorong & Punca",
-    "tema_nama": "Faktor Pendorong Isu Integriti",
-    "key_points": [
-      "Weak internal control mechanisms in some enforcement agencies",
-      "Pressure to meet operational targets without sufficient safeguards",
-      "Limited whistleblower protection discouraging internal reporting"
-    ],
-    "naratif": "Integrity issues within enforcement agencies are often driven by weak internal controls, performance pressures that override due process and an environment where whistleblowers feel insufficiently protected."
+    "naratif_diagnostik_turun": "Indeks lebih rendah menunjukkan pelanggaran integriti dan kegagalan tadbir urus di agensi penguat kuasa berkurang. Kawalan dalaman diperkukuh, prosedur lebih jelas dan kepimpinan yang menitikberatkan integriti membantu penambahbaikan ini.",
+    "naratif_diagnostik_kekal": "Indeks yang tidak berubah memberi isyarat risiko integriti dan isu tadbir urus kekal pada tahap sama. Langkah pencegahan mungkin menahan kemerosotan, tetapi pembaharuan budaya dan sistem masih diperlukan untuk kesan nyata.",
+    "naratif_diagnostik_naik": "Indeks lebih tinggi menunjukkan peningkatan insiden integriti, salah guna kuasa atau kegagalan tadbir urus. Ini boleh berpunca daripada pengawasan yang lemah, konflik kepentingan, perlindungan pembocor maklumat yang tidak mencukupi atau insentif prestasi yang tersasar."
   },
   {
     "kod_teras": "T03",
     "nama_teras": "Pengukuhan Keselamatan Sempadan",
-    "tema_id": 3,
-    "tema_label": "Tema 3: Risiko & Implikasi",
-    "tema_nama": "Risiko & Implikasi Terhadap Sempadan",
-    "key_points": [
-      "Higher exposure to cross-border crime and irregular migration",
-      "Potential spillover of regional conflicts into border areas",
-      "Increased burden on frontline enforcement and logistics"
-    ],
-    "naratif": "Border security weaknesses heighten exposure to cross-border crime, irregular migration and regional conflict spillover, increasing operational pressure on frontline agencies and elevating long-term security risks."
+    "naratif_diagnostik_turun": "Penurunan indeks bermakna risiko rentas sempadan seperti penyeludupan, migrasi tidak teratur dan pencerobohan semakin terkawal. Pemantauan lebih baik, operasi bersama dan kawalan lebih ketat di laluan rasmi serta tidak rasmi memberi kesan positif.",
+    "naratif_diagnostik_kekal": "Indeks yang stabil menunjukkan risiko berkaitan sempadan diurus pada tahap sama. Corak rondaan dan kerjasama sedia ada memadai untuk menahan peningkatan, tetapi belum cukup kukuh untuk mencetuskan tren menurun yang jelas.",
+    "naratif_diagnostik_naik": "Peningkatan indeks menandakan tekanan di sempadan bertambah, termasuk kenaikan aktiviti penyeludupan, migrasi tidak teratur atau pencerobohan. Ini mencerminkan laluan yang poros, kekangan tenaga atau peralatan, serta taktik rangkaian rentas sempadan yang semakin canggih."
   },
   {
     "kod_teras": "T04",
     "nama_teras": "Keselamatan Sosial, Ekonomi & Politik",
-    "tema_id": 4,
-    "tema_label": "Tema 4: Jurang Kawal Selia & Proses",
-    "tema_nama": "Jurang Kawal Selia & Proses",
-    "key_points": [
-      "Overlapping mandates between agencies in social and economic security",
-      "Gaps in data sharing and joint risk assessment",
-      "Slow escalation processes for emerging socio-political tensions"
-    ],
-    "naratif": "Fragmented regulatory and process arrangements across social, economic and political domains delay early detection of systemic risks and create blind spots where tensions escalate without timely, coordinated intervention."
+    "naratif_diagnostik_turun": "Penurunan indeks menunjukkan ancaman terhadap kestabilan sosial, ekonomi dan politik semakin reda. Faktor seperti sokongan sosial yang lebih baik, pencegahan jenayah yang berkesan, keadaan ekonomi yang stabil atau pengurangan polarisasi wacana awam mungkin memainkan peranan.",
+    "naratif_diagnostik_kekal": "Indeks mendatar menandakan risiko sosial, ekonomi dan politik dikawal tetapi tidak banyak berkurang. Kerentanan asas seperti ketidaksamarataan, ketegangan setempat atau ketidakpastian ekonomi masih berlegar di bawah permukaan.",
+    "naratif_diagnostik_naik": "Peningkatan indeks menonjolkan tekanan sosial, ekonomi atau politik yang meningkat, seperti lebih banyak ketidaktenteraman, jenayah, keresahan awam atau polarisasi. Ini boleh didorong oleh kejutan kos sara hidup, dasar yang dipertikai atau penyebaran naratif yang memecahbelahkan."
   },
   {
     "kod_teras": "T05",
     "nama_teras": "Perlindungan Aset Keselamatan Negara",
-    "tema_id": 2,
-    "tema_label": "Tema 2: Faktor Pendorong & Punca",
-    "tema_nama": "Faktor Pendorong Risiko Aset",
-    "key_points": [
-      "Ageing critical infrastructure and legacy systems",
-      "Underinvestment in security hardening and upgrades",
-      "Dependence on a small pool of specialised personnel"
-    ],
-    "naratif": "National security assets are increasingly exposed due to ageing infrastructure, underinvestment in security upgrades and heavy dependence on a limited pool of specialised staff, all of which drive systemic vulnerability."
+    "naratif_diagnostik_turun": "Indeks yang menurun bermaksud risiko terhadap aset keselamatan kritikal semakin berkurang. Langkah perlindungan, perancangan redundansi dan pelaburan dalam pengukuhan infrastruktur meningkatkan keupayaan bertahan daripada gangguan atau sabotaj.",
+    "naratif_diagnostik_kekal": "Indeks stabil menunjukkan profil risiko aset keselamatan negara kekal sama. Perlindungan sedia ada memadai buat masa ini, namun penuaan infrastruktur, jurang kemahiran atau usang teknologi boleh menjadi tekanan pada masa hadapan.",
+    "naratif_diagnostik_naik": "Indeks yang meningkat menandakan pendedahan aset keselamatan negara kepada ancaman fizikal, teknikal atau siber semakin tinggi. Faktor pendorong termasuk infrastruktur usang, pelaburan perlindungan yang tidak mencukupi, kebergantungan kompleks serta kekurangan tenaga pakar."
   }
 ]
