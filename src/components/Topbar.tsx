@@ -1,4 +1,4 @@
-import { ArrowLeftEndOnRectangleIcon } from "@heroicons/react/24/outline";
+import { ArrowLeftEndOnRectangleIcon, UserCircleIcon } from "@heroicons/react/24/outline";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
@@ -40,13 +40,14 @@ function Topbar() {
 
           {/* Right Section - Pengguna */}
           <div className="flex items-center gap-3">
-            <span className="text-sm font-medium text-gray-600">Pengguna:</span>
-            <div className="flex items-center gap-2">
-              <span className="text-sm font-semibold text-gray-800">SUPER</span>
-              <div className="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center text-white text-sm font-medium">
-                SU
-              </div>
-            </div>
+            <button
+              onClick={() => navigate("/profil")}
+              className="flex items-center gap-2 px-3 py-2 bg-blue-50 text-blue-900 rounded hover:bg-blue-100 transition-colors text-sm font-medium"
+              title="Lihat Profil"
+            >
+              <UserCircleIcon className="w-5 h-5" />
+              <span>Profil</span>
+            </button>
             <button
               onClick={handleLogout}
               className="ml-2 flex items-center gap-2 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition-colors text-sm font-medium"

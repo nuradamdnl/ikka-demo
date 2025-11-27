@@ -43,6 +43,7 @@ import AnalitikPreskriptifIndikator from "./pages/portal/Analitik/AnalitikPreskr
 import LaporanStrategik from "./pages/portal/LaporanStrategik";
 import SelenggaraPengguna from "./pages/portal/SelenggaraPengguna";
 import DaftarPemilikData from "./pages/portal/DaftarPemilikData";
+import ProfilPengguna from "./pages/portal/ProfilPengguna";
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         <Route path="/aktiviti-kajian" element={<AktivitiKajian />} />
         <Route path="/log-masuk" element={<LogMasuk />} />
         <Route path="/daftar-pemilik-data" element={<DaftarPemilikData />} />
+        <Route path="/profil" element={<ProfilPengguna />} />
         <Route path="/papan-utama" element={<PapanUtama />} />
         <Route path="/pengurusan-parameter" element={<PengurusanParameter />} />
         <Route path="/pengurusan-parameter/teras" element={<Teras />} />
