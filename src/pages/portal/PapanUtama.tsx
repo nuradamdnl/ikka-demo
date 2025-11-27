@@ -5,13 +5,19 @@ import Footer from "../../components/Footer";
 import StatCard from "../../components/StatCard";
 import PageTitle from "../../components/PageTitle";
 import SectionCard from "../../components/SectionCard";
-import { Square3Stack3DIcon, CircleStackIcon, ChartPieIcon, ScaleIcon, ShareIcon, QueueListIcon, ArrowTrendingUpIcon } from "@heroicons/react/24/outline";
+import {
+  ScaleIcon,
+  ShareIcon,
+  QueueListIcon,
+  ArrowTrendingUpIcon,
+} from "@heroicons/react/24/outline";
 import { getAllTeras, getKomponenByTeras, getIndikatorByTeras } from "../../lib/dataLookup";
 import GaugeCard from "../../components/GaugeCard";
 import InfoCard from "../../components/InfoCard";
-import { Scale } from "chart.js";
+import { useMemo, useState } from "react";
 
 function PapanUtama() {
+  const [tab, setTab] = useState<"mingguan" | "bulanan">("mingguan");
   const totalTeras = getAllTeras().length;
   const totalKomponen = getAllTeras().reduce(
     (sum, teras) => sum + getKomponenByTeras(teras["Kod Teras"]).length,
@@ -20,6 +26,31 @@ function PapanUtama() {
   const totalIndikator = getAllTeras().reduce(
     (sum, teras) => sum + getIndikatorByTeras(teras["Kod Teras"]).length,
     0
+  );
+
+  const leaderboard = useMemo(
+    () => ({
+      mingguan: [
+        { rank: 1, agensi: "PDRM", jabatan: "JSPT", code: "JSPT", skor: 94, delta: "+2", activity: "42 kemas kini minggu ini" },
+        { rank: 2, agensi: "SPRM", jabatan: "Bah. Pencegahan", code: "SPRM", skor: 91, delta: "0", activity: "38 kemas kini" },
+        { rank: 3, agensi: "APMM", jabatan: "Operasi Sempadan", code: "APMM", skor: 88, delta: "-1", activity: "33 kemas kini" },
+        { rank: 4, agensi: "JIM", jabatan: "Penguatkuasaan", code: "JIMM", skor: 82, delta: "+1", activity: "29 kemas kini" },
+        { rank: 5, agensi: "AADK", jabatan: "Operasi & Rehabilitasi", code: "AADK", skor: 79, delta: "+3", activity: "25 kemas kini" },
+      ],
+      bulanan: [
+        { rank: 1, agensi: "SPRM", jabatan: "Bah. Pencegahan", code: "SPRM", skor: 96, delta: "+1", activity: "162 kemas kini bulan ini" },
+        { rank: 2, agensi: "PDRM", jabatan: "JSPT", code: "JSPT", skor: 94, delta: "+2", activity: "155 kemas kini" },
+        { rank: 3, agensi: "APMM", jabatan: "Operasi Sempadan", code: "APMM", skor: 90, delta: "-1", activity: "143 kemas kini" },
+        { rank: 4, agensi: "JIM", jabatan: "Penguatkuasaan", code: "JIMM", skor: 86, delta: "+1", activity: "131 kemas kini" },
+        { rank: 5, agensi: "AADK", jabatan: "Operasi & Rehabilitasi", code: "AADK", skor: 83, delta: "0", activity: "118 kemas kini" },
+      ],
+    }),
+    []
+  );
+
+  const userPosition = useMemo(
+    () => ({ rank: 6, agensi: "PDRM", jabatan: "JSPT", gap: "Perlu +8 kemas kini untuk ke Top 5" }),
+    []
   );
 
   return (
@@ -66,6 +97,78 @@ function PapanUtama() {
                   subtitle={<span className="text-red-600">▼ -0.8%</span>}
                 />
               </div>
+            </SectionCard>
+
+            <SectionCard title="Leaderboard Agensi/Jabatan">
+              <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+                <div className="flex gap-2">
+                  {(["mingguan", "bulanan"] as const).map((t) => (
+                    <button
+                      key={t}
+                      onClick={() => setTab(t)}
+                      className={`px-3 py-1.5 rounded-full text-sm font-semibold transition ${
+                        tab === t ? "bg-blue-900 text-white shadow" : "bg-gray-100 text-gray-800 hover:bg-gray-200"
+                      }`}
+                    >
+                      {t === "mingguan" ? "Mingguan" : "Bulanan"}
+                    </button>
+                  ))}
+                </div>
+                <div className="text-sm text-gray-700">
+                  Kedudukan anda: <span className="font-semibold text-blue-900">#{userPosition.rank}</span> — {userPosition.gap}
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {leaderboard[tab].map((item) => (
+                  <div
+                    key={item.rank}
+                    className="flex items-center gap-3 p-3 bg-white border border-gray-200 rounded-lg shadow-sm"
+                  >
+                    <div className="flex flex-col items-center gap-1">
+                      <div
+                        className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold ${
+                          item.rank === 1
+                            ? "bg-yellow-100 text-yellow-800"
+                            : item.rank === 2
+                            ? "bg-gray-200 text-gray-800"
+                            : item.rank === 3
+                            ? "bg-amber-200 text-amber-900"
+                            : "bg-blue-50 text-blue-900"
+                        }`}
+                      >
+                        #{item.rank}
+                      </div>
+                      <img
+                        src={`/src/assets/images/pemilik-data/${item.code}.png`}
+                        alt={`${item.agensi} logo`}
+                        className="w-10 h-10 object-contain"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-sm font-semibold text-gray-900">{item.agensi} · {item.jabatan}</p>
+                      <p className="text-xs text-gray-600">{item.activity}</p>
+                      <div className="mt-2 flex items-center gap-2">
+                        <div className="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden">
+                          <div
+                            className={`h-2 rounded-full ${
+                              item.rank === 1 ? "bg-blue-900" : "bg-blue-500"
+                            }`}
+                            style={{ width: `${Math.min(item.skor, 100)}%` }}
+                          />
+                        </div>
+                        <span className="text-xs font-semibold text-gray-800">{item.skor}</span>
+                      </div>
+                    </div>
+                    <div className="text-xs font-semibold text-green-700">
+                      {item.delta}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p className="text-xs text-gray-600 mt-3">
+                Skor gabungan berdasarkan jumlah dan ketepatan kemas kini terkini, kadar kelengkapan serta pematuhan validasi.
+              </p>
             </SectionCard>
             <SectionCard title="Status Kemasukan Data">
               <div className="grid grid-cols-1 md:grid-cols-5 gap-6">

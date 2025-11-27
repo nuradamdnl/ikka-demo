@@ -60,9 +60,11 @@ function ProfilPengguna() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
               <SectionCard title="Maklumat Asas">
                 <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-900 to-blue-600 text-white flex items-center justify-center text-3xl font-bold shadow-lg">
-                    AF
-                  </div>
+                  <img
+                    src="/src/assets/images/profile.jpg"
+                    alt={profile.nama}
+                    className="w-32 h-32 rounded-full object-cover shadow-lg border-4 border-white"
+                  />
                   <div>
                     <p className="text-xl font-semibold text-gray-900">{profile.nama}</p>
                     <p className="text-sm text-blue-900 font-semibold">{profile.jawatan}</p>
