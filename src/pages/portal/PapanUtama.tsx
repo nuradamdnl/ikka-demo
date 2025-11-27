@@ -5,10 +5,11 @@ import Footer from "../../components/Footer";
 import StatCard from "../../components/StatCard";
 import PageTitle from "../../components/PageTitle";
 import SectionCard from "../../components/SectionCard";
-import { Square3Stack3DIcon, CircleStackIcon, ChartPieIcon } from "@heroicons/react/24/outline";
+import { Square3Stack3DIcon, CircleStackIcon, ChartPieIcon, ScaleIcon, ShareIcon, QueueListIcon, ArrowTrendingUpIcon } from "@heroicons/react/24/outline";
 import { getAllTeras, getKomponenByTeras, getIndikatorByTeras } from "../../lib/dataLookup";
 import GaugeCard from "../../components/GaugeCard";
 import InfoCard from "../../components/InfoCard";
+import { Scale } from "chart.js";
 
 function PapanUtama() {
   const totalTeras = getAllTeras().length;
@@ -35,31 +36,31 @@ function PapanUtama() {
             <SectionCard title="Instrumen dan Indeks Terkini">
               <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
                 <StatCard
-                  icon={<Square3Stack3DIcon className="w-6 h-6" />}
+                  icon={<ScaleIcon className="w-6 h-6" />}
                   title="Jumlah Teras"
                   value={totalTeras}
                   subtitle="Teras IKKA"
                 />
                 <StatCard
-                  icon={<CircleStackIcon className="w-6 h-6" />}
+                  icon={<ShareIcon className="w-6 h-6" />}
                   title="Jumlah Komponen"
                   value={totalKomponen}
                   subtitle="Komponen IKKA"
                 />
                 <StatCard
-                  icon={<ChartPieIcon className="w-6 h-6" />}
+                  icon={<QueueListIcon className="w-6 h-6" />}
                   title="Jumlah Indikator"
                   value={totalIndikator}
                   subtitle="Indikator IKKA"
                 />
                 <StatCard
-                  icon={<ChartPieIcon className="w-6 h-6" />}
+                  icon={<ArrowTrendingUpIcon className="w-6 h-6" />}
                   title="Indeks Tahun Terkini"
                   value={104.3}
                   subtitle={<span className="text-green-600">▲ +1.5%</span>}
                 />
                 <StatCard
-                  icon={<ChartPieIcon className="w-6 h-6" />}
+                  icon={<ArrowTrendingUpIcon className="w-6 h-6" />}
                   title="Indeks Penggal Terkini"
                   value={101.1}
                   subtitle={<span className="text-red-600">▼ -0.8%</span>}
