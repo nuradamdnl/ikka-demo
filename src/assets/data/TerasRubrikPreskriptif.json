@@ -1,0 +1,67 @@
+[
+  {
+    "kod_teras": "T01",
+    "nama_teras": "Perlembagaan & Undang-Undang",
+    "tema_id": 1,
+    "tema_label": "Tema 1: Kualiti Pengurusan Operasi",
+    "tema_nama": "Meningkatkan Kualiti Pengurusan Operasi",
+    "key_elements": [
+      "Penyelarasan fungsi perundangan antara agensi",
+      "Pengukuhan pemantauan kepatuhan undang-undang",
+      "Pengurusan kes berkaitan perlembagaan secara efisien"
+    ],
+    "naratif": "Peningkatan kualiti pengurusan operasi dalam memastikan pemeliharaan Perlembagaan dilakukan melalui penyelarasan antara agensi, pemantauan kepatuhan undang-undang dan pengurusan kes perundangan secara lebih efisien serta berkesan."
+  },
+  {
+    "kod_teras": "T02",
+    "nama_teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+    "tema_id": 2,
+    "tema_label": "Tema 2: Aspek Aset dan Bajet",
+    "tema_nama": "Menilai dan Mengaitkan Aspek Aset dan Bajet",
+    "key_elements": [
+      "Pewajaran bajet mengikut keperluan integriti",
+      "Penggunaan aset untuk pemantauan ketelusan",
+      "Penilaian keberkesanan sumber terhadap kawalan integriti"
+    ],
+    "naratif": "Aspek aset dan bajet diperkukuh bagi memastikan integriti agensi penguatkuasaan terjamin melalui pewajaran bajet, penggunaan aset untuk pemantauan ketelusan serta penilaian keberkesanan sumber dalam pencegahan salah guna kuasa."
+  },
+  {
+    "kod_teras": "T03",
+    "nama_teras": "Pengukuhan Keselamatan Sempadan",
+    "tema_id": 3,
+    "tema_label": "Tema 3: Elemen Perundangan",
+    "tema_nama": "Mematuhi Akta dan Mengandungi Elemen Perundangan",
+    "key_elements": [
+      "Pematuhan akta berkaitan sempadan",
+      "Prosedur kawal sempadan berlandaskan undang-undang",
+      "Tindakan penguatkuasaan mengikut mandat perundangan"
+    ],
+    "naratif": "Pengurusan keselamatan sempadan diperkukuh dengan memastikan semua operasi kawal sempadan mematuhi akta berkaitan, mengikut mandat perundangan dan dilaksanakan berdasarkan prosedur penguatkuasaan yang sah."
+  },
+  {
+    "kod_teras": "T04",
+    "nama_teras": "Keselamatan Sosial, Ekonomi & Politik",
+    "tema_id": 4,
+    "tema_label": "Tema 4: Impak Keterlibatan",
+    "tema_nama": "Menerangkan Pihak yang Terlibat dan Impak Keterlibatan",
+    "key_elements": [
+      "Pihak berkepentingan dalam keselamatan sosial",
+      "Analisis impak keselamatan terhadap awam",
+      "Pengukuhan kerjasama antara komuniti dan agensi"
+    ],
+    "naratif": "Keselamatan sosial, ekonomi dan politik dipengaruhi oleh keterlibatan pelbagai pihak termasuk agensi, komuniti dan sektor swasta. Tindakan dipandu oleh analisis impak keselamatan terhadap awam serta pengukuhan kerjasama strategik."
+  },
+  {
+    "kod_teras": "T05",
+    "nama_teras": "Perlindungan Aset Keselamatan Negara",
+    "tema_id": 5,
+    "tema_label": "Tema 5: Keupayaan Sumber Manusia",
+    "tema_nama": "Membuat Perancangan Berdasarkan Keupayaan Sumber Manusia",
+    "key_elements": [
+      "Penilaian tenaga kerja keselamatan aset negara",
+      "Kemahiran teknikal pengurusan aset kritikal",
+      "Latihan dan peningkatan kapasiti berkala"
+    ],
+    "naratif": "Perlindungan aset keselamatan negara memerlukan perancangan berdasarkan kemampuan tenaga kerja yang mencukupi, kompeten dan terlatih dalam pengurusan aset kritikal serta keupayaan bertindak dalam situasi kecemasan."
+  }
+]

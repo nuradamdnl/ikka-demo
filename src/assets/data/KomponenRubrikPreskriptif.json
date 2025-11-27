@@ -1,0 +1,74 @@
+[
+  {
+    "kod_komponen": "T01-K01",
+    "nama_komponen": "Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang",
+    "tema_id": 1,
+    "tema_label": "Tema 1: Kualiti Pengurusan Operasi",
+    "tema_nama": "Meningkatkan Kualiti Pengurusan Operasi",
+    "key_elements": [
+      "Pemetaan ancaman secara real-time",
+      "Penyelarasan operasi antara agensi keselamatan",
+      "Pengoptimuman penggunaan aset risikan",
+      "Prosedur respons pantas terhadap insiden keselamatan",
+      "Pengukuhan kawalan operasi di kawasan berisiko"
+    ],
+    "naratif": "Pengurusan operasi dipertingkat melalui pemetaan ancaman berasaskan data, penyelarasan tindakan antara agensi keselamatan, penggunaan aset risikan secara optimum serta mekanisme respons pantas bagi menangani ancaman subversif, keganasan dan jenayah terancang."
+  },
+  {
+    "kod_komponen": "T01-K03",
+    "nama_komponen": "Ajaran Sesat",
+    "tema_id": 2,
+    "tema_label": "Tema 2: Aspek Aset dan Bajet",
+    "tema_nama": "Menilai dan Mengaitkan Aspek Aset dan Bajet",
+    "key_elements": [
+      "Keperluan aset untuk pemantauan aktiviti dakyah",
+      "Penggunaan bajet untuk program pencegahan",
+      "Kefungsian sistem pemantauan digital",
+      "Penggunaan sumber kewangan untuk operasi risikan agama"
+    ],
+    "naratif": "Pengurusan aset dan peruntukan kewangan dipautkan dengan keperluan pemantauan aktiviti ajaran sesat melalui peruntukan untuk operasi risikan, pembangunan sistem pemantauan digital dan pembiayaan program pemulihan serta advokasi masyarakat."
+  },
+  {
+    "kod_komponen": "T02-K02",
+    "nama_komponen": "Penyalahgunaan Kuasa (Seksyen 23, Akta SPRM 2009)",
+    "tema_id": 3,
+    "tema_label": "Tema 3: Elemen Perundangan",
+    "tema_nama": "Mematuhi Akta dan Mengandungi Elemen Perundangan",
+    "key_elements": [
+      "Pematuhan undang-undang SPRM",
+      "Pelaporan wajib kepada pihak berautoriti",
+      "Prosedur siasatan dalaman",
+      "Garis panduan integriti operasi"
+    ],
+    "naratif": "Semua tindakan pencegahan penyalahgunaan kuasa diselaraskan dengan tatacara perundangan Akta SPRM, melibatkan pelaporan berstruktur, prosedur siasatan dalaman yang ketat, serta penguatkuasaan garis panduan integriti bagi mengelakkan pelanggaran kuasa dan ketirisan keputusan."
+  },
+  {
+    "kod_komponen": "T03-K01",
+    "nama_komponen": "Penyeludupan Migran",
+    "tema_id": 4,
+    "tema_label": "Tema 4: Impak Keterlibatan",
+    "tema_nama": "Menerangkan Pihak yang Terlibat dan Impak Keterlibatan",
+    "key_elements": [
+      "Pihak berkepentingan seperti Imigresen, APMM dan PDRM",
+      "Impak terhadap keselamatan awam",
+      "Kesan terhadap hubungan antarabangsa",
+      "Risiko pemerdagangan manusia"
+    ],
+    "naratif": "Analisis impak penyeludupan migran merangkumi keterlibatan agensi sempadan, kesan kepada keselamatan komuniti tempatan serta implikasi diplomatik dengan negara jiran. Kerjasama rentas agensi dipertingkat bagi memastikan saluran migrasi haram diputuskan dan risiko jenayah rentas sempadan dikurangkan."
+  },
+  {
+    "kod_komponen": "T04-K07",
+    "nama_komponen": "Jenayah Siber",
+    "tema_id": 5,
+    "tema_label": "Tema 5: Keupayaan Sumber Manusia",
+    "tema_nama": "Membuat Perancangan Berdasarkan Keupayaan Sumber Manusia",
+    "key_elements": [
+      "Kemahiran forensik digital",
+      "Kemahiran analisis malware",
+      "Kapasiti respon insiden siber",
+      "Penguasaan teknologi pengesanan ancaman moden",
+      "Keupayaan pengurusan aset teknologi keselamatan"
+    ],
+    "naratif": "Pembangunan tenaga kerja keselamatan siber memfokuskan peningkatan kemampuan forensik digital, kecekapan analisis malware dan keupayaan respons kepada insiden serangan. Penilaian kapasiti ini memandu pelaburan latihan, pengkhususan pegawai serta pengukuhan infrastruktur keselamatan maklumat negara."
+  }
+]

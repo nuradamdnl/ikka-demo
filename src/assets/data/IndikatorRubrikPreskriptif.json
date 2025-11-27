@@ -1,0 +1,205 @@
+[
+  {
+    "kod_indikator": "T00-K00-I00",
+    "nama_indikator": "Kesalahan terhadap negara dan pemerintahan",
+    "tema_id": 1,
+    "tema_label": "Tema 1: Kualiti Pengurusan Operasi",
+    "tema_nama": "Meningkatkan Kualiti Pengurusan Operasi",
+    "key_elements": [
+      "Penambahbaikan proses operasi harian",
+      "Pengoptimuman sumber",
+      "Penyelarasan fungsi antara jabatan",
+      "Peningkatan keberkesanan penyampaian perkhidmatan awam"
+    ],
+    "naratif": "Pengesanan awal dan tindakan bersepadu terhadap ancaman subversif, sabotaj, pengintipan serta penyebaran ideologi ekstrem dilaksana melalui pemetaan ancaman berasaskan data, penggunaan aset pengawasan secara lebih strategik, perkongsian maklumat kritikal antara jabatan dan respons operasi yang lebih pantas serta tersusun."
+  },
+  {
+    "kod_indikator": "T00-K00-I00",
+    "nama_indikator": "Kesalahan terhadap negara dan pemerintahan",
+    "tema_id": 2,
+    "tema_label": "Tema 2: Aspek Aset dan Bajet",
+    "tema_nama": "Menilai dan Mengaitkan Aspek Aset dan Bajet",
+    "key_elements": [
+      "Data operasi dengan penggunaan aset dan peruntukan kewangan",
+      "Hubungan antara kecekapan penggunaan sumber dengan keberhasilan program"
+    ],
+    "naratif": "Data operasi seperti kekerapan ancaman, jenis insiden dan tahap risiko dihubungkan dengan penggunaan aset pemantauan, risikan dan kawal selia bagi memastikan peruntukan kewangan diagihkan mengikut keperluan sebenar. Keberkesanan penggunaan sumber dinilai dengan membandingkan liputan pemantauan dan kejayaan pencegahan terhadap kos operasi untuk menyokong keputusan bajet yang lebih tepat dan berimpak tinggi."
+  },
+  {
+    "kod_indikator": "T00-K00-I00",
+    "nama_indikator": "Kesalahan terhadap negara dan pemerintahan",
+    "tema_id": 3,
+    "tema_label": "Tema 3: Elemen Perundangan",
+    "tema_nama": "Mematuhi Akta dan Mengandungi Elemen Perundangan",
+    "key_elements": [
+      "Pematuhan terhadap akta, garis panduan, serta rangka perundangan",
+      "Selaraskan dengan mandat kementerian"
+    ],
+    "naratif": "Semua tindakan pemantauan dan pencegahan kesalahan terhadap negara diselaraskan dengan mandat KDN serta rangka undang-undang berkaitan ancaman subversif, sabotaj, pengintipan dan ekstremisme. Pengurusan maklumat sensitif mematuhi garis panduan keselamatan negara, termasuk kawalan akses dan klasifikasi dokumen, manakala aktiviti risikan dan pengumpulan bukti direkod secara sah bagi mengekalkan integriti operasi dan boleh dipertahankan di mahkamah."
+  },
+  {
+    "kod_indikator": "T00-K00-I00",
+    "nama_indikator": "Kesalahan terhadap negara dan pemerintahan",
+    "tema_id": 4,
+    "tema_label": "Tema 4: Impak Keterlibatan",
+    "tema_nama": "Menerangkan Pihak yang Terlibat dan Impak Keterlibatan",
+    "key_elements": [
+      "Mengenal pasti pihak berkepentingan utama",
+      "Kesan terhadap tahap keterlibatan mereka",
+      "Kepentingan Awam (Public)",
+      "Hubungan Antarabangsa (International)"
+    ],
+    "naratif": "Berdasarkan analitik risiko, KDN mengeluarkan makluman kepada agensi berkaitan untuk menggerakkan pemantauan, rondaan dan pemintasan awal di sektor strategik. Rakan kerjasama seperti penyedia infrastruktur kritikal dan syarikat telekomunikasi menambah baik kawalan akses dan melaporkan aktiviti mencurigakan. Pendekatan ini meningkatkan keyakinan awam terhadap keupayaan negara mengurus ancaman kompleks serta mengukuhkan kerjasama risikan dan reputasi Malaysia di peringkat antarabangsa."
+  },
+  {
+    "kod_indikator": "T00-K00-I00",
+    "nama_indikator": "Kesalahan terhadap negara dan pemerintahan",
+    "tema_id": 5,
+    "tema_label": "Tema 5: Keupayaan Sumber Manusia",
+    "tema_nama": "Membuat Perancangan Berdasarkan Keupayaan Sumber Manusia",
+    "key_elements": [
+      "Kapasiti sebenar tenaga kerja",
+      "Kemahiran risikan dan analisis ancaman",
+      "Beban tugas operasi",
+      "Kepakaran teknikal pemantauan digital dan keselamatan maklumat",
+      "Daya tindak terhadap insiden berisiko tinggi"
+    ],
+    "naratif": "Kapasiti sebenar tenaga kerja keselamatan negara dinilai dari aspek kemahiran risikan, beban tugas, kepakaran teknikal dalam pemantauan digital dan keselamatan maklumat serta keupayaan bertindak terhadap insiden berisiko tinggi sebelum strategi pencegahan dan intervensi berkaitan ancaman terhadap negara dilaksanakan."
+  },
+
+  {
+    "kod_indikator": "T00-K00-I01",
+    "nama_indikator": "Kes Bunuh",
+    "tema_id": 1,
+    "tema_label": "Tema 1: Kualiti Pengurusan Operasi",
+    "tema_nama": "Meningkatkan Kualiti Pengurusan Operasi",
+    "key_elements": [
+      "Penambahbaikan proses operasi harian",
+      "Pengoptimuman sumber",
+      "Penyelarasan fungsi antara jabatan",
+      "Peningkatan keberkesanan penyampaian perkhidmatan awam"
+    ],
+    "naratif": "Pengesanan awal dan tindakan bersepadu terhadap insiden kekerasan yang berpotensi menjadi kes bunuh dilaksanakan melalui pemetaan pola kes dan faktor risiko interpersonal menggunakan data analitik. Sumber siasatan dan rondaan dioptimumkan mengikut trend kebangsaan, manakala kerjasama antara penyiasat, perkhidmatan perubatan dan agensi kebajikan diperkukuh bagi membolehkan intervensi lebih awal dan respons yang lebih pantas serta tersusun dalam pencegahan dan siasatan kes bunuh."
+  },
+  {
+    "kod_indikator": "T00-K00-I01",
+    "nama_indikator": "Kes Bunuh",
+    "tema_id": 2,
+    "tema_label": "Tema 2: Aspek Aset dan Bajet",
+    "tema_nama": "Menilai dan Mengaitkan Aspek Aset dan Bajet",
+    "key_elements": [
+      "Data operasi dengan penggunaan aset dan peruntukan kewangan",
+      "Hubungan antara kecekapan penggunaan sumber dengan keberhasilan program"
+    ],
+    "naratif": "Data seperti lokasi kejadian, faktor risiko dan masa respons digunakan untuk menilai kesesuaian penggunaan aset penyiasatan, rondaan dan sokongan teknikal. Hubungan antara keberkesanan peralatan forensik, keupayaan respons kecemasan dan kapasiti penyiasatan dengan kadar pencegahan serta penyelesaian kes dianalisis bagi menyokong pelaburan tambahan dalam teknologi forensik, CCTV kawasan berisiko dan program rondaan komuniti."
+  },
+  {
+    "kod_indikator": "T00-K00-I01",
+    "nama_indikator": "Kes Bunuh",
+    "tema_id": 3,
+    "tema_label": "Tema 3: Elemen Perundangan",
+    "tema_nama": "Mematuhi Akta dan Mengandungi Elemen Perundangan",
+    "key_elements": [
+      "Pematuhan terhadap akta, garis panduan, serta rangka perundangan",
+      "Selaraskan dengan mandat kementerian"
+    ],
+    "naratif": "Pencegahan dan penyiasatan kes bunuh dilaksanakan mengikut rangka undang-undang jenayah, termasuk tatacara pengumpulan bukti yang sah, perlindungan data peribadi dan pengurusan maklumat forensik. Proses dokumentasi, kawalan akses maklumat dan pelaporan operasi diselaraskan dengan mandat kementerian supaya bukti boleh diterima di mahkamah, integriti siasatan terpelihara dan salah laku prosedur dapat dielakkan."
+  },
+  {
+    "kod_indikator": "T00-K00-I01",
+    "nama_indikator": "Kes Bunuh",
+    "tema_id": 4,
+    "tema_label": "Tema 4: Impak Keterlibatan",
+    "tema_nama": "Menerangkan Pihak yang Terlibat dan Impak Keterlibatan",
+    "key_elements": [
+      "Mengenal pasti pihak berkepentingan utama",
+      "Kesan terhadap tahap keterlibatan mereka",
+      "Kepentingan Awam (Public)",
+      "Hubungan Antarabangsa (International)"
+    ],
+    "naratif": "Berdasarkan dapatan analitik, KDN memberi makluman risiko kepada agensi penguatkuasa dan kementerian berkaitan untuk menggerakkan rondaan pencegahan, pemantauan bersasar dan rujukan kes berisiko tinggi kepada agensi kesihatan atau kebajikan. Hospital, pusat rawatan, pertubuhan sosial dan komuniti setempat terlibat sebagai rakan strategik yang mengukuhkan sokongan sosial dan melaporkan tanda awal keganasan. Pendekatan ini meningkatkan rasa selamat masyarakat serta menyokong pematuhan kepada piawaian global dalam pengurusan jenayah kekerasan."
+  },
+  {
+    "kod_indikator": "T00-K00-I01",
+    "nama_indikator": "Kes Bunuh",
+    "tema_id": 5,
+    "tema_label": "Tema 5: Keupayaan Sumber Manusia",
+    "tema_nama": "Membuat Perancangan Berdasarkan Keupayaan Sumber Manusia",
+    "key_elements": [
+      "Kapasiti sebenar tenaga kerja",
+      "Kemahiran risikan dan analisis ancaman",
+      "Beban tugas operasi",
+      "Kepakaran teknikal pemantauan digital dan keselamatan maklumat",
+      "Daya tindak terhadap insiden berisiko tinggi"
+    ],
+    "naratif": "Perancangan intervensi berkaitan kes bunuh mengambil kira kapasiti tenaga kerja penguatkuasaan, termasuk kemahiran penyiasatan dan risikan, beban tugasan, keupayaan forensik serta kecekapan menangani insiden berisiko tinggi. Penilaian ini memandu penyusunan semula tugasan, latihan khusus dan pengukuhan pasukan pakar bagi memastikan tindakan pencegahan dan siasatan dijalankan secara mampan."
+  },
+
+  {
+    "kod_indikator": "T00-K00-I02",
+    "nama_indikator": "Bilangan Kes Samun Berkawan Bersenjata Api",
+    "tema_id": 1,
+    "tema_label": "Tema 1: Kualiti Pengurusan Operasi",
+    "tema_nama": "Meningkatkan Kualiti Pengurusan Operasi",
+    "key_elements": [
+      "Penambahbaikan proses operasi harian",
+      "Pengoptimuman sumber",
+      "Penyelarasan fungsi antara jabatan",
+      "Peningkatan keberkesanan penyampaian perkhidmatan awam"
+    ],
+    "naratif": "Pemetaan pola kegiatan samun berkawan bersenjata api, analisis modus operandi berulang dan risikan jenayah digunakan untuk mengesan awal pergerakan kumpulan, perolehan senjata serta persediaan sebelum serangan. Sumber rondaan dan pemantauan dioptimumkan mengikut penilaian risiko kumpulan ganas, manakala maklumat ancaman dikongsi antara unit risikan, kawalan lapangan dan agensi keselamatan lain. Respons yang lebih pantas dan bersepadu membantu mencegah, memintas dan menyiasat insiden dengan lebih berkesan."
+  },
+  {
+    "kod_indikator": "T00-K00-I02",
+    "nama_indikator": "Bilangan Kes Samun Berkawan Bersenjata Api",
+    "tema_id": 2,
+    "tema_label": "Tema 2: Aspek Aset dan Bajet",
+    "tema_nama": "Menilai dan Mengaitkan Aspek Aset dan Bajet",
+    "key_elements": [
+      "Data operasi dengan penggunaan aset dan peruntukan kewangan",
+      "Hubungan antara kecekapan penggunaan sumber dengan keberhasilan program"
+    ],
+    "naratif": "Data operasi mengenai aktiviti kumpulan bersenjata, pola serangan dan kawasan tumpuan digunakan untuk menilai padanan antara risiko ancaman dengan penggunaan aset pemantauan, rondaan bersenjata dan sokongan risikan. Analisis hubungan antara kecekapan rondaan berfokus, penggunaan aset taktikal serta maklumat risikan dengan kejayaan pencegahan dan pemintasan serangan memandu keputusan pelaburan dalam sistem pengawasan pintar, CCTV lokasi sasaran dan inisiatif rondaan komuniti."
+  },
+  {
+    "kod_indikator": "T00-K00-I02",
+    "nama_indikator": "Bilangan Kes Samun Berkawan Bersenjata Api",
+    "tema_id": 3,
+    "tema_label": "Tema 3: Elemen Perundangan",
+    "tema_nama": "Mematuhi Akta dan Mengandungi Elemen Perundangan",
+    "key_elements": [
+      "Pematuhan terhadap akta, garis panduan, serta rangka perundangan",
+      "Selaraskan dengan mandat kementerian"
+    ],
+    "naratif": "Tindakan pencegahan dan pemintasan kes samun berkawan bersenjata api dipandu oleh undang-undang berkaitan senjata api, penggunaan kekerasan dan keselamatan operasi. Pengurusan maklumat risikan serta pergerakan kumpulan mematuhi tatacara keselamatan maklumat termasuk klasifikasi, penyimpanan dan perkongsian terhad kepada pegawai berautoriti. Bukti seperti senjata, rakaman CCTV dan dokumen risikan direkod serta dianalisis mengikut tatacara perundangan bagi mengekalkan integriti siasatan dan menyokong pendakwaan."
+  },
+  {
+    "kod_indikator": "T00-K00-I02",
+    "nama_indikator": "Bilangan Kes Samun Berkawan Bersenjata Api",
+    "tema_id": 4,
+    "tema_label": "Tema 4: Impak Keterlibatan",
+    "tema_nama": "Menerangkan Pihak yang Terlibat dan Impak Keterlibatan",
+    "key_elements": [
+      "Mengenal pasti pihak berkepentingan utama",
+      "Kesan terhadap tahap keterlibatan mereka",
+      "Kepentingan Awam (Public)",
+      "Hubungan Antarabangsa (International)"
+    ],
+    "naratif": "Analitik risiko digunakan untuk mengeluarkan makluman kepada agensi berkaitan supaya pemantauan taktikal dipertingkat, risikan lapangan diperkukuh dan pemintasan awal dirancang terhadap pergerakan kumpulan samun bersenjata. Agensi penguatkuasa, pengusaha premis, syarikat keselamatan dan komuniti setempat menambah baik kawalan akses, sistem keselamatan dalaman dan pelaporan aktiviti mencurigakan. Ini meningkatkan perlindungan kawasan tumpuan, mengurangkan risiko jenayah bersenjata dan menyokong kerjasama serantau dalam memantau aliran senjata api serta kumpulan jenayah rentas sempadan."
+  },
+  {
+    "kod_indikator": "T00-K00-I02",
+    "nama_indikator": "Bilangan Kes Samun Berkawan Bersenjata Api",
+    "tema_id": 5,
+    "tema_label": "Tema 5: Keupayaan Sumber Manusia",
+    "tema_nama": "Membuat Perancangan Berdasarkan Keupayaan Sumber Manusia",
+    "key_elements": [
+      "Kapasiti sebenar tenaga kerja",
+      "Kemahiran risikan dan analisis ancaman",
+      "Beban tugas operasi",
+      "Kepakaran teknikal pemantauan digital dan keselamatan maklumat",
+      "Daya tindak terhadap insiden berisiko tinggi"
+    ],
+    "naratif": "Perancangan operasi melibatkan penilaian kapasiti pegawai yang mengurus ancaman samun bersenjata, termasuk kemahiran risikan, kecekapan taktikal, keupayaan pemantauan digital dan keupayaan bertindak dalam situasi berisiko tinggi. Hasil penilaian digunakan untuk menyusun semula penugasan, menyediakan latihan khusus dan menubuhkan pasukan respons berkeupayaan tinggi bagi memastikan tindakan pencegahan dan pemintasan dapat dilaksanakan dengan selamat dan berkesan."
+  }
+]

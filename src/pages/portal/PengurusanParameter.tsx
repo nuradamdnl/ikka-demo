@@ -5,7 +5,8 @@ import Footer from "../../components/Footer";
 import PageTitle from "../../components/PageTitle";
 import SectionCard from "../../components/SectionCard";
 import NavigationCard from "../../components/NavigationCard";
-import { Square3Stack3DIcon, CircleStackIcon, ChartPieIcon } from "@heroicons/react/24/outline";
+import { CalendarDateRangeIcon, Square3Stack3DIcon, CircleStackIcon, ChartPieIcon, ScaleIcon, ShareIcon, QueueListIcon, BuildingOffice2Icon, KeyIcon, ClipboardDocumentCheckIcon } from "@heroicons/react/24/outline";
+import { Scale } from "chart.js";
 
 function PengurusanParameter() {
   return (
@@ -22,58 +23,58 @@ function PengurusanParameter() {
                 {/* Left Column - Main Navigation Cards */}
                 <div className="grid grid-cols-3 gap-6">
                   <NavigationCard
-                    icon={<Square3Stack3DIcon className="w-6 h-6" />}
+                    icon={<ScaleIcon className="w-6 h-6" />}
                     title="Teras"
                     subtitle="Urus teras"
                     route="/pengurusan-parameter/teras"
                   />
                   <NavigationCard
-                    icon={<CircleStackIcon className="w-6 h-6" />}
+                    icon={<ShareIcon className="w-6 h-6" />}
                     title="Komponen"
                     subtitle="Urus komponen"
                     route="/pengurusan-parameter/komponen"
                   />
                   <NavigationCard
-                    icon={<ChartPieIcon className="w-6 h-6" />}
+                    icon={<QueueListIcon className="w-6 h-6" />}
                     title="Indikator"
                     subtitle="Urus indikator"
                     route="/pengurusan-parameter/indikator"
                   />
                   <NavigationCard
-                    icon={<ChartPieIcon className="w-6 h-6" />}
+                    icon={<BuildingOffice2Icon className="w-6 h-6" />}
                     title="Pemilik Data"
                     subtitle="Agensi dan jabatan"
                     route="/pengurusan-parameter/pemilik-data"
                   />
                   <NavigationCard
-                    icon={<ChartPieIcon className="w-6 h-6" />}
+                    icon={<KeyIcon className="w-6 h-6" />}
                     title="Kod Guna Pakai"
                     subtitle="Senarai kod guna pakai"
                     route="/pengurusan-parameter/kod-guna-pakai"
                   />
                   <NavigationCard
-                    icon={<ChartPieIcon className="w-6 h-6" />}
+                    icon={<ClipboardDocumentCheckIcon className="w-6 h-6" />}
                     title="Rubrik"
                     subtitle="Senarai rubrik"
                     route="/pengurusan-parameter/rubrik"
                   />
                   <NavigationCard
-                    icon={<ChartPieIcon className="w-6 h-6" />}
+                    icon={<CalendarDateRangeIcon className="w-6 h-6" />}
                     title="Penetapan Tahun Asas"
                     subtitle="Tetap tahun asas"
                     route="/pengurusan-parameter/penetapan-tahun-asas"
                   />
                   <NavigationCard
-                    icon={<ChartPieIcon className="w-6 h-6" />}
-                    title="Penetapan Indikator"
-                    subtitle="Tetap indikator"
-                    route="/pengurusan-parameter/penetapan-indikator"
-                  />
-                  <NavigationCard
-                    icon={<ChartPieIcon className="w-6 h-6" />}
+                    icon={<ShareIcon className="w-6 h-6" />}
                     title="Penetapan Komponen"
                     subtitle="Tetap komponen"
                     route="/pengurusan-parameter/penetapan-komponen"
+                  />
+                  <NavigationCard
+                    icon={<QueueListIcon className="w-6 h-6" />}
+                    title="Penetapan Indikator"
+                    subtitle="Tetap indikator"
+                    route="/pengurusan-parameter/penetapan-indikator"
                   />
                 </div>
 

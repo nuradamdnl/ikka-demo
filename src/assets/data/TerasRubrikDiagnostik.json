@@ -1,0 +1,67 @@
+[
+  {
+    "kod_teras": "T01",
+    "nama_teras": "Perlembagaan & Undang-Undang",
+    "tema_id": 1,
+    "tema_label": "Tema 1: Corak & Trend Isu",
+    "tema_nama": "Analisis Corak & Trend Isu",
+    "key_points": [
+      "Increasing disputes related to constitutional and legal interpretation",
+      "Recurring challenges on similar legal provisions across multiple years",
+      "Hotspot states showing repeated institutional trust issues"
+    ],
+    "naratif": "Rising and recurring disputes involving constitutional and legal provisions indicate emerging structural gaps in implementation, uneven awareness of legal rights and possible erosion of institutional trust in certain regions."
+  },
+  {
+    "kod_teras": "T02",
+    "nama_teras": "Tatakelola & Integriti Agensi Penguatkuasaan",
+    "tema_id": 2,
+    "tema_label": "Tema 2: Faktor Pendorong & Punca",
+    "tema_nama": "Faktor Pendorong Isu Integriti",
+    "key_points": [
+      "Weak internal control mechanisms in some enforcement agencies",
+      "Pressure to meet operational targets without sufficient safeguards",
+      "Limited whistleblower protection discouraging internal reporting"
+    ],
+    "naratif": "Integrity issues within enforcement agencies are often driven by weak internal controls, performance pressures that override due process and an environment where whistleblowers feel insufficiently protected."
+  },
+  {
+    "kod_teras": "T03",
+    "nama_teras": "Pengukuhan Keselamatan Sempadan",
+    "tema_id": 3,
+    "tema_label": "Tema 3: Risiko & Implikasi",
+    "tema_nama": "Risiko & Implikasi Terhadap Sempadan",
+    "key_points": [
+      "Higher exposure to cross-border crime and irregular migration",
+      "Potential spillover of regional conflicts into border areas",
+      "Increased burden on frontline enforcement and logistics"
+    ],
+    "naratif": "Border security weaknesses heighten exposure to cross-border crime, irregular migration and regional conflict spillover, increasing operational pressure on frontline agencies and elevating long-term security risks."
+  },
+  {
+    "kod_teras": "T04",
+    "nama_teras": "Keselamatan Sosial, Ekonomi & Politik",
+    "tema_id": 4,
+    "tema_label": "Tema 4: Jurang Kawal Selia & Proses",
+    "tema_nama": "Jurang Kawal Selia & Proses",
+    "key_points": [
+      "Overlapping mandates between agencies in social and economic security",
+      "Gaps in data sharing and joint risk assessment",
+      "Slow escalation processes for emerging socio-political tensions"
+    ],
+    "naratif": "Fragmented regulatory and process arrangements across social, economic and political domains delay early detection of systemic risks and create blind spots where tensions escalate without timely, coordinated intervention."
+  },
+  {
+    "kod_teras": "T05",
+    "nama_teras": "Perlindungan Aset Keselamatan Negara",
+    "tema_id": 2,
+    "tema_label": "Tema 2: Faktor Pendorong & Punca",
+    "tema_nama": "Faktor Pendorong Risiko Aset",
+    "key_points": [
+      "Ageing critical infrastructure and legacy systems",
+      "Underinvestment in security hardening and upgrades",
+      "Dependence on a small pool of specialised personnel"
+    ],
+    "naratif": "National security assets are increasingly exposed due to ageing infrastructure, underinvestment in security upgrades and heavy dependence on a limited pool of specialised staff, all of which drive systemic vulnerability."
+  }
+]

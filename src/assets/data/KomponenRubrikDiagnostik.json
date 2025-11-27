@@ -1,0 +1,67 @@
+[
+  {
+    "kod_komponen": "T01-K01",
+    "nama_komponen": "Komponen Kesalahan Terhadap Negara, Keganasan & Jenayah Terancang",
+    "tema_id": 2,
+    "tema_label": "Tema 2: Faktor Pendorong & Punca",
+    "tema_nama": "Faktor Pendorong Ancaman Keselamatan Negara",
+    "key_points": [
+      "Radical narratives spreading through poorly moderated online channels",
+      "External geopolitical tensions being localised into domestic grievances",
+      "Insufficient early-warning indicators for high-risk individuals and groups"
+    ],
+    "naratif": "The increase in offences against the state, terrorism and organised crime is driven by radical narratives online, regional geopolitical tensions that are reframed as local grievances and gaps in early-warning mechanisms for high-risk actors."
+  },
+  {
+    "kod_komponen": "T02-K01",
+    "nama_komponen": "Komponen Rasuah (Seksyen 16, 17a, 17b, Akta SPRM 2009)",
+    "tema_id": 1,
+    "tema_label": "Tema 1: Corak & Trend Isu",
+    "tema_nama": "Corak & Trend Kes Rasuah",
+    "key_points": [
+      "Persistent corruption cases in similar high-risk sectors",
+      "Repeat offenders and recurring modus operandi",
+      "Spike in cases around key procurement or licensing cycles"
+    ],
+    "naratif": "Diagnostic patterns show that corruption cases cluster in specific high-risk sectors, often repeating similar modus operandi and peaking during key procurement or licensing windows, indicating systemic vulnerabilities rather than isolated incidents."
+  },
+  {
+    "kod_komponen": "T03-K01",
+    "nama_komponen": "Komponen Penyeludupan Migran",
+    "tema_id": 3,
+    "tema_label": "Tema 3: Risiko & Implikasi",
+    "tema_nama": "Risiko & Implikasi Penyeludupan Migran",
+    "key_points": [
+      "Growth of organised smuggling networks exploiting porous routes",
+      "Heightened risk of human trafficking and labour exploitation",
+      "Pressure on local communities and public service capacity"
+    ],
+    "naratif": "Migrant smuggling presents rising risks as organised networks exploit porous routes, increasing the likelihood of human trafficking, labour exploitation and long-term pressure on local communities and public services."
+  },
+  {
+    "kod_komponen": "T04-K01",
+    "nama_komponen": "Komponen Jenayah Kekerasan",
+    "tema_id": 1,
+    "tema_label": "Tema 1: Corak & Trend Isu",
+    "tema_nama": "Corak & Trend Jenayah Kekerasan",
+    "key_points": [
+      "Shifts in violent crime hotspots over time",
+      "Increased involvement of younger offenders",
+      "Linkages between substance abuse and violent incidents"
+    ],
+    "naratif": "Trends in violent crime reveal shifting hotspots, a growing share of younger offenders and strong linkages with substance abuse, highlighting the need to address upstream social and economic drivers, not just policing responses."
+  },
+  {
+    "kod_komponen": "T05-K01",
+    "nama_komponen": "Komponen Sumber Manusia (Perjawatan)",
+    "tema_id": 4,
+    "tema_label": "Tema 4: Jurang Kawal Selia & Proses",
+    "tema_nama": "Jurang Dalam Tadbir Urus Sumber Manusia",
+    "key_points": [
+      "Unclear succession planning for critical security roles",
+      "Inconsistent competency frameworks across agencies",
+      "Limited integration between training needs and posting decisions"
+    ],
+    "naratif": "Human resource governance gaps, including weak succession planning, inconsistent competency frameworks and loose alignment between training and deployment, reduce the overall resilience of security institutions."
+  }
+]
