@@ -1,6 +1,29 @@
 import { dataAgregat, DataAgregat } from "../data/dataAgregat";
 import { indikator } from "../data/indikator";
 
+const BASELINE_STORAGE_KEY = "ikka-baseline-years";
+
+export function loadBaselineOverrides(): Record<string, number> {
+  if (typeof window === "undefined") return {};
+  try {
+    const raw = window.localStorage.getItem(BASELINE_STORAGE_KEY);
+    if (!raw) return {};
+    const parsed = JSON.parse(raw);
+    return typeof parsed === "object" && parsed ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+export function saveBaselineOverrides(next: Record<string, number>) {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(BASELINE_STORAGE_KEY, JSON.stringify(next));
+  } catch {
+    // swallow storage errors
+  }
+}
+
 export interface YearData {
   year: number;
   penggalTotals: { [penggal: string]: number };
@@ -189,7 +212,15 @@ export function getAvailableYears(ind: IndicatorMapItem): number[] {
 /**
  * Get default baseline year for an indicator
  */
-export function getDefaultBaselineYear(ind: IndicatorMapItem): number {
+export function getDefaultBaselineYear(
+  ind: IndicatorMapItem,
+  overrides?: Record<string, number>
+): number {
+  const stored = overrides ?? loadBaselineOverrides();
+  if (stored[ind.code]) {
+    return stored[ind.code];
+  }
+
   const years = getAvailableYears(ind);
   if (years.includes(2021)) {
     return 2021;
