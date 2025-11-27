@@ -89,7 +89,7 @@ function LogMasuk() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent"
-                placeholder="••••••••"
+                placeholder="********"
               />
             </div>
 
@@ -168,6 +168,16 @@ function LogMasuk() {
             >
               Log Masuk
             </button>
+            <p className="text-sm text-gray-700 text-center">
+              Belum ada akaun?{" "}
+              <button
+                type="button"
+                onClick={() => navigate("/daftar-pemilik-data")}
+                className="text-blue-900 font-semibold hover:underline"
+              >
+                Daftar sebagai Pemilik Data
+              </button>
+            </p>
           </form>
         </div>
       </div>

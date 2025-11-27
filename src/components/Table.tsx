@@ -5,6 +5,7 @@ type Column<T> = {
   header: string;
   accessor: keyof T | ((row: T) => React.ReactNode);
   width?: string;
+  render?: (value: any, row: T) => React.ReactNode;
 };
 
 type TableProps<T> = {
@@ -43,7 +44,11 @@ function Table<T extends Record<string, any>>({
     if (typeof column.accessor === "function") {
       return column.accessor(row);
     }
-    return row[column.accessor];
+    const value = row[column.accessor];
+    if (column.render) {
+      return column.render(value, row);
+    }
+    return value;
   };
 
   const showActions = onView || onEdit || onDelete;

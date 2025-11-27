@@ -4,7 +4,7 @@ import Topbar from "../../../components/Topbar";
 import Sidebar from "../../../components/Sidebar";
 import Footer from "../../../components/Footer";
 import PageTitle from "../../../components/PageTitle";
-import PowerBIEmbed from "../../../components/PowerBIEmbed";
+import SectionCard from "../../../components/SectionCard";
 import komponenData from "../../../assets/data/Komponen.json";
 
 function AnalitikPrediktifKomponen() {
@@ -20,10 +20,16 @@ function AnalitikPrediktifKomponen() {
         <main className="flex-grow p-6">
           <div className="container mx-auto">
             <PageTitle>Analitik Prediktif - {komponen?.["Nama Komponen"]}</PageTitle>
-            <PowerBIEmbed 
-              title={`Komponen ${komponen?.["Kod Komponen"]}`}
-              reportId="0379a384-6ff3-4f3b-a049-6895e7903cf6"
-            />
+            <SectionCard title={`Komponen ${komponen?.["Kod Komponen"]}`} fullHeight={true}>
+              <iframe 
+                title="Prediktif_Teras 1" 
+                width="100%" 
+                height="800" 
+                src="https://app.powerbi.com/view?r=eyJrIjoiMDM3OWEzODQtNmZmMy00ZjNiLWEwNDktNjg5NWU3OTAzY2Y2IiwidCI6ImNkY2JiMGUyLTlmZWEtNGY1NC04NjcwLTY3MjcwNzc5N2FkYSIsImMiOjEwfQ%3D%3D" 
+                frameBorder="0" 
+                allowFullScreen={true}
+              />
+            </SectionCard>
           </div>
         </main>
       </div>

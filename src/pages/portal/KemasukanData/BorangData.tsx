@@ -110,7 +110,7 @@ function BorangData() {
                                         PIC Kemasukan Data
                                     </label>
                                     <div className="text-base text-gray-900 bg-gray-50 p-3 rounded-lg">
-                                        Puan Mimi Aminah
+                                        Puan Mimi Asyikin
                                     </div>
                                 </div>
                                 <div className="md:col-span-2">

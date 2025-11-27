@@ -14,24 +14,41 @@ type PemilikDataTableProps = {
 function PemilikDataTable({ onAdd, onView, onEdit, onDelete }: PemilikDataTableProps) {
   const columns = [
     {
+      header: "Logo",
+      accessor: "Kod Jabatan" as keyof PemilikData,
+      width: "10%",
+      render: (value: string) => (
+        <div className="flex justify-center">
+          <img 
+            src={`/src/assets/images/pemilik-data/${value}.png`}
+            alt={value}
+            className="h-10 w-10 object-contain"
+            onError={(e) => {
+              e.currentTarget.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><rect width="40" height="40" fill="%23e5e7eb"/><text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="%239ca3af" font-family="sans-serif" font-size="12">No Logo</text></svg>';
+            }}
+          />
+        </div>
+      ),
+    },
+    {
       header: "Kod Agensi",
       accessor: "Kod Agensi" as keyof PemilikData,
-      width: "15%",
+      width: "12%",
     },
     {
       header: "Nama Agensi",
       accessor: "Nama Agensi" as keyof PemilikData,
-      width: "35%",
+      width: "28%",
     },
     {
       header: "Kod Jabatan",
       accessor: "Kod Jabatan" as keyof PemilikData,
-      width: "15%",
+      width: "12%",
     },
     {
       header: "Nama Jabatan",
       accessor: "Nama Jabatan" as keyof PemilikData,
-      width: "35%",
+      width: "28%",
     },
   ];
 

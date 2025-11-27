@@ -1,0 +1,18 @@
+[
+ {
+  "Kod Guna Pakai": "A1",
+  "Keterangan Kod Guna Pakai": "Data yang diterima daripada 2 atau 3 pemilik perlu digabungkan untuk tujuan pengiraan indeks."
+ },
+ {
+  "Kod Guna Pakai": "A2",
+  "Keterangan Kod Guna Pakai": "Data dimasukkan oleh pemilik, dan Modul TransformData akan mengira kadar atau nilai akhir berdasarkan formula seperti kadar per populasi, approximation, Formula 1, dan Formula 2."
+ },
+ {
+  "Kod Guna Pakai": "A3",
+  "Keterangan Kod Guna Pakai": "Data yang dimasukkan oleh pemilik tidak digunakan untuk pengiraan indeks, tetapi dipaparkan dalam analitik diagnostik dan deskriptif sebagai sokongan kepada naratif."
+ },
+ {
+  "Kod Guna Pakai": "A4",
+  "Keterangan Kod Guna Pakai": "Data yang dimasukkan oleh pemilik digunakan untuk pengiraan indeks dan dianalisis dalam modul analitik."
+ }
+]

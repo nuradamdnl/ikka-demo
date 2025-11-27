@@ -4,8 +4,28 @@ import Sidebar from "../../../components/Sidebar";
 import Footer from "../../../components/Footer";
 import PageTitle from "../../../components/PageTitle";
 import SectionCard from "../../../components/SectionCard";
+import Table from "../../../components/Table";
+import kodGunaPakaiData from "../../../assets/data/KodGunaPakai.json";
+
+type KodGunaPakai = {
+  "Kod Guna Pakai": string;
+  "Keterangan Kod Guna Pakai": string;
+};
 
 function KodGunaPakai() {
+  const columns = [
+    {
+      header: "Kod Guna Pakai",
+      accessor: "Kod Guna Pakai" as keyof KodGunaPakai,
+      width: "15%",
+    },
+    {
+      header: "Keterangan",
+      accessor: "Keterangan Kod Guna Pakai" as keyof KodGunaPakai,
+      width: "85%",
+    },
+  ];
+
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
       <Header />
@@ -16,9 +36,11 @@ function KodGunaPakai() {
           <div className="container mx-auto">
             <PageTitle>Kod Guna Pakai</PageTitle>
             <SectionCard title="Senarai Kod Guna Pakai">
-              <div className="p-4">
-                <p className="text-gray-600">Senarai kod guna pakai akan dipaparkan di sini.</p>
-              </div>
+              <Table
+                columns={columns}
+                data={kodGunaPakaiData as KodGunaPakai[]}
+                searchable={false}
+              />
             </SectionCard>
           </div>
         </main>
